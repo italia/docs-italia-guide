@@ -465,7 +465,7 @@ L’utente può accedere al backend di Docs Italia con il proprio account GitHub
 
 .. _backend:
 
-.. figure:: img/backend.png
+.. figure:: img/backend.jpg
    :width: 5.54504in
    :height: 5.31771in
 
@@ -536,7 +536,7 @@ Per problemi con la creazione di documenti multilingue è possibile contattare g
 
 .. _traduzione:
 
-.. figure:: img/traduzione.png
+.. figure:: img/traduzione.jpg
    :width: 5.70313in
    :height: 3.65311in
 
