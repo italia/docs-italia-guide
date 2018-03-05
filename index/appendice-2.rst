@@ -71,13 +71,13 @@ Alcuni caratteri speciali possono essere interpretati in maniera errata in fase 
 
 Per questo motivo, utilizza doppi apici dritti invece che doppi apici obliqui, sia in apertura che in chiusura. L’apice obliquo va sostituito con l’apice dritto.
 
-+----------------------------+-------------------------+
-| **Da evitare**             | **Consigliato**         |
-+============================+=========================+
-| Doppi apici obliqui: “”    | Doppi apici dritti: "   |
-+----------------------------+-------------------------+
-| Apice obliquo singolo: ‘ ’ | Apice dritto singolo: ' |
-+----------------------------+-------------------------+
++------------------------------------+---------------------------------+
+| **Da evitare**                     | **Consigliato**                 |
++====================================+=================================+
+| Doppi apici obliqui: :code:`“ ”`   | Doppi apici dritti: :code:`"`   |
++------------------------------------+---------------------------------+
+| Apice obliquo singolo: :code:`‘ ’` | Apice dritto singolo: :code:`'` |
++------------------------------------+---------------------------------+
 
 Codice
 ~~~~~~
