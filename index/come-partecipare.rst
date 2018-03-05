@@ -46,6 +46,10 @@ Conoscenza di base su Git
 
 Docs Italia usa il `version control system <https://it.wikipedia.org/wiki/Controllo_versione>`__ di `Git <https://git-scm.com/>`__, che permette di gestire le diverse versioni di un documento. La pubblicazione su Docs Italia richiede una conoscenza di base di Git e di alcuni termini collegati. Consulta il :ref:`Glossario minimo <sec-glossario>` in Appendice.
 
+.. note::
+
+   Durante l'iniziale fase beta, Docs Italia richiede un account su `Read the Docs <http://readthedocs.org>`__ per poter accedere alle :ref:`funzionalità di backend <sec-backend>`. 
+
 
 .. sec-pubblicare:
 

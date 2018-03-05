@@ -456,12 +456,14 @@ Tutti i file necessari alla creazione del documento su Docs Italia devono essere
 
 Le :ref:`procedure da utilizzare <sec-procedure-caricamento>` per caricare i file sono descritte in Appendice.
 
+.. _sec-backend::
+
 Backend di Docs Italia
 ----------------------
 
 Docs Italia possiede una modalità di backend, ovvero una piattaforma accessibile dagli utenti autorizzati dove è possibile eseguire alcune attività di amministrazione avanzata (vedi :numref:`Figura %s <backend>`).
 
-L’utente può accedere al backend di Docs Italia con il proprio account GitHub.
+L’utente potrà accedere al backend di Docs Italia semplicemente con il proprio account GitHub. Durante l'iniziale fase beta, l'accesso avviene tramite un `account su Read the Docs <http://readthedocs.org>`__. Le funzioni descritte di seguito, però, non variano.
 
 .. _backend:
 
