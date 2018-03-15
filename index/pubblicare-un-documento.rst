@@ -335,7 +335,10 @@ Per maggiori informazioni, è possibile consultare il `README per le licenze <ht
 File requirements.txt
 ~~~~~~~~~~~~~~~~~~~~~
 
-Il file requirements.txt contiene le informazioni riguardo al tema di stile delle pagine. Tipicamente, l’utente non ha bisogno di modificare questo file.
+Il file requirements.txt contiene le informazioni riguardo al tema di stile delle pagine. Nel file **non deve** essere specificata la release del tema, in modo che il documento benefici sempre dell'ultima versione disponibile. In questo modo, il versionamento del documento (in particolare del suo contenuto) rimane indipendente dal versionamento del tema.
+
+
+Tipicamente, l’utente non ha bisogno di modificare questo file, e può usare semplicemente quello contenuto nello Starter kit.
 
 File document_settings.yml
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
