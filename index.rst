@@ -2,8 +2,11 @@
 Guida a Docs Italia
 ###################
 
+Guida alla pubblicazione dei documenti della pubblica amministrazione sul portale `Docs Italia <http://docs.italia/it>`_.
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Indice dei contenuti
 
    index/che-cos-e-docs-italia.rst
    index/starter-kit.rst
