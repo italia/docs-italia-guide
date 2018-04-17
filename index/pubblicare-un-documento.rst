@@ -537,7 +537,7 @@ Per esempio, un documento in italiano chiamato *anpr-modalitasubentro* potrebbe 
 
 La :numref:`Figura %s <traduzione>` mostra il backend di Docs Italia relativo alla selezione dei documenti di traduzione.
 
-Per problemi con la creazione di documenti multilingue è possibile contattare gli amministratori di Docs Italia all’indirizzo: `contatti@docs.italia.it <mailto:contatti@docs.italia.it>`__.
+Per problemi con la creazione di documenti multilingue è possibile contattare gli amministratori di Docs Italia tramite `Slack di Developers Italia <https://slack.developers.italia.it/>`__ usando il canale `#docs-italia <https://developersitalia.slack.com/messages/C9T4ELD4G/>`__.
 
 .. _traduzione:
 

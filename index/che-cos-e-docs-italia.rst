@@ -6,7 +6,7 @@ Che cos’è
 
 Docs Italia è un servizio ideato dal `Team per la trasformazione digitale della Pubblica Amministrazione <https://teamdigitale.governo.it/>`__ in collaborazione con `AgID <http://www.agid.gov.it/>`__ ed è gestito da un team interdisciplinare di sviluppatori, designer e tech writer esperti nel documentare un progetto attraverso guide, linee guida, FAQ e documentazione tecnica e amministrativa. Insieme a `Forum Italia <http://forum.italia.it>`__ e GitHub Italia, è uno degli strumenti operativi per la trasformazione digitale dei servizi pubblici.
 
-Al momento, Docs Italia contiene alcuni dei più importanti progetti pubblici del Paese, come ANPR (anagrafe nazionale), SPID (identità pubblica), PagoPA (sistemi di pagamento) e molti altri, visibili nella home page del sito. Altri si aggiungeranno progressivamente, sulla base delle richieste delle Pubbliche Amministrazioni che possono richiedere di utilizzare il servizio inviando un’email a: `contatti@docs.italia.it <mailto:contatti@docs.italia.it>`__.
+Al momento, Docs Italia contiene alcuni dei più importanti progetti pubblici del Paese, come ANPR (anagrafe nazionale), SPID (identità pubblica), PagoPA (sistemi di pagamento) e molti altri, visibili nella home page del sito. Altri si aggiungeranno progressivamente, sulla base delle richieste delle Pubbliche Amministrazioni che possono richiedere di utilizzare il servizio tramite `Slack di Developers Italia <https://slack.developers.italia.it/>`__ usando il canale `#docs-italia <https://developersitalia.slack.com/messages/C9T4ELD4G/>`__.
 
 Obiettivi
 ---------

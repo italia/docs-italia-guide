@@ -135,7 +135,7 @@ Lo strumento di conversione principale verso RST è `pandoc <https://pandoc.org/
 Supporto alla conversione
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Oltre al processo di conversione illustrato di seguito, Docs Italia mette a disposizione un supporto alla conversione gratuito. L’utente può inviare un’email all’indirizzo `contatti@docs.italia.it <mailto:contatti@docs.italia.it>`__ con i documenti da convertire in allegato. Docs Italia provvederà a rimandare un documento RST corretto e sintatticamente valido. Rimane però responsabilità dell’utente verificare che i contenuti siano corretti.
+Oltre al processo di conversione illustrato di seguito, Docs Italia mette a disposizione un supporto alla conversione gratuito. L’utente può inviare i documenti da convertire tramite `Slack di Developers Italia <https://slack.developers.italia.it/>`__ usando il canale `#docs-italia <https://developersitalia.slack.com/messages/C9T4ELD4G/>`__. Docs Italia provvederà a rimandare un documento RST corretto e sintatticamente valido. Rimane però responsabilità dell’utente verificare che i contenuti siano corretti.
 
 Revisione dei contenuti e correzione degli errori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
