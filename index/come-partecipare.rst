@@ -78,7 +78,7 @@ Le procedure di autorizzazione e di inizializzazione sono **diverse per l’acco
 
 L’Ente ha un’organizzazione su GitHub e la documentazione viene ospitata presso l’account dell’organizzazione.
 
-1. Un amministratore dell’account organizzazione invia una richiesta di autorizzazione alla pubblicazione su Docs Italia, tramite l’indirizzo email `contatti@docs.italia.it <mailto:contatti@docs.italia.it>`__.
+1. Un amministratore dell’account organizzazione invia una richiesta di autorizzazione alla pubblicazione su Docs Italia, tramite lo Slack di Developers Italia <https://slack.developers.italia.it/>`__ usando il canale #docs-italia <https://developersitalia.slack.com/messages/C9T4ELD4G/>`__.
 
 2. Gli amministratori di Docs Italia, effettuate le opportune verifiche, autorizzano l’organizzazione alla pubblicazione.
 
