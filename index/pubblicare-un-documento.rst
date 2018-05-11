@@ -69,37 +69,37 @@ Metadati del publisher
    | github_organization_url | L’URL del repository dell’organizzazione                                     |
    +-------------------------+------------------------------------------------------------------------------+
 
-+-------------------------------------------------------------------+
-| **Esempio. File publisher_settings.yml tratto dallo Starter kit** |
-|                                                                   |
-| .. code-block:: yml                                               |
-|                                                                   |
-|    publisher:                                                     |
-|      name: Ministero della Documentazione Pubblica                |
-|      short-name: Min. Doc. Pub.                                   |
-|      description:   |                                             |
-|        Lorem ipsum dolor sit amet, consectetur                    |
-|        adipisicing elit, sed do eiusmod tempor                    |
-|        incididunt ut labore et dolore magna aliqua.               |
-|        Ut enim ad minim veniam, quis nostrud                      |
-|        exercitation ullamco laboris nisi ut                       |
-|        aliquip ex ea commodo consequat.                           |
-|        Duis aute irure dolor in reprehenderit in                  |
-|        voluptate velit esse cillum dolore eu                      |
-|        fugiat nulla pariatur. Excepteur sint                      |
-|        occaecat cupidatat non proident, sunt in                   |
-|        culpa qui officia deserunt mollit anim id                  |
-|        est laborum.                                               |
-|      website: www.ministerodocumentazione.gov.it                  |
-|      github_organization_url: github.com/organization_name        |
-|      tags:                                                        |
-|        - documents                                                |
-|        - public                                                   |
-|        - amazing publisher                                        |
-|      assets:                                                      |
-|        logo: assets/images/logo.svg                               |
-|                                                                   |
-+-------------------------------------------------------------------+
++--------------------------------------------------------------------+
+| **Esempio. File publisher_settings.yml tratto dallo Starter kit**  |
+|                                                                    |
+| .. code-block:: yml                                                |
+|                                                                    |
+|    publisher:                                                      |
+|      name: Ministero della Documentazione Pubblica                 |
+|      short-name: Min. Doc. Pub.                                    |
+|      description:                                                  |
+|        Lorem ipsum dolor sit amet, consectetur                     |
+|        adipisicing elit, sed do eiusmod tempor                     |
+|        incididunt ut labore et dolore magna aliqua.                |
+|        Ut enim ad minim veniam, quis nostrud                       |
+|        exercitation ullamco laboris nisi ut                        |
+|        aliquip ex ea commodo consequat.                            |
+|        Duis aute irure dolor in reprehenderit in                   |
+|        voluptate velit esse cillum dolore eu                       |
+|        fugiat nulla pariatur. Excepteur sint                       |
+|        occaecat cupidatat non proident, sunt in                    |
+|        culpa qui officia deserunt mollit anim id                   |
+|        est laborum.                                                |
+|      website: https://www.ministerodocumentazione.gov.it           |
+|      github_organization_url: https://github.com/organization_name |
+|      tags:                                                         |
+|        - documents                                                 |
+|        - public                                                    |
+|        - amazing publisher                                         |
+|      assets:                                                       |
+|        logo: assets/images/logo.svg                                |
+|                                                                    |
++--------------------------------------------------------------------+
 
 
 Metadati dei progetti
@@ -143,7 +143,7 @@ Metadati dei progetti
 |    projects:                                                    |
 |      - title: Progetto Documentato Pubblicamente                |
 |        short-name: PDP                                          |
-|        description: |                                           |
+|        description:                                             |
 |          Lorem ipsum dolor sit amet, consectetur                |
 |          adipisicing elit, sed do eiusmod tempor                |
 |          incididunt ut labore et dolore magna aliqua.           |
@@ -156,7 +156,7 @@ Metadati dei progetti
 |          occaecat cupidatat non proident, sunt in               |
 |          culpa qui officia deserunt mollit anim id              |
 |          est laborum.                                           |
-|        website: progetto.ministerodocumentazione.gov.it         |
+|        website: https://progetto.ministerodocumentazione.gov.it |
 |        tags:                                                    |
 |          - digital                                              |
 |          - citizenship                                          |
