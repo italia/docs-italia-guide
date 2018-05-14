@@ -116,7 +116,7 @@ Oltre a queste caratteristiche,
 
 -  L’ambiente di Docs Italia è *responsive*, ovvero consente una perfetta fruizione dei documenti su tutti i dispositivi, compreso lo smartphone (vedi :numref:`Figura %s <responsive>`);
 
--  Le àncore in corrispondenza dei capitoli consentono di ottenere facilmente il link di un paragrafo (vedi :numref:`Figura %s <ancora>`);
+-  Le àncore in corrispondenza dei capitoli consentono di ottenere facilmente il link di un paragrafo (vedi :numref:`Figura %s <ancora>`). Per fare apparire l'àncora basta spostare il puntatore del mouse sopra al titolo corrispondente;
 
 -  Le funzionalità dei box colorati e delle note permettono di segnalare informazioni importanti, esempi, casi di studio e interpretazioni del testo (vedi :numref:`Figura %s <box>`).
 
