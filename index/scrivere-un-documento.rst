@@ -39,6 +39,8 @@ L’esempio nella :numref:`Tabella %s <cfr-rst>` illustra come è possibile indi
    |                                |                             |
    +--------------------------------+-----------------------------+
 
+Per maggiore chiarezza [in questo repository](https://github.com/italia/esempio-docsitalia) forniamo un documento di esempio contenente gli elementi di base per la documentazione. Il documento è leggibile in formato RST e nei formati usati da Office e LibreOffice, per un facile confronto.
+
 Strumenti utili
 ---------------
 
