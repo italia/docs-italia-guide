@@ -6,14 +6,14 @@ Che cos’è
 
 Docs Italia è un servizio ideato dal `Team per la trasformazione digitale della Pubblica Amministrazione <https://teamdigitale.governo.it/>`__ in collaborazione con `AgID <http://www.agid.gov.it/>`__ ed è gestito da un team interdisciplinare di sviluppatori, designer e tech writer esperti nel documentare un progetto attraverso guide, linee guida, FAQ e documentazione tecnica e amministrativa. Insieme a `Forum Italia <http://forum.italia.it>`__ e GitHub Italia, è uno degli strumenti operativi per la trasformazione digitale dei servizi pubblici.
 
-Al momento, Docs Italia contiene alcuni dei più importanti progetti pubblici del Paese, come ANPR (anagrafe nazionale), SPID (identità pubblica), PagoPA (sistemi di pagamento) e molti altri, visibili nella home page del sito. Altri si aggiungeranno progressivamente, sulla base delle richieste delle Pubbliche Amministrazioni che possono richiedere di utilizzare il servizio tramite `Slack di Developers Italia <https://slack.developers.italia.it/>`__ usando il canale `#docs-italia <https://developersitalia.slack.com/messages/C9T4ELD4G/>`__.
+Al momento, Docs Italia contiene alcuni dei più importanti progetti pubblici del Paese, come ANPR (anagrafe nazionale), SPID (identità pubblica), pagoPA (sistemi di pagamento) e molti altri, visibili nella home page del sito. Altri si aggiungeranno progressivamente, sulla base delle richieste delle Pubbliche Amministrazioni che possono richiedere di utilizzare il servizio tramite `Slack di Developers Italia <https://slack.developers.italia.it/>`__ usando il canale `#docs-italia <https://developersitalia.slack.com/messages/C9T4ELD4G/>`__.
 
 Obiettivi
 ---------
 
 Docs Italia nasce con l’obiettivo di cambiare il linguaggio con cui si comunicano e si gestiscono i progetti pubblici in Italia, creando strumenti di lavoro comuni a diverse culture professionali e in cui gli aspetti normativi e tecnici possano coesistere. In questo modo, si semplifica la vita di chi lavora ai progetti (funzionari, tecnici della Pubblica Amministrazione, fornitori della pubblica amministrazione), aumentando l’efficacia dei progetti pubblici e perseguendo una impostazione di *open government* che favorisca l’apertura, lo scambio di idee e la collaborazione.
 
-Docs Italia permette di gestire la documentazione tecnica di un progetto (ad es. la documentazione di PagoPA), ma anche documenti amministrativi come il `Piano Triennale per l’informatica nella Pubblica Amministrazione <https://pianotriennale-ict.readthedocs.io>`__ e le linee guida (come le `Linee guida di design per i servizi web della PA <https://design-italia.readthedocs.io>`__).
+Docs Italia permette di gestire la documentazione tecnica di un progetto (ad es. la documentazione di pagoPA), ma anche documenti amministrativi come il `Piano Triennale per l’informatica nella Pubblica Amministrazione <https://pianotriennale-ict.readthedocs.io>`__ e le linee guida (come le `Linee guida di design per i servizi web della PA <https://design-italia.readthedocs.io>`__).
 
 La :numref:`Figura %s <hp>` mostra l’attuale home page di Docs Italia.
 
