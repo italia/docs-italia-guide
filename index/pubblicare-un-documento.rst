@@ -54,7 +54,7 @@ Metadati del publisher
    +=========================+==============================================================================+
    | name                    | Il nome per esteso dell’Ente associato al publisher                          |
    +-------------------------+------------------------------------------------------------------------------+
-   | short-name              | Il nome abbreviato dell’Ente associato al publisher o l’acronimo (opzionale) |
+   | short_name              | Il nome abbreviato dell’Ente associato al publisher o l’acronimo (opzionale) |
    +-------------------------+------------------------------------------------------------------------------+
    | motto                   | Il motto o una breve frase che contraddistingue l’Ente (opzionale)           |
    +-------------------------+------------------------------------------------------------------------------+
@@ -76,7 +76,7 @@ Metadati del publisher
 |                                                                    |
 |    publisher:                                                      |
 |      name: Ministero della Documentazione Pubblica                 |
-|      short-name: Min. Doc. Pub.                                    |
+|      short_name: Min. Doc. Pub.                                    |
 |      description:                                                  |
 |        Lorem ipsum dolor sit amet, consectetur                     |
 |        adipisicing elit, sed do eiusmod tempor                     |
@@ -114,7 +114,7 @@ Metadati dei progetti
    +===============+==================================================================================================================+
    | title         | Il nome per esteso del progetto                                                                                  |
    +---------------+------------------------------------------------------------------------------------------------------------------+
-   | short-title   | Il nome abbreviato del progetto o l’acronimo (opzionale)                                                         |
+   | short_title   | Il nome abbreviato del progetto o l’acronimo (opzionale)                                                         |
    +---------------+------------------------------------------------------------------------------------------------------------------+
    | description   | Una descrizione estesa delle funzioni e degli scopi del progetto                                                 |
    +---------------+------------------------------------------------------------------------------------------------------------------+
@@ -122,9 +122,9 @@ Metadati dei progetti
    +---------------+------------------------------------------------------------------------------------------------------------------+
    | website       | L’URL del sito del progetto (opzionale)                                                                          |
    +---------------+------------------------------------------------------------------------------------------------------------------+
-   | start-date    | La data di inizio del progetto (opzionale)                                                                       |
+   | start_date    | La data di inizio del progetto (opzionale)                                                                       |
    +---------------+------------------------------------------------------------------------------------------------------------------+
-   | end-date      | La data di fine del progetto (opzionale)                                                                         |
+   | end_date      | La data di fine del progetto (opzionale)                                                                         |
    +---------------+------------------------------------------------------------------------------------------------------------------+
    | documents     | La lista dei documenti collegati al progetto, identificati tramite l’URL del repository del documento associato. |
    |               |                                                                                                                  |
@@ -142,7 +142,7 @@ Metadati dei progetti
 |                                                                 |
 |    projects:                                                    |
 |      - title: Progetto Documentato Pubblicamente                |
-|        short-name: PDP                                          |
+|        short_title: PDP                                         |
 |        description:                                             |
 |          Lorem ipsum dolor sit amet, consectetur                |
 |          adipisicing elit, sed do eiusmod tempor                |
@@ -358,7 +358,7 @@ La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una
    +==================+=========================================================================================================+
    | name             | Il nome per esteso del documento                                                                        |
    +------------------+---------------------------------------------------------------------------------------------------------+
-   | short-name       | Il nome abbreviato del documento (se presente)                                                          |
+   | short_name       | Il nome abbreviato del documento (se presente)                                                          |
    +------------------+---------------------------------------------------------------------------------------------------------+
    | description      | Una descrizione estesa delle funzioni e degli scopi del documento                                       |
    +------------------+---------------------------------------------------------------------------------------------------------+
@@ -376,7 +376,7 @@ La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una
    +------------------+---------------------------------------------------------------------------------------------------------+
    | origin           | L’URL del documento di partenza                                                                         |
    +------------------+---------------------------------------------------------------------------------------------------------+
-   | software-website | L’URL del software a cui la documentazione si riferisce (se applicabile)                                |
+   | software_website | L’URL del software a cui la documentazione si riferisce (se applicabile)                                |
    +------------------+---------------------------------------------------------------------------------------------------------+
    | audience         | A chi è rivolto il documento (ad es. cittadini, comuni, software house, ecc)                            |
    +------------------+---------------------------------------------------------------------------------------------------------+
