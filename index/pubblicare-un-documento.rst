@@ -112,9 +112,9 @@ Metadati dei progetti
    +---------------+------------------------------------------------------------------------------------------------------------------+
    | **Parametro** | **Descrizione**                                                                                                  |
    +===============+==================================================================================================================+
-   | title         | Il nome per esteso del progetto                                                                                  |
+   | name          | Il nome per esteso del progetto                                                                                  |
    +---------------+------------------------------------------------------------------------------------------------------------------+
-   | short_title   | Il nome abbreviato del progetto o l’acronimo (opzionale)                                                         |
+   | short_name    | Il nome abbreviato del progetto o l’acronimo (opzionale)                                                         |
    +---------------+------------------------------------------------------------------------------------------------------------------+
    | description   | Una descrizione estesa delle funzioni e degli scopi del progetto                                                 |
    +---------------+------------------------------------------------------------------------------------------------------------------+
@@ -130,7 +130,7 @@ Metadati dei progetti
    |               |                                                                                                                  |
    |               | Per ciascun documento, devono essere specificati:                                                                |
    |               |                                                                                                                  |
-   |               | -  title: il titolo del documento;                                                                               |
+   |               | -  name: il titolo del documento;                                                                                |
    |               |                                                                                                                  |
    |               | -  repository: il nome del repository che contiene il documento                                                  |
    +---------------+------------------------------------------------------------------------------------------------------------------+
@@ -141,8 +141,8 @@ Metadati dei progetti
 | .. code-block:: yml                                             |
 |                                                                 |
 |    projects:                                                    |
-|      - title: Progetto Documentato Pubblicamente                |
-|        short_title: PDP                                         |
+|      - name: Progetto Documentato Pubblicamente                 |
+|        short_name: PDP                                          |
 |        description:                                             |
 |          Lorem ipsum dolor sit amet, consectetur                |
 |          adipisicing elit, sed do eiusmod tempor                |
@@ -162,9 +162,9 @@ Metadati dei progetti
 |          - citizenship                                          |
 |          - amazing project                                      |
 |        documents:                                               |
-|          - title: Documento del progetto                        |
+|          - name: Documento del progetto                         |
 |            repository: project-document-doc                     |
-|          - title: Un altro documento del progetto               |
+|          - name: Un altro documento del progetto                |
 |            repository: another-project-document-doc             |
 |                                                                 |
 +-----------------------------------------------------------------+
