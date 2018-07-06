@@ -153,10 +153,8 @@ Metadati dei progetti
 |          culpa qui officia deserunt mollit anim id              |
 |          est laborum.                                           |
 |        documents:                                               |
-|          - name: Documento del progetto                         |
-|            repository: project-document-doc                     |
-|          - name: Un altro documento del progetto                |
-|            repository: another-project-document-doc             |
+|          - project-document-doc                                 |
+|          - another-project-document-doc                         |
 |        short_name: PDP                                          |
 |        website: https://progetto.ministerodocumentazione.gov.it |
 |        tags:                                                    |
