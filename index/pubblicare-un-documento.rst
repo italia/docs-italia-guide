@@ -49,25 +49,27 @@ Metadati del publisher
 
 .. table:: Alcuni dei metadati associati al publisher.
 
-   +-------------------------+------------------------------------------------------------------------------+
-   | **Parametro**           | **Descrizione**                                                              |
-   +=========================+==============================================================================+
-   | name                    | Il nome per esteso dell’Ente associato al publisher                          |
-   +-------------------------+------------------------------------------------------------------------------+
-   | short_name              | Il nome abbreviato dell’Ente associato al publisher o l’acronimo (opzionale) |
-   +-------------------------+------------------------------------------------------------------------------+
-   | motto                   | Il motto o una breve frase che contraddistingue l’Ente (opzionale)           |
-   +-------------------------+------------------------------------------------------------------------------+
-   | description             | Una descrizione estesa delle funzioni e degli scopi dell’Ente                |
-   +-------------------------+------------------------------------------------------------------------------+
-   | logo                    | L’URL del logo (può essere contenuto nel repository di configurazione)       |
-   +-------------------------+------------------------------------------------------------------------------+
-   | website                 | L’URL del sito dell’Ente (opzionale)                                         |
-   +-------------------------+------------------------------------------------------------------------------+
-   | address                 | L’indirizzo della sede dell’Ente (opzionale)                                 |
-   +-------------------------+------------------------------------------------------------------------------+
-   | github_organization_url | L’URL del repository dell’organizzazione                                     |
-   +-------------------------+------------------------------------------------------------------------------+
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | **Parametro**           | **Descrizione**                                                                          |
+   +=========================+==========================================================================================+
+   | name                    | Il nome per esteso dell’Ente associato al publisher                                      |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | description             | Una descrizione estesa delle funzioni e degli scopi dell’Ente                            |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | github_organization_url | L’URL del repository dell’organizzazione                                                 |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | short_name              | Il nome abbreviato dell’Ente associato al publisher o l’acronimo (opzionale)             |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | motto                   | Il motto o una breve frase che contraddistingue l’Ente (opzionale)                       |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | logo                    | L’URL del logo (può essere contenuto nel repository di configurazione) (opzionale)       |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | website                 | L’URL del sito dell’Ente (opzionale)                                                     |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | address                 | L’indirizzo della sede dell’Ente (opzionale)                                             |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | tags                    | La lista dei tag che descrivono il publisher (opzionale)                                 |
+   +-------------------------+------------------------------------------------------------------------------------------+
 
 +--------------------------------------------------------------------+
 | **Esempio. File publisher_settings.yml tratto dallo Starter kit**  |
@@ -76,7 +78,6 @@ Metadati del publisher
 |                                                                    |
 |    publisher:                                                      |
 |      name: Ministero della Documentazione Pubblica                 |
-|      short_name: Min. Doc. Pub.                                    |
 |      description:                                                  |
 |        Lorem ipsum dolor sit amet, consectetur                     |
 |        adipisicing elit, sed do eiusmod tempor                     |
@@ -90,14 +91,14 @@ Metadati del publisher
 |        occaecat cupidatat non proident, sunt in                    |
 |        culpa qui officia deserunt mollit anim id                   |
 |        est laborum.                                                |
-|      website: https://www.ministerodocumentazione.gov.it           |
 |      github_organization_url: https://github.com/organization_name |
+|      short_name: Min. Doc. Pub.                                    |
+|      website: https://www.ministerodocumentazione.gov.it           |
 |      tags:                                                         |
 |        - documents                                                 |
 |        - public                                                    |
 |        - amazing publisher                                         |
-|      assets:                                                       |
-|        logo: assets/images/logo.svg                                |
+|      logo: assets/images/logo.svg                                  |
 |                                                                    |
 +--------------------------------------------------------------------+
 
@@ -114,11 +115,13 @@ Metadati dei progetti
    +===============+==================================================================================================================+
    | name          | Il nome per esteso del progetto                                                                                  |
    +---------------+------------------------------------------------------------------------------------------------------------------+
-   | short_name    | Il nome abbreviato del progetto o l’acronimo (opzionale)                                                         |
-   +---------------+------------------------------------------------------------------------------------------------------------------+
    | description   | Una descrizione estesa delle funzioni e degli scopi del progetto                                                 |
    +---------------+------------------------------------------------------------------------------------------------------------------+
-   | logo          | L’URL del logo (può essere contenuto nel repository di configurazione)                                           |
+   | documents     | La lista dei documenti afferenti al progetto, identificati tramite i nomi dei loro repository                    |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | short_name    | Il nome abbreviato del progetto o l’acronimo (opzionale)                                                         |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | logo          | L’URL del logo (può essere contenuto nel repository di configurazione) (opzionale)                               |
    +---------------+------------------------------------------------------------------------------------------------------------------+
    | website       | L’URL del sito del progetto (opzionale)                                                                          |
    +---------------+------------------------------------------------------------------------------------------------------------------+
@@ -126,13 +129,7 @@ Metadati dei progetti
    +---------------+------------------------------------------------------------------------------------------------------------------+
    | end_date      | La data di fine del progetto (opzionale)                                                                         |
    +---------------+------------------------------------------------------------------------------------------------------------------+
-   | documents     | La lista dei documenti collegati al progetto, identificati tramite l’URL del repository del documento associato. |
-   |               |                                                                                                                  |
-   |               | Per ciascun documento, devono essere specificati:                                                                |
-   |               |                                                                                                                  |
-   |               | -  name: il titolo del documento;                                                                                |
-   |               |                                                                                                                  |
-   |               | -  repository: il nome del repository che contiene il documento                                                  |
+   | tags          | La lista dei tag che descrivono il progetto (opzionale)                                                          |
    +---------------+------------------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------+
@@ -142,7 +139,6 @@ Metadati dei progetti
 |                                                                 |
 |    projects:                                                    |
 |      - name: Progetto Documentato Pubblicamente                 |
-|        short_name: PDP                                          |
 |        description:                                             |
 |          Lorem ipsum dolor sit amet, consectetur                |
 |          adipisicing elit, sed do eiusmod tempor                |
@@ -156,16 +152,17 @@ Metadati dei progetti
 |          occaecat cupidatat non proident, sunt in               |
 |          culpa qui officia deserunt mollit anim id              |
 |          est laborum.                                           |
-|        website: https://progetto.ministerodocumentazione.gov.it |
-|        tags:                                                    |
-|          - digital                                              |
-|          - citizenship                                          |
-|          - amazing project                                      |
 |        documents:                                               |
 |          - name: Documento del progetto                         |
 |            repository: project-document-doc                     |
 |          - name: Un altro documento del progetto                |
 |            repository: another-project-document-doc             |
+|        short_name: PDP                                          |
+|        website: https://progetto.ministerodocumentazione.gov.it |
+|        tags:                                                    |
+|          - digital                                              |
+|          - citizenship                                          |
+|          - amazing project                                      |
 |                                                                 |
 +-----------------------------------------------------------------+
 
