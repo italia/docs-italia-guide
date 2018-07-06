@@ -49,25 +49,25 @@ Metadati del publisher
 
 .. table:: Alcuni dei metadati associati al publisher.
 
-   +-------------------------+------------------------------------------------------------------------------+
-   | **Parametro**           | **Descrizione**                                                              |
-   +=========================+==============================================================================+
-   | name                    | Il nome per esteso dell’Ente associato al publisher                          |
-   +-------------------------+------------------------------------------------------------------------------+
-   | short_name              | Il nome abbreviato dell’Ente associato al publisher o l’acronimo (opzionale) |
-   +-------------------------+------------------------------------------------------------------------------+
-   | motto                   | Il motto o una breve frase che contraddistingue l’Ente (opzionale)           |
-   +-------------------------+------------------------------------------------------------------------------+
-   | description             | Una descrizione estesa delle funzioni e degli scopi dell’Ente                |
-   +-------------------------+------------------------------------------------------------------------------+
-   | logo                    | L’URL del logo (può essere contenuto nel repository di configurazione)       |
-   +-------------------------+------------------------------------------------------------------------------+
-   | website                 | L’URL del sito dell’Ente (opzionale)                                         |
-   +-------------------------+------------------------------------------------------------------------------+
-   | address                 | L’indirizzo della sede dell’Ente (opzionale)                                 |
-   +-------------------------+------------------------------------------------------------------------------+
-   | github_organization_url | L’URL del repository dell’organizzazione                                     |
-   +-------------------------+------------------------------------------------------------------------------+
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | **Parametro**           | **Descrizione**                                                                          |
+   +=========================+==========================================================================================+
+   | name                    | Il nome per esteso dell’Ente associato al publisher                                      |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | description             | Una descrizione estesa delle funzioni e degli scopi dell’Ente                            |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | github_organization_url | L’URL del repository dell’organizzazione                                                 |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | short_name              | Il nome abbreviato dell’Ente associato al publisher o l’acronimo (opzionale)             |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | motto                   | Il motto o una breve frase che contraddistingue l’Ente (opzionale)                       |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | logo                    | L’URL del logo (può essere contenuto nel repository di configurazione) (opzionale)       |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | website                 | L’URL del sito dell’Ente (opzionale)                                                     |
+   +-------------------------+------------------------------------------------------------------------------------------+
+   | address                 | L’indirizzo della sede dell’Ente (opzionale)                                             |
+   +-------------------------+------------------------------------------------------------------------------------------+
 
 +--------------------------------------------------------------------+
 | **Esempio. File publisher_settings.yml tratto dallo Starter kit**  |
@@ -114,25 +114,19 @@ Metadati dei progetti
    +===============+==================================================================================================================+
    | name          | Il nome per esteso del progetto                                                                                  |
    +---------------+------------------------------------------------------------------------------------------------------------------+
-   | short_name    | Il nome abbreviato del progetto o l’acronimo (opzionale)                                                         |
-   +---------------+------------------------------------------------------------------------------------------------------------------+
    | description   | Una descrizione estesa delle funzioni e degli scopi del progetto                                                 |
    +---------------+------------------------------------------------------------------------------------------------------------------+
-   | logo          | L’URL del logo (può essere contenuto nel repository di configurazione)                                           |
+   | documents     | La lista dei documenti afferenti al progetto, identificati tramite i nomi dei loro repository                    |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | short_name    | Il nome abbreviato del progetto o l’acronimo (opzionale)                                                         |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | logo          | L’URL del logo (può essere contenuto nel repository di configurazione) (opzionale)                               |
    +---------------+------------------------------------------------------------------------------------------------------------------+
    | website       | L’URL del sito del progetto (opzionale)                                                                          |
    +---------------+------------------------------------------------------------------------------------------------------------------+
    | start_date    | La data di inizio del progetto (opzionale)                                                                       |
    +---------------+------------------------------------------------------------------------------------------------------------------+
    | end_date      | La data di fine del progetto (opzionale)                                                                         |
-   +---------------+------------------------------------------------------------------------------------------------------------------+
-   | documents     | La lista dei documenti collegati al progetto, identificati tramite l’URL del repository del documento associato. |
-   |               |                                                                                                                  |
-   |               | Per ciascun documento, devono essere specificati:                                                                |
-   |               |                                                                                                                  |
-   |               | -  name: il titolo del documento;                                                                                |
-   |               |                                                                                                                  |
-   |               | -  repository: il nome del repository che contiene il documento                                                  |
    +---------------+------------------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------+
