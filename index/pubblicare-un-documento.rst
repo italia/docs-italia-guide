@@ -68,6 +68,8 @@ Metadati del publisher
    +-------------------------+------------------------------------------------------------------------------------------+
    | address                 | L’indirizzo della sede dell’Ente (opzionale)                                             |
    +-------------------------+------------------------------------------------------------------------------------------+
+   | tags                    | La lista dei tag che descrivono il publisher (opzionale)                                 |
+   +-------------------------+------------------------------------------------------------------------------------------+
 
 +--------------------------------------------------------------------+
 | **Esempio. File publisher_settings.yml tratto dallo Starter kit**  |
@@ -76,7 +78,6 @@ Metadati del publisher
 |                                                                    |
 |    publisher:                                                      |
 |      name: Ministero della Documentazione Pubblica                 |
-|      short_name: Min. Doc. Pub.                                    |
 |      description:                                                  |
 |        Lorem ipsum dolor sit amet, consectetur                     |
 |        adipisicing elit, sed do eiusmod tempor                     |
@@ -90,14 +91,14 @@ Metadati del publisher
 |        occaecat cupidatat non proident, sunt in                    |
 |        culpa qui officia deserunt mollit anim id                   |
 |        est laborum.                                                |
-|      website: https://www.ministerodocumentazione.gov.it           |
 |      github_organization_url: https://github.com/organization_name |
+|      short_name: Min. Doc. Pub.                                    |
+|      website: https://www.ministerodocumentazione.gov.it           |
 |      tags:                                                         |
 |        - documents                                                 |
 |        - public                                                    |
 |        - amazing publisher                                         |
-|      assets:                                                       |
-|        logo: assets/images/logo.svg                                |
+|      logo: assets/images/logo.svg                                  |
 |                                                                    |
 +--------------------------------------------------------------------+
 
@@ -128,6 +129,8 @@ Metadati dei progetti
    +---------------+------------------------------------------------------------------------------------------------------------------+
    | end_date      | La data di fine del progetto (opzionale)                                                                         |
    +---------------+------------------------------------------------------------------------------------------------------------------+
+   | tags          | La lista dei tag che descrivono il progetto (opzionale)                                                          |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------+
 | **Esempio. File projects_setting.yml tratto dallo Starter kit** |
@@ -136,7 +139,6 @@ Metadati dei progetti
 |                                                                 |
 |    projects:                                                    |
 |      - name: Progetto Documentato Pubblicamente                 |
-|        short_name: PDP                                          |
 |        description:                                             |
 |          Lorem ipsum dolor sit amet, consectetur                |
 |          adipisicing elit, sed do eiusmod tempor                |
@@ -150,16 +152,17 @@ Metadati dei progetti
 |          occaecat cupidatat non proident, sunt in               |
 |          culpa qui officia deserunt mollit anim id              |
 |          est laborum.                                           |
-|        website: https://progetto.ministerodocumentazione.gov.it |
-|        tags:                                                    |
-|          - digital                                              |
-|          - citizenship                                          |
-|          - amazing project                                      |
 |        documents:                                               |
 |          - name: Documento del progetto                         |
 |            repository: project-document-doc                     |
 |          - name: Un altro documento del progetto                |
 |            repository: another-project-document-doc             |
+|        short_name: PDP                                          |
+|        website: https://progetto.ministerodocumentazione.gov.it |
+|        tags:                                                    |
+|          - digital                                              |
+|          - citizenship                                          |
+|          - amazing project                                      |
 |                                                                 |
 +-----------------------------------------------------------------+
 
