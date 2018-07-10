@@ -56,8 +56,6 @@ Metadati del publisher
    +-------------------------+------------------------------------------------------------------------------------------+
    | description             | Una descrizione estesa delle funzioni e degli scopi dell’Ente                            |
    +-------------------------+------------------------------------------------------------------------------------------+
-   | github_organization_url | L’URL del repository dell’organizzazione                                                 |
-   +-------------------------+------------------------------------------------------------------------------------------+
    | short_name              | Il nome abbreviato dell’Ente associato al publisher o l’acronimo (opzionale)             |
    +-------------------------+------------------------------------------------------------------------------------------+
    | motto                   | Il motto o una breve frase che contraddistingue l’Ente (opzionale)                       |
@@ -91,7 +89,6 @@ Metadati del publisher
 |        occaecat cupidatat non proident, sunt in                    |
 |        culpa qui officia deserunt mollit anim id                   |
 |        est laborum.                                                |
-|      github_organization_url: https://github.com/organization_name |
 |      short_name: Min. Doc. Pub.                                    |
 |      website: https://www.ministerodocumentazione.gov.it           |
 |      tags:                                                         |
@@ -348,35 +345,37 @@ La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una
 
 .. table:: Alcuni dei metadati associati a ciascun documento.
 
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | **Parametro**    | **Descrizione**                                                                                         |
-   +==================+=========================================================================================================+
-   | name             | Il nome per esteso del documento                                                                        |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | short_name       | Il nome abbreviato del documento (se presente)                                                          |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | description      | Una descrizione estesa delle funzioni e degli scopi del documento                                       |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | author           | Chi ha creato il documento (account GitHub)                                                             |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | contributors     | Chi ha collaborato alla stesura del testo (nomi e cognomi, se presenti)                                 |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | published        | La data in cui il documento è stato pubblicato per la prima volta                                       |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | expiration       | La data in cui la documentazione diventa obsoleta. Si può usare per marcare i documenti non più validi. |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | id               | Un identificativo univoco della documentazione                                                          |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | license          | Il tipo di licenza associato al documento                                                               |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | origin           | L’URL del documento di partenza                                                                         |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | software_website | L’URL del software a cui la documentazione si riferisce (se applicabile)                                |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | audience         | A chi è rivolto il documento (ad es. cittadini, comuni, software house, ecc)                            |
-   +------------------+---------------------------------------------------------------------------------------------------------+
-   | type             | Il tipo di documento (ad es. linee guida, documentazione tecnica, leggi, procedure, ecc)                |
-   +------------------+---------------------------------------------------------------------------------------------------------+
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | **Parametro**    | **Descrizione**                                                                                                |
+   +==================+================================================================================================================+
+   | name             | Il nome per esteso del documento                                                                               |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | description      | Una descrizione estesa delle funzioni e degli scopi del documento                                              |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | tags             | La lista dei tag che descrivono il documento                                                                   |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | short_name       | Il nome abbreviato del documento (opzionale)                                                                   |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | author           | Chi ha creato il documento, username GitHub (opzionale)                                                        |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | contributors     | Chi ha collaborato alla stesura del testo: nomi e cognomi (opzionale)                                          |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | published        | La data in cui il documento è stato pubblicato per la prima volta (opzionale)                                  |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | expiration       | La data in cui il documento diventa obsoleto, utilizzabile per nascondere documenti non più validi (opzionale) |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | id               | Un identificativo univoco della documentazione (opzionale)                                                     |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | license          | Il tipo di licenza associato al documento (opzionale)                                                          |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | origin           | L’URL del documento di partenza (opzionale)                                                                    |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | software_website | L’URL del software a cui la documentazione si riferisce (opzionale)                                            |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | audience         | A chi è rivolto il documento (ad es. cittadini, comuni, software house, ecc) (opzionale)                       |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
+   | type             | Il tipo di documento (ad es. linee guida, documentazione tecnica, leggi, procedure, ecc) (opzionale)           |
+   +------------------+----------------------------------------------------------------------------------------------------------------+
 
 +------------------------------------------------------------------+
 | **Esempio. File document_settings.yml tratto dallo Starter kit** |
