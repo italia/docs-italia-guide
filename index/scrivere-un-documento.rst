@@ -41,10 +41,6 @@ L’esempio nella :numref:`Tabella %s <cfr-rst>` illustra come è possibile indi
 
 Per maggiore chiarezza [in questo repository](https://github.com/italia/docs-italia-esempiformattazione-docs) forniamo un documento di esempio contenente gli elementi di base per la documentazione. Il documento è leggibile in formato RST e nei formati usati da Office e LibreOffice, per un facile confronto.
 
-Strumenti utili
----------------
-
-
 Editor di testo
 ~~~~~~~~~~~~~~~
 
@@ -67,15 +63,6 @@ Oltre agli editor stand alone, è disponibile anche il seguente editor online `r
 **Tabelle .rst**
 
 Per realizzare le tabelle in formato .rst è possibile utilizzare un `editor di tabelle online <http://truben.no/table/>`__.
-
-Convertitore di testi: pandoc
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-`pandoc <https://pandoc.org/>`__ è un programma da linea di comando che permette di convertire documenti in formato DOCX e ODT verso diversi `formati di markup <https://it.wikipedia.org/wiki/Linguaggio_di_markup>`__, incluso il formato .rst.
-
-Questo programma permette di migrare su Docs Italia la documentazione prodotta in altri formati, limitando l’intervento manuale. Le operazioni necessarie e i possibili problemi sono descritti nella sezione `Migrazione su Docs Italia di documentazione esistente <#migrazione-su-docs-italia-di-documentazione-esistente>`__.
-
-Per l’installazione del convertitore, puoi fare riferimento alla `pagina ufficiale <https://pandoc.org/installing.html>`__.
 
 Creazione di documenti in formato RST
 -------------------------------------
@@ -104,16 +91,17 @@ Migrazione su Docs Italia di documentazione esistente
 Nel caso in cui si abbiano già dei documenti di partenza (per esempio, in formato DOCX o PDF), questi devono essere convertiti in RST per poter essere pubblicati su Docs Italia. La conversione è in parte automatica ma necessita di una revisione manuale.
 
 
-Conversione con pandoc
-~~~~~~~~~~~~~~~~~~~~~~
+Conversione col convertitore web
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Lo strumento di conversione principale verso RST è `pandoc <https://pandoc.org/>`__, uno strumento gratuito open-source.
+Lo strumento di conversione principale verso RST è il [convertitore
+web](https://docs-italia-staging.teamdigitale.it/converti/)
 
 .. note:: 
 
-   -  pandoc accetta documenti in formato DOCX, ma non in formato DOC.
+   -  il convertitore accetta documenti in formato DOCX, ma non in formato DOC.
    
-   -  pandoc non accetta documenti in formato PDF.                  
+   -  il convertitore non accetta documenti in formato PDF.                  
 
 
 +-----------------------------------------------------------------------------------------+
@@ -125,19 +113,9 @@ Lo strumento di conversione principale verso RST è `pandoc <https://pandoc.org/
 |                                                                                         |
 |    -  Scegli il nome del file e clicca su Save.                                         |
 |                                                                                         |
-| -  Da linea di comando, esegui:                                                         |
-|                                                                                         |
-|    :code:`pandoc <percorso/documento> -t rst -o output.rst`                             |
-|                                                                                         |
-|    dove :code:`<percorso/documento>` è il percorso al documento in formato DOCX.        |
-|                                                                                         |
+| -  Converti col convertitore web                                                        |
 | -  Controlla la conversione automatica ed esegui una revisione manuale del testo        |
 +-----------------------------------------------------------------------------------------+
-
-Supporto alla conversione
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Oltre al processo di conversione illustrato di seguito, Docs Italia mette a disposizione un supporto alla conversione gratuito. L’utente può inviare i documenti da convertire tramite `Slack di Developers Italia <https://slack.developers.italia.it/>`__ usando il canale `#docs-italia <https://developersitalia.slack.com/messages/C9T4ELD4G/>`__. Docs Italia provvederà a rimandare un documento RST corretto e sintatticamente valido. Rimane però responsabilità dell’utente verificare che i contenuti siano corretti.
 
 Revisione dei contenuti e correzione degli errori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -148,4 +126,16 @@ Per correggere gli errori, è necessaria una **revisione manuale del file** util
 
 Eliminati gli errori di sintassi, è necessario uniformare il documento allo `stile di Docs Italia <https://design-italia.readthedocs.io/it/stable/>`__. Consulta la :ref:`Guida di stile contenuta nell’Appendice 2 <appendice-2>` per maggiori informazioni.
 
+Comandi di conversione
+~~~~~~~~~~~~~~~~~~~~~~
 
+Se preferite utilizzare degli strumenti da riga di comando che non
+richiedono una connessione ad internet potete convertire i vostri
+documenti utilizzando direttamente i [comandi di
+conversione](https://github.com/italia/docs-italia-comandi-conversione),
+che forniscono le stesse funzionalità del convertitore web attraverso
+un'interfaccia testuale.
+
+Questo approccio è consigliato agli utenti che abbiano familiarità con
+la riga di comando, che vogliano convertire molti files, o utilizzare
+la conversione come un passaggio all'interno di scripts personalizzati
