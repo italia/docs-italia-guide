@@ -39,7 +39,7 @@ L’esempio nella :numref:`Tabella %s <cfr-rst>` illustra come è possibile indi
    |                                |                             |
    +--------------------------------+-----------------------------+
 
-Per maggiore chiarezza [in questo repository](https://github.com/italia/docs-italia-esempiformattazione-docs) forniamo un documento di esempio contenente gli elementi di base per la documentazione. Il documento è leggibile in formato RST e nei formati usati da Office e LibreOffice, per un facile confronto.
+Per maggiore chiarezza, puoi consultare un [documento di esempio](https://github.com/italia/docs-italia-esempiformattazione-docs) contenente gli elementi di base della formattazione. Il documento è leggibile in formato RST e nei formati usati da Microsoft Office e LibreOffice, per un facile confronto.
 
 Editor di testo
 ~~~~~~~~~~~~~~~
