@@ -129,13 +129,13 @@ Eliminati gli errori di sintassi, è necessario uniformare il documento allo `st
 Comandi di conversione
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Se preferite utilizzare degli strumenti da riga di comando che non
-richiedono una connessione ad Internet potete convertire i vostri
+Se preferisci utilizzare degli strumenti da riga di comando che non
+richiedono una connessione ad Internet, puoi convertire i
 documenti utilizzando direttamente i [comandi di
 conversione](https://github.com/italia/docs-italia-comandi-conversione),
 che forniscono le stesse funzionalità del convertitore web attraverso
 un'interfaccia testuale.
 
-Questo approccio è consigliato agli utenti che abbiano familiarità con
-la riga di comando, che vogliano convertire molti files, o utilizzare
-la conversione come un passaggio all'interno di scripts personalizzati
+Questo approccio è consigliato per gli utenti che abbiano familiarità con
+la riga di comando, che vogliano convertire molti files, o che intendano usare
+la conversione come un passaggio intermedio all'interno di scripts personalizzati.
