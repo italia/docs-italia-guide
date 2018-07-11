@@ -130,7 +130,7 @@ Comandi di conversione
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Se preferite utilizzare degli strumenti da riga di comando che non
-richiedono una connessione ad internet potete convertire i vostri
+richiedono una connessione ad Internet potete convertire i vostri
 documenti utilizzando direttamente i [comandi di
 conversione](https://github.com/italia/docs-italia-comandi-conversione),
 che forniscono le stesse funzionalità del convertitore web attraverso
