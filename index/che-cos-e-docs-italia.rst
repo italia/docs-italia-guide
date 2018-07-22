@@ -11,7 +11,7 @@ Al momento, Docs Italia contiene alcuni dei più importanti progetti pubblici de
 Obiettivi
 ---------
 
-Docs Italia nasce con l’obiettivo di cambiare il linguaggio con cui si comunicano e si gestiscono i progetti pubblici in Italia, creando strumenti di lavoro comuni a diverse culture professionali e in cui gli aspetti normativi e tecnici possano coesistere. In questo modo, si semplifica la vita di chi lavora ai progetti (funzionari, tecnici della Pubblica Amministrazione, fornitori della pubblica amministrazione), aumentando l’efficacia dei progetti pubblici e perseguendo una impostazione di *open government* che favorisca l’apertura, lo scambio di idee e la collaborazione.
+Docs Italia nasce con l’obiettivo di cambiare il linguaggio con cui si comunicano e si gestiscono i progetti pubblici in Italia, creando strumenti di lavoro comuni a diverse culture professionali e in cui gli aspetti normativi e tecnici possano coesistere. In questo modo, si semplifica la vita di chi lavora ai progetti (in particolare i funzionari, i tecnici e i fornitori della Pubblica Amministrazione), aumentando l’efficacia dei progetti pubblici e perseguendo una impostazione di *open government* che favorisca l’apertura, lo scambio di idee e la collaborazione.
 
 Docs Italia permette di gestire la documentazione tecnica di un progetto (ad es. la documentazione di pagoPA), ma anche documenti amministrativi come il `Piano Triennale per l’informatica nella Pubblica Amministrazione <https://pianotriennale-ict.readthedocs.io>`__ e le linee guida (come le `Linee guida di design per i servizi web della PA <https://design-italia.readthedocs.io>`__).
 
