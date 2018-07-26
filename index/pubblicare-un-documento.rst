@@ -17,7 +17,7 @@ Repository di configurazione
    Questa sezione è riservata ai publisher che pubblicano documenti tramite la propria organizzazione. Se utilizzi un account utente, invece, le operazioni descritte qui verranno effettuate per tuo conto da parte degli amministratori di Docs Italia.
 
 
-Il repository di configurazione contiene le informazioni (metadati) relative al publisher, ai progetti e ai documenti correlati che appaiono in vari punti all’interno delle pagine su Docs Italia.
+Il repository di configurazione dovrà avere un nome specifico e contenere le informazioni (metadati) relative al publisher, ai progetti e ai documenti correlati che appaiono in vari punti all’interno delle pagine su Docs Italia.
 
 Puoi modificare i file nel repository di configurazione presente nello Starter kit come descritto qui sotto. Successivamente, dovrai **caricare i file sul repository remoto** creato in precedenza (vedi :ref:`Come pubblicare un documento <sec-pubblicare>`) usando :ref:`una delle due procedure descritte in Appendice <sec-procedure-caricamento>`.
 
@@ -30,7 +30,7 @@ Puoi modificare i file nel repository di configurazione presente nello Starter k
 Contenuto del repository
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Il repository di configurazione contiene due file principali:
+Il repository di configurazione deve essere chiamato **italia-conf** e contenere due file principali:
 
 1. **publisher_settings.yml**, per i metadati relativi al publisher;
 
