@@ -95,13 +95,13 @@ Conversione col convertitore web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lo strumento di conversione principale verso RST è il [convertitore
-web](https://docs-italia-staging.teamdigitale.it/converti/)
+web](https://docs-italia-staging.teamdigitale.it/converti/).
 
 .. note:: 
 
-   -  il convertitore accetta documenti in formato DOCX, ma non in formato DOC.
+   -  Il convertitore accetta documenti in formato DOCX, ma non in formato DOC.
    
-   -  il convertitore non accetta documenti in formato PDF.                  
+   -  Il convertitore non accetta documenti in formato PDF.                  
 
 
 +-----------------------------------------------------------------------------------------+
@@ -130,12 +130,12 @@ Comandi di conversione
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Se preferisci utilizzare degli strumenti da riga di comando che non
-richiedono una connessione ad Internet, puoi convertire i
+richiedono una connessione a Internet, puoi convertire i
 documenti utilizzando direttamente i [comandi di
 conversione](https://github.com/italia/docs-italia-comandi-conversione),
 che forniscono le stesse funzionalità del convertitore web attraverso
 un'interfaccia testuale.
 
 Questo approccio è consigliato per gli utenti che abbiano familiarità con
-la riga di comando, che vogliano convertire molti files, o che intendano usare
-la conversione come un passaggio intermedio all'interno di scripts personalizzati.
+la riga di comando, che vogliano convertire molti file, o che intendano usare
+la conversione come un passaggio intermedio all'interno di script personalizzati.
