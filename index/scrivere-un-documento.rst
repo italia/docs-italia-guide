@@ -39,7 +39,7 @@ L’esempio nella :numref:`Tabella %s <cfr-rst>` illustra come è possibile indi
    |                                |                             |
    +--------------------------------+-----------------------------+
 
-Per maggiore chiarezza, puoi consultare un [documento di esempio](https://github.com/italia/docs-italia-esempiformattazione-docs) contenente gli elementi di base della formattazione. Il documento è leggibile in formato RST e nei formati usati da Microsoft Office e LibreOffice, per un facile confronto.
+Per maggiore chiarezza, puoi consultare un `documento di esempio <https://github.com/italia/docs-italia-esempiformattazione-docs>`_ contenente gli elementi di base della formattazione. Il documento è leggibile in formato RST e nei formati usati da Microsoft Office e LibreOffice, per un facile confronto.
 
 Editor di testo
 ~~~~~~~~~~~~~~~
@@ -94,8 +94,8 @@ Nel caso in cui si abbiano già dei documenti di partenza (per esempio, in forma
 Conversione col convertitore web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Lo strumento di conversione principale verso RST è il [convertitore
-web](https://docs-italia-staging.teamdigitale.it/converti/).
+Lo strumento di conversione principale verso RST è il `convertitore
+web <https://docs-italia-staging.teamdigitale.it/converti/>`__.
 
 .. note:: 
 
@@ -131,8 +131,8 @@ Comandi di conversione
 
 Se preferisci utilizzare degli strumenti da riga di comando che non
 richiedono una connessione a Internet, puoi convertire i
-documenti utilizzando direttamente i [comandi di
-conversione](https://github.com/italia/docs-italia-comandi-conversione),
+documenti utilizzando direttamente i `comandi di
+conversione <https://github.com/italia/docs-italia-comandi-conversione>`__,
 che forniscono le stesse funzionalità del convertitore web attraverso
 un'interfaccia testuale.
 
