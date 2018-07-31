@@ -88,7 +88,7 @@ Il contenuto del tuo testo può essere diviso in vari file .rst per facilitare l
 Migrazione su Docs Italia di documentazione esistente
 -----------------------------------------------------
 
-Nel caso in cui si abbiano già dei documenti di partenza (per esempio, in formato DOCX o PDF), questi devono essere convertiti in RST per poter essere pubblicati su Docs Italia. La conversione è in parte automatica ma necessita di una revisione manuale.
+Nel caso in cui si abbiano già dei documenti di partenza (per esempio, in formato DOCX, ODT o PDF), questi devono essere convertiti in RST per poter essere pubblicati su Docs Italia. La conversione è in parte automatica ma necessita di una revisione manuale.
 
 
 Conversione col convertitore web
@@ -99,7 +99,7 @@ web <https://docs-italia-staging.teamdigitale.it/converti/>`__.
 
 .. note:: 
 
-   -  Il convertitore accetta documenti in formato DOCX, ma non in formato DOC.
+   -  Il convertitore accetta documenti in formato DOCX e ODT, ma non in formato DOC.
    
    -  Il convertitore non accetta documenti in formato PDF.                  
 
