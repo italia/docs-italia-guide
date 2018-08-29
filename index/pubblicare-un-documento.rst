@@ -45,6 +45,10 @@ Le Tabelle 2 e 3 illustrano alcuni dei possibili metadati che è possibile speci
 Metadati del publisher
 ~~~~~~~~~~~~~~~~~~~~~~
 
+.. important::
+
+   I campi **name** e **description** sono obbligatori.
+
 .. _meta-pub:
 
 .. table:: Alcuni dei metadati associati al publisher.
@@ -102,6 +106,10 @@ Metadati del publisher
 
 Metadati dei progetti
 ~~~~~~~~~~~~~~~~~~~~~
+
+.. important::
+
+   I campi **name**, **description** e **documents** sono obbligatori.
 
 .. _meta-prog:
 
