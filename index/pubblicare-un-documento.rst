@@ -347,16 +347,16 @@ La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una
 
 .. _meta-doc:
 
-.. table:: Alcuni dei metadati associati a ciascun documento.
+.. table:: Alcuni dei metadati associati a ciascun documento. I campi contrassegnati con l'asterisco sono obbligatori.
 
    +------------------+----------------------------------------------------------------------------------------------------------------+
    | **Parametro**    | **Descrizione**                                                                                                |
    +==================+================================================================================================================+
-   | name             | Il nome per esteso del documento                                                                               |
+   | name (\*)        | Il nome per esteso del documento                                                                               |
    +------------------+----------------------------------------------------------------------------------------------------------------+
-   | description      | Una descrizione estesa delle funzioni e degli scopi del documento                                              |
+   | description (\*) | Una descrizione estesa delle funzioni e degli scopi del documento                                              |
    +------------------+----------------------------------------------------------------------------------------------------------------+
-   | tags             | La lista dei tag che descrivono il documento                                                                   |
+   | tags (\*)        | La lista dei tag che descrivono il documento                                                                   |
    +------------------+----------------------------------------------------------------------------------------------------------------+
    | short_name       | Il nome abbreviato del documento (opzionale)                                                                   |
    +------------------+----------------------------------------------------------------------------------------------------------------+
