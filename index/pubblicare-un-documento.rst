@@ -341,6 +341,10 @@ I metadati facilitano la ricerca delle informazioni da parte degli utenti. In pa
 
 La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una loro descrizione. L’esempio successivo mostra il file *document_settings.yml* contenuto nello :ref:`Starter kit <sec-starter-kit>`.
 
+.. important::
+
+   I campi **name**, **description** e **tags** sono obbligatori per la corretta compilazione del documento. 
+
 .. _meta-doc:
 
 .. table:: Alcuni dei metadati associati a ciascun documento.
