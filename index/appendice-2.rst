@@ -140,6 +140,8 @@ Tutte le figure e le immagini devono essere seguite da opportune didascalie, num
 | .. figure:: img/logo.png                                 |
 |    :width: 6.11458in                                     |
 |    :height: 1.31944in                                    |
+|    :alt: esempio immagine                                |
+|    :name: logo                                           |
 |                                                          |
 |    Logo del Team per la Trasformazione Digitale.         |
 +----------------------------------------------------------+
