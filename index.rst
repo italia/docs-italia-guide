@@ -7,6 +7,7 @@ Guida alla pubblicazione dei documenti della Pubblica Amministrazione su `Docs I
 .. toctree::
    :maxdepth: 2
    :caption: Indice dei contenuti
+   :numbered:
 
    index/che-cos-e-docs-italia.rst
    index/starter-kit.rst
