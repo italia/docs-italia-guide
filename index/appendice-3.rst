@@ -17,6 +17,33 @@ Il primo metodo è adatto per chi ha poca familiarità con gli strumenti di cont
 Upload tramite interfaccia grafica
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+*inizio sintassi test*
+
+.. topic:: Procedura
+   :class: procedure
+   
+   1. Assicurati di avere tutti i file necessari elencati nella sezione precedente
+   
+   2. Visita la pagina del repository su GitHub
+   
+   3. Clicca sul pulsante **Upload files**
+   
+   |image13|
+   
+   4. Clicca su **choose your files** e seleziona tutti i file che intendi caricare
+   
+   5. Nel riquadro “Commit changes”, specifica un oggetto del commit nel primo box, e opzionalmente un testo di spiegazione,
+   secondo le modalità descritte nella sezione `Messaggi di commit <#messaggi-di-commit>`__ |
+   
+   6. Clicca sul pulsante **Commit changes**
+   
+   |image14|
+
+
+*fine sintassi di test*
+
+*inizio sintassi originale*
+
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Procedura.**                                                                                                                                                                                                     |
 |                                                                                                                                                                                                                    |
@@ -26,7 +53,14 @@ Upload tramite interfaccia grafica
 |                                                                                                                                                                                                                    |
 | -  Clicca sul pulsante **Upload files**                                                                                                                                                                            |
 |                                                                                                                                                                                                                    |
-| |image13|                                                                                                                                                                                                          |
+| .. figure:: img/upload.png
+|    :width: 3.74479in
+|    :height: 0.36363in
+|    :alt: caricamento file
+|    :name: upload
+|
+|    finestra per il caricamento dei file
+|
 |                                                                                                                                                                                                                    |
 | -  Clicca su **choose your files** e seleziona tutti i file che intendi caricare                                                                                                                                   |
 |                                                                                                                                                                                                                    |
@@ -34,11 +68,64 @@ Upload tramite interfaccia grafica
 |                                                                                                                                                                                                                    |
 | -  Clicca sul pulsante **Commit changes**                                                                                                                                                                          |
 |                                                                                                                                                                                                                    |
-| |image14|                                                                                                                                                                                                          |
+| 
+| .. figure:: img/commit.png
+|    :width: 5.14618in
+|    :height: 3.50521in
+|    :alt: commit github
+|    :name: commit
+|
+|    finestra per il commit GitHub
+|
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+*fine sintassi originale*
 
 Upload da un repository Git locale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*sintassi di test*
+
+.. topic:: Procedura
+   :class: procedure
+   
+   1. Assicurati di avere tutti i file necessari elencati nella sezione precedente
+   
+   2. Visita la pagina del repository su GitHub
+   
+   3. Clicca sul pulsante **Clone or download**
+   
+   4. Clicca sul pulsante **Copy to clipboard** accanto all’URL del repo
+   
+   |image15|
+   
+   5. Nel riquadro “Commit changes”, specifica un oggetto del commit nel primo box, e opzionalmente un testo di spiegazione,
+   secondo le modalità descritte nella sezione `Messaggi di commit <#messaggi-di-commit>`__ |
+   
+   6. Clicca sul pulsante **Commit changes**
+   
+   |image14|
+   
+   .. role:: procedure-internal-title
+      :class: procedure-interl-titlena
+
+   :procedure-internal-title:`Da linea di comando, esegui`
+   
+   1. cd alla cartella con i file della documentazione
+   
+   2. git clone <URL>, dove <URL> è l’URL del repo. Puoi ottenerlo facendo semplicemente incolla (CTRL + v oppure CMD + v)
+   
+   3. git add \*
+   
+   4. git commit
+   
+   5.   All’apertura dell’editor di testo, scrivi il messaggio di commit, secondo le modalità descritte nella sezione `Messaggi di commit <#messaggi-di-commit>`__ |
+   
+   6. git push origin master
+
+*fine sintassi di test*
+
+*inizio sintassi originale*
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Procedura.**                                                                                                                                                |
@@ -51,8 +138,16 @@ Upload da un repository Git locale
 |                                                                                                                                                               |
 | -  Clicca sul pulsante **Copy to clipboard** accanto all’URL del repo                                                                                         |
 |                                                                                                                                                               |
-| |image15|                                                                                                                                                     |
-|                                                                                                                                                               |
+| 
+| .. figure:: img/clone.png
+|    :width: 3.50521in
+|    :height: 1.52868in
+|    :alt: clonare repository GitHub
+|    :name: clone
+|
+|    Clonazione di un repository su GitHub                                                                                                                                                               |
+|
+|
 | Da linea di comando, esegui                                                                                                                                   |
 |                                                                                                                                                               |
 | -  cd alla cartella con i file della documentazione                                                                                                           |
@@ -67,6 +162,8 @@ Upload da un repository Git locale
 |                                                                                                                                                               |
 | -  git push origin master                                                                                                                                     |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+*fine sintassi originale
 
 Messaggi di commit
 ------------------
