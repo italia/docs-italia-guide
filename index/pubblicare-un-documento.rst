@@ -474,11 +474,11 @@ Docs Italia possiede una modalità di backend, ovvero una piattaforma accessibil
 
 L’utente potrà accedere al backend di Docs Italia semplicemente con il proprio account GitHub. Durante l'iniziale fase beta, l'accesso avviene tramite un `account su Read the Docs <http://readthedocs.org>`__. Le funzioni descritte di seguito, però, non variano.
 
-.. _backend:
-
 .. figure:: img/backend.jpg
    :width: 5.54504in
    :height: 5.31771in
+   :alt: backend Docs Italia
+   :name: backend
 
    Il backend di Docs Italia per gestire un documento. 
 
@@ -512,11 +512,11 @@ I documenti privati sono raggiungibili dal publisher usando URL predittivi (ad e
 
 La :numref:`Figura %s <privato>` mostra com’è possibile impostare un documento privato su Docs Italia.
 
-.. _privato:
-
 .. figure:: img/private.png
    :width: 3.86458in
    :height: 4.5702in
+   :alt: documenti privati
+   :name: privato
 
    Il backend di Docs Italia permette di impostare documenti privati.
 
@@ -545,10 +545,10 @@ La :numref:`Figura %s <traduzione>` mostra il backend di Docs Italia relativo al
 
 Per problemi con la creazione di documenti multilingue è possibile contattare gli amministratori di Docs Italia tramite `Slack di Developers Italia <https://slack.developers.italia.it/>`__ usando il canale `#docs-italia <https://developersitalia.slack.com/messages/C9T4ELD4G/>`__.
 
-.. _traduzione:
-
 .. figure:: img/traduzione.jpg
    :width: 5.70313in
    :height: 3.65311in
+   :alt: documenti multilingue
+   :name: traduzione
 
    Il backend di Docs Italia permette di impostare documenti multilingue.
