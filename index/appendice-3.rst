@@ -32,8 +32,7 @@ Upload tramite interfaccia grafica
    
    4. Clicca su **choose your files** e seleziona tutti i file che intendi caricare
    
-   5. Nel riquadro “Commit changes”, specifica un oggetto del commit nel primo box, e opzionalmente un testo di spiegazione,
-   secondo le modalità descritte nella sezione `Messaggi di commit <#messaggi-di-commit>`__ |
+   5. Nel riquadro “Commit changes”, specifica un oggetto del commit nel primo box, e opzionalmente un testo di spiegazione, secondo le modalità descritte nella sezione `Messaggi di commit <#messaggi-di-commit>`__ |
    
    6. Clicca sul pulsante **Commit changes**
    
@@ -42,7 +41,7 @@ Upload tramite interfaccia grafica
 
 *fine sintassi di test*
 
-*inizio sintassi originale*
+.. blocco originale ma non valido per la presenza dell'elemento figure 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Procedura.**                                                                                                                                                                                                     |
@@ -79,7 +78,7 @@ Upload tramite interfaccia grafica
 |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-*fine sintassi originale*
+.. fine blocco non valido 
 
 Upload da un repository Git locale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -99,33 +98,28 @@ Upload da un repository Git locale
    
    |image15|
    
-   5. Nel riquadro “Commit changes”, specifica un oggetto del commit nel primo box, e opzionalmente un testo di spiegazione,
-   secondo le modalità descritte nella sezione `Messaggi di commit <#messaggi-di-commit>`__ |
-   
-   6. Clicca sul pulsante **Commit changes**
-   
-   |image14|
-   
    .. role:: procedure-internal-title
       :class: procedure-interl-titlena
 
    :procedure-internal-title:`Da linea di comando, esegui`
    
-   1. cd alla cartella con i file della documentazione
-   
-   2. git clone <URL>, dove <URL> è l’URL del repo. Puoi ottenerlo facendo semplicemente incolla (CTRL + v oppure CMD + v)
-   
-   3. git add \*
-   
-   4. git commit
-   
-   5.   All’apertura dell’editor di testo, scrivi il messaggio di commit, secondo le modalità descritte nella sezione `Messaggi di commit <#messaggi-di-commit>`__ |
-   
-   6. git push origin master
+   1. :code:`cd` alla cartella con i file della documentazione
+
+   2. :code:`git clone <URL>`, dove <URL> è l’URL del repo. Puoi ottenerlo
+      facendo semplicemente incolla (CTRL + V oppure CMD + V)
+
+   3. :code:`git add *`
+
+   4. :code:`git commit`
+
+   5. All’apertura dell’editor di testo, scrivi il messaggio di commit, secondo
+      le modalità descritte nella sezione `Messaggi di commit`_
+
+   6. :code:`git push origin master`
 
 *fine sintassi di test*
 
-*inizio sintassi originale*
+.. blocco originale non valido per la presenza di figure
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Procedura.**                                                                                                                                                |
@@ -163,7 +157,7 @@ Upload da un repository Git locale
 | -  git push origin master                                                                                                                                     |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-*fine sintassi originale
+.. fine blocco non valido
 
 Messaggi di commit
 ------------------
