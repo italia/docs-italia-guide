@@ -142,7 +142,7 @@ Oltre a queste caratteristiche,
    :width: 6.11458in
    :height: 3.25in
    :alt: note pagina
-   :name: _box
+   :name: box
 
    Box e note in una pagina del documento. 
 
