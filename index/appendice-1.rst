@@ -81,7 +81,7 @@ Le modifiche intermedie apportate al documento, quando non esplicitamente associ
 .. figure:: img/versionamento.png
    :width: 5.14583in
    :height: 4.53172in
-   :alt: flusso di versionamento
+   :alt: Flusso di versionamento
    :name: versionamento
    
    Esempio di flusso di versionamento.
