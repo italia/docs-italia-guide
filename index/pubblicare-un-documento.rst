@@ -477,7 +477,7 @@ L’utente potrà accedere al backend di Docs Italia semplicemente con il propri
 .. figure:: img/backend.jpg
    :width: 5.54504in
    :height: 5.31771in
-   :alt: backend Docs Italia
+   :alt: Backend di Docs Italia
    :name: backend
 
    Il backend di Docs Italia per gestire un documento. 
@@ -515,7 +515,7 @@ La :numref:`Figura %s <privato>` mostra com’è possibile impostare un document
 .. figure:: img/private.png
    :width: 3.86458in
    :height: 4.5702in
-   :alt: documenti privati
+   :alt: Documenti privati
    :name: privato
 
    Il backend di Docs Italia permette di impostare documenti privati.
@@ -548,7 +548,7 @@ Per problemi con la creazione di documenti multilingue è possibile contattare g
 .. figure:: img/traduzione.jpg
    :width: 5.70313in
    :height: 3.65311in
-   :alt: documenti multilingue
+   :alt: Documenti multilingue
    :name: traduzione
 
    Il backend di Docs Italia permette di impostare documenti multilingue.
