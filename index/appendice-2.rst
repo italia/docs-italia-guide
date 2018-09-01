@@ -134,8 +134,6 @@ Figure e immagini
 
 Tutte le figure e le immagini devono essere seguite da opportune didascalie, numerate in maniera progressiva. Per la numerazione delle figure si può utilizzare l'auto numerazione già presente nel template di Docs Italia. La numerazione manuale è fortemente sconsigliata in quanto introduce un elemento di possibile incoerenza nel documento che si sta scrivendo o che si modificherà in futuro.
 
-**Esempio di figure / immagini in Docs Italia**          
-                                                          
 +----------------------------------------------------------+
 | **Esempio di figure / immagini in Docs Italia**          |
 |                                                          |
