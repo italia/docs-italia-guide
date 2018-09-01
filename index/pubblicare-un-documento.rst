@@ -465,7 +465,7 @@ Tutti i file necessari alla creazione del documento su Docs Italia devono essere
 
 Le :ref:`procedure da utilizzare <sec-procedure-caricamento>` per caricare i file sono descritte in Appendice.
 
-.. _sec-backend::
+.. _sec-backend:
 
 Backend di Docs Italia
 ----------------------
