@@ -133,10 +133,10 @@ Oltre a queste caratteristiche,
 .. figure:: img/ancora.png
    :width: 6.11458in
    :height: 1.97222in
-   :alt: Àncora titolo
+   :alt: Ancora titolo
    :name: ancora
 
-   Àncora in corrispondenza di un titolo.
+   Ancora in corrispondenza di un titolo.
 
 .. figure:: img/box.png
    :width: 6.11458in
