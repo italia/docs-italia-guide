@@ -36,7 +36,7 @@ La :numref:`Figura %s <developer>` mostra la pagina dell’organizzazione Develo
    :alt: Organizzazione GitHub
    :name: developer
    
-   Organizzazione su GitHub
+   La :numref:`Figura %s <developer>` mostra la pagina dell’organizzazione Developers Italia su GitHub. È possibile notare il numero di repository aperti, le persone che collaborano con l’organizzazione e i team.
 
 
 **Se il mio Ente non ha un’organizzazione su GitHub...**
