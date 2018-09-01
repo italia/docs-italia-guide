@@ -17,7 +17,6 @@ Il primo metodo è adatto per chi ha poca familiarità con gli strumenti di cont
 Upload tramite interfaccia grafica
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*inizio sintassi test*
 
 .. topic:: Procedura
    :class: procedure
@@ -38,52 +37,9 @@ Upload tramite interfaccia grafica
    
    |image14|
 
-
-*fine sintassi di test*
-
-.. blocco originale ma non valido per la presenza dell'elemento figure 
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Procedura.**                                                                                                                                                                                                     |
-|                                                                                                                                                                                                                    |
-| -  Assicurati di avere tutti i file necessari elencati nella sezione precedente                                                                                                                                    |
-|                                                                                                                                                                                                                    |
-| -  Visita la pagina del repository su GitHub                                                                                                                                                                       |
-|                                                                                                                                                                                                                    |
-| -  Clicca sul pulsante **Upload files**                                                                                                                                                                            |
-|                                                                                                                                                                                                                    |
-| .. figure:: img/upload.png
-|    :width: 3.74479in
-|    :height: 0.36363in
-|    :alt: caricamento file
-|    :name: upload
-|
-|    finestra per il caricamento dei file
-|
-|                                                                                                                                                                                                                    |
-| -  Clicca su **choose your files** e seleziona tutti i file che intendi caricare                                                                                                                                   |
-|                                                                                                                                                                                                                    |
-| -  Nel riquadro “Commit changes”, specifica un oggetto del commit nel primo box, e opzionalmente un testo di spiegazione, secondo le modalità descritte nella sezione `Messaggi di commit <#messaggi-di-commit>`__ |
-|                                                                                                                                                                                                                    |
-| -  Clicca sul pulsante **Commit changes**                                                                                                                                                                          |
-|                                                                                                                                                                                                                    |
-| 
-| .. figure:: img/commit.png
-|    :width: 5.14618in
-|    :height: 3.50521in
-|    :alt: commit github
-|    :name: commit
-|
-|    finestra per il commit GitHub
-|
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-.. fine blocco non valido 
-
 Upload da un repository Git locale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*sintassi di test*
 
 .. topic:: Procedura
    :class: procedure
@@ -117,47 +73,6 @@ Upload da un repository Git locale
 
    6. :code:`git push origin master`
 
-*fine sintassi di test*
-
-.. blocco originale non valido per la presenza di figure
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Procedura.**                                                                                                                                                |
-|                                                                                                                                                               |
-| -  Assicurati di avere tutti i file necessari elencati nella sezione precedente                                                                               |
-|                                                                                                                                                               |
-| -  Visita la pagina del repository su GitHub                                                                                                                  |
-|                                                                                                                                                               |
-| -  Clicca sul pulsante **Clone or download**                                                                                                                  |
-|                                                                                                                                                               |
-| -  Clicca sul pulsante **Copy to clipboard** accanto all’URL del repo                                                                                         |
-|                                                                                                                                                               |
-| 
-| .. figure:: img/clone.png
-|    :width: 3.50521in
-|    :height: 1.52868in
-|    :alt: clonare repository GitHub
-|    :name: clone
-|
-|    Clonazione di un repository su GitHub                                                                                                                                                               |
-|
-|
-| Da linea di comando, esegui                                                                                                                                   |
-|                                                                                                                                                               |
-| -  cd alla cartella con i file della documentazione                                                                                                           |
-|                                                                                                                                                               |
-| -  git clone <URL>, dove <URL> è l’URL del repo. Puoi ottenerlo facendo semplicemente incolla (CTRL + v oppure CMD + v)                                       |
-|                                                                                                                                                               |
-| -  git add \*                                                                                                                                                 |
-|                                                                                                                                                               |
-| -  git commit                                                                                                                                                 |
-|                                                                                                                                                               |
-| -  All’apertura dell’editor di testo, scrivi il messaggio di commit, secondo le modalità descritte nella sezione `Messaggi di commit <#messaggi-di-commit>`__ |
-|                                                                                                                                                               |
-| -  git push origin master                                                                                                                                     |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-.. fine blocco non valido
 
 Messaggi di commit
 ------------------
