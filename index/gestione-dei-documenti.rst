@@ -27,11 +27,11 @@ Divulgazione su Forum Italia
 
 La :numref:`Figura %s <annuncio>` mostra l’annuncio su Forum Italia relativo alla pubblicazione del Codice dell’amministrazione digitale.
 
-.. _annuncio:
-
 .. figure:: img/post-forum.png
    :width: 6.11458in
    :height: 2.83333in
+   :alt: Forum Italia
+   :name: annuncio
 
 
 Se il documento non è associato ad alcun Progetto, è possibile usare la categoria `Community & Altro <https://forum.italia.it/c/community-feedback>`__.
