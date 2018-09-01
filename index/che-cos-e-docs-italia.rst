@@ -81,12 +81,14 @@ Architettura dell’informazione
 .. 
 .. 
 ..
-.. .. _progetto:
+.. 
 .. 
 .. .. figure:: img/progetto.png
 ..    :width: 6.11458in
 ..    :height: 5.47222in
-.. 
+..    :alt: Pagina Progetto
+..    :name: progetto
+..    
 ..    Una pagina progetto su Docs Italia.
 
 Pagina documento
@@ -104,11 +106,11 @@ Ciascun documento ha le seguenti caratteristiche (vedi :numref:`Figura %s <pagin
 
 5. Il pulsante “modifica su GitHub” permette di accedere al repository su GitHub dove è ospitato il documento e consente a chiunque di proporre delle modifiche al contenuto.
 
-.. _pagina-doc:
-
 .. figure:: img/pagina-doc.png
    :width: 6.11458in
    :height: 4.90278in
+   :alt: Pagina documento
+   :name: pagina_doc
 
    Una pagina documento su Docs Italia.
 
@@ -120,27 +122,27 @@ Oltre a queste caratteristiche,
 
 -  Le funzionalità dei box colorati e delle note permettono di segnalare informazioni importanti, esempi, casi di studio e interpretazioni del testo (vedi :numref:`Figura %s <box>`).
 
-.. _responsive:
-
 .. figure:: img/responsive.png
    :width: 1.78493in
    :height: 3.59896in
+   :alt: Ambiente *responsive*
+   :name: responsive
 
    Ambiente *responsive* della piattaforma Docs Italia.
-
-.. _ancora:
 
 .. figure:: img/ancora.png
    :width: 6.11458in
    :height: 1.97222in
+   :alt: Àncora titolo
+   :name: ancora
 
    Àncora in corrispondenza di un titolo.
-
-.. _box:
 
 .. figure:: img/box.png
    :width: 6.11458in
    :height: 3.25in
+   :alt: note pagina
+   :name: box
 
    Box e note in una pagina del documento. 
 
