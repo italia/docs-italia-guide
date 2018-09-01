@@ -17,13 +17,13 @@ Docs Italia permette di gestire la documentazione tecnica di un progetto (ad es.
 
 La :numref:`Figura %s <hp>` mostra l’attuale home page di Docs Italia.
 
-.. _hp:
-
-.. figure:: img/hp.png
+.. figure:: img/home-page-docs-italia.png
    :width: 6.11458in
    :height: 3.82813in
+   :alt: Home page di Docs Italia
+   :name: hp
 
-   La home page di Docs Italia.
+   L'attuale home page di Docs Italia.
 
 
 Caratteristiche

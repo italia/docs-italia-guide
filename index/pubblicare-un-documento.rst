@@ -45,6 +45,10 @@ Le Tabelle 2 e 3 illustrano alcuni dei possibili metadati che è possibile speci
 Metadati del publisher
 ~~~~~~~~~~~~~~~~~~~~~~
 
+.. important::
+
+   I campi **name** e **description** sono obbligatori.
+
 .. _meta-pub:
 
 .. table:: Alcuni dei metadati associati al publisher.
@@ -102,6 +106,10 @@ Metadati del publisher
 
 Metadati dei progetti
 ~~~~~~~~~~~~~~~~~~~~~
+
+.. important::
+
+   I campi **name**, **description** e **documents** sono obbligatori.
 
 .. _meta-prog:
 
@@ -341,18 +349,22 @@ I metadati facilitano la ricerca delle informazioni da parte degli utenti. In pa
 
 La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una loro descrizione. L’esempio successivo mostra il file *document_settings.yml* contenuto nello :ref:`Starter kit <sec-starter-kit>`.
 
+.. important::
+
+   I campi **name**, **description** e **tags** sono obbligatori per la corretta compilazione del documento. 
+
 .. _meta-doc:
 
-.. table:: Alcuni dei metadati associati a ciascun documento.
+.. table:: Alcuni dei metadati associati a ciascun documento. I campi contrassegnati con l'asterisco sono obbligatori.
 
    +------------------+----------------------------------------------------------------------------------------------------------------+
    | **Parametro**    | **Descrizione**                                                                                                |
    +==================+================================================================================================================+
-   | name             | Il nome per esteso del documento                                                                               |
+   | name (\*)        | Il nome per esteso del documento                                                                               |
    +------------------+----------------------------------------------------------------------------------------------------------------+
-   | description      | Una descrizione estesa delle funzioni e degli scopi del documento                                              |
+   | description (\*) | Una descrizione estesa delle funzioni e degli scopi del documento                                              |
    +------------------+----------------------------------------------------------------------------------------------------------------+
-   | tags             | La lista dei tag che descrivono il documento                                                                   |
+   | tags (\*)        | La lista dei tag che descrivono il documento                                                                   |
    +------------------+----------------------------------------------------------------------------------------------------------------+
    | short_name       | Il nome abbreviato del documento (opzionale)                                                                   |
    +------------------+----------------------------------------------------------------------------------------------------------------+
