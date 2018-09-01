@@ -55,7 +55,7 @@ Upload da un repository Git locale
    |image15|
    
    .. role:: procedure-internal-title
-      :class: procedure-interl-titlena
+      :class: procedure-internal-title
 
    :procedure-internal-title:`Da linea di comando, esegui`
    
