@@ -35,6 +35,8 @@ La :numref:`Figura %s <developer>` mostra la pagina dell’organizzazione Develo
    :height: 3.41667in
    :alt: Organizzazione GitHub
    :name: developer
+   
+   Organizzazione su GitHub
 
 
 **Se il mio Ente non ha un’organizzazione su GitHub...**
