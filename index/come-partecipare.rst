@@ -51,7 +51,7 @@ Docs Italia usa il `version control system <https://it.wikipedia.org/wiki/Contro
    Durante l'iniziale fase beta, Docs Italia richiede un account su `Read the Docs <http://readthedocs.org>`__ per poter accedere alle :ref:`funzionalità di backend <sec-backend>`. 
 
 
-.. sec-pubblicare:
+.. _sec-pubblicare:
 
 Come pubblicare un documento
 ----------------------------
