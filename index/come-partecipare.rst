@@ -39,6 +39,7 @@ La :numref:`Figura %s <developer>` mostra la pagina dell’organizzazione Develo
    L'organizzazione Developers Italia su GitHub
 
 
+
 **Se il mio Ente non ha un’organizzazione su GitHub...**
 
 Avere un account di organizzazione non è obbligatorio per poter pubblicare i tuoi documenti su Docs Italia, anche se è fortemente consigliato. Agli Enti che non hanno e non possono creare un’organizzazione su GitHub, **Docs Italia mette a disposizione gratuitamente uno spazio su GitHub Italia** dove ospitare i documenti.
