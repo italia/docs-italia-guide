@@ -170,7 +170,7 @@ Metadati dei progetti
 +-----------------------------------------------------------------+
 
 
-.. sec-repo-doc:
+.. _sec-repo-doc:
 
 Repository del documento
 ------------------------
@@ -197,7 +197,7 @@ Prima di pubblicare il documento su Docs Italia, l’utente deve:
 
 Consulta le sezioni seguenti per maggiori informazioni su come modificare questi file.
 
-.. sec-struttura:
+.. _sec-struttura:
 
 Struttura del repository
 ~~~~~~~~~~~~~~~~~~~~~~~~
