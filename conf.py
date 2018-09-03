@@ -7,7 +7,6 @@ settings_copyright_copyleft = 'AgID - Team Digitale'
 settings_editor_name = 'AgID - Team Digitale'
 settings_doc_version = 'version: latest'
 settings_doc_release = 'version: latest'
-settings_basename = 'guida-docs-italia'
 settings_file_name = 'docs-italia-guide'
 
 
