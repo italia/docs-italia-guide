@@ -18,4 +18,3 @@ Guida alla pubblicazione dei documenti della Pubblica Amministrazione su `Docs I
    index/appendice-1.rst
    index/appendice-2.rst
    index/appendice-3.rst
-
