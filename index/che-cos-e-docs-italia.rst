@@ -86,7 +86,7 @@ Architettura dell’informazione
 .. .. figure:: img/progetto.png
 ..    :width: 6.11458in
 ..    :height: 5.47222in
-..    :alt: Pagina Progetto
+..    :alt: Pagina progetto
 ..    :name: progetto
 ..    
 ..    Una pagina progetto su Docs Italia.
@@ -110,7 +110,7 @@ Ciascun documento ha le seguenti caratteristiche (vedi :numref:`Figura %s <pagin
    :width: 6.11458in
    :height: 4.90278in
    :alt: Pagina documento
-   :name: pagina_doc
+   :name: pagina-doc
 
 
    Una pagina documento su Docs Italia.
@@ -136,12 +136,14 @@ Oltre a queste caratteristiche,
    :height: 1.97222in
    :alt: Ancora titolo
    :name: ancora
+   
+   Ancora in corrispondenza di un titolo.
 
 .. figure:: img/box.png
    :width: 6.11458in
-
+   :height: 3.25in
    :alt: Box e note
-
+   :name: box
 
    Box e note in una pagina del documento. 
 
