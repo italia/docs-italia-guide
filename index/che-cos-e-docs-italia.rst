@@ -112,6 +112,7 @@ Ciascun documento ha le seguenti caratteristiche (vedi :numref:`Figura %s <pagin
    :alt: Pagina documento
    :name: pagina_doc
 
+
    Una pagina documento su Docs Italia.
 
 Oltre a queste caratteristiche,
@@ -125,7 +126,7 @@ Oltre a queste caratteristiche,
 .. figure:: img/responsive.png
    :width: 1.78493in
    :height: 3.59896in
-   :alt: Ambiente *responsive*
+   :alt: Ambiente responsive
    :name: responsive
 
    Ambiente *responsive* della piattaforma Docs Italia.
@@ -133,16 +134,14 @@ Oltre a queste caratteristiche,
 .. figure:: img/ancora.png
    :width: 6.11458in
    :height: 1.97222in
-   :alt: link titolo
+   :alt: Ancora titolo
    :name: ancora
-
-   Link in corrispondenza di un titolo.
 
 .. figure:: img/box.png
    :width: 6.11458in
-   :height: 3.25in
-   :alt: note pagina
-   :name: box
+
+   :alt: Box e note
+
 
    Box e note in una pagina del documento. 
 
