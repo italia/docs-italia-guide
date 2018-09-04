@@ -111,7 +111,7 @@ web <https://docs-italia-staging.teamdigitale.it/converti/>`__.
 
 .. attention::
 
-   Se il documento di partenza è un PDF, è necessaria una prima conversione verso DOCX.
+  Se il documento di partenza è un PDF, è necessaria una prima conversione verso DOCX.
 
 
 Revisione dei contenuti e correzione degli errori
