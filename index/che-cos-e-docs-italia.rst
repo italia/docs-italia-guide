@@ -112,7 +112,6 @@ Ciascun documento ha le seguenti caratteristiche (vedi :numref:`Figura %s <pagin
    :alt: Pagina documento
    :name: pagina-doc
 
-
    Una pagina documento su Docs Italia.
 
 Oltre a queste caratteristiche,
@@ -136,7 +135,7 @@ Oltre a queste caratteristiche,
    :height: 1.97222in
    :alt: Ancora titolo
    :name: ancora
-   
+
    Ancora in corrispondenza di un titolo.
 
 .. figure:: img/box.png

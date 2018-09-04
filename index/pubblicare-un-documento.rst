@@ -529,17 +529,18 @@ Per creare un documento multilingue è necessario creare i documenti nelle diver
 
 Per esempio, un documento in italiano chiamato *anpr-modalitasubentro* potrebbe essere il documento principale. Per indicarne il documento *anpr-modalitasubentro-eng* come la traduzione inglese, segui la seguente procedura.
 
-
-.. topic:: Procedura. Impostare la traduzione di un documento
+.. topic:: Procedura
    :class: procedure
    
+   :procedure-internal-title:`Impostare la traduzione di un documento`
+
    1. Accedi al backend di Docs Italia corrispondente al documento principale, *anpr-modalitasubentro*.
    
    2. Dal pannello di amministrazione, seleziona la voce **Translations**.
    
    3. Nel riquadro **Project**, indica il nome del documento corrispondente alla traduzione. In questo caso, *anpr-modalitasubentro-eng*.
-   
-   4. Clicca sul pulsante **Submit**.                                                                                                    
+  
+   4. Clicca sul pulsante **Submit**.
 
 La :numref:`Figura %s <traduzione>` mostra il backend di Docs Italia relativo alla selezione dei documenti di traduzione.
 
