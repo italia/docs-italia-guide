@@ -105,20 +105,13 @@ web <https://docs-italia-staging.teamdigitale.it/converti/>`__.
 .. topic:: Procedura. Conversione di un documento
    :class: procedure
    
-   1. Se il documento di partenza è un PDF, è necessaria una prima conversione verso DOCX.
+   1. Converti col convertitore web
    
-   .. role:: procedure-internal-title
-      :class: procedure-internal-title
-      
-   :procedure-internal-title: Una possibilità di conversionedel PDf è la seguente:
-      
-   1. In Adobe Acrobat, seleziona File -> Export to -> Microsoft Word -> Word Document.
-      
-   2. Scegli il nome del file e clicca su Save.
+   2. Controlla la conversione automatica ed esegui una revisione manuale del testo
 
-   2. Converti col convertitore web
-   
-   3. Controlla la conversione automatica ed esegui una revisione manuale del testo
+.. attention::
+
+  Se il documento di partenza è un PDF, è necessaria una prima conversione verso DOCX.
 
 
 Revisione dei contenuti e correzione degli errori
