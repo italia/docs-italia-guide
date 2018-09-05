@@ -27,7 +27,9 @@ Upload tramite interfaccia grafica
    
    3. Clicca sul pulsante **Upload files**
    
-   |image13|
+      .. image:: img/upload.png
+         :width: 3.74479in
+         :height: 0.36363in
    
    4. Clicca su **choose your files** e seleziona tutti i file che intendi caricare
    
@@ -35,7 +37,9 @@ Upload tramite interfaccia grafica
    
    6. Clicca sul pulsante **Commit changes**
    
-   |image14|
+      .. image:: img/commit.png
+         :width: 5.14618in
+         :height: 3.50521in
 
 Upload da un repository Git locale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,7 +56,9 @@ Upload da un repository Git locale
    
    4. Clicca sul pulsante **Copy to clipboard** accanto all’URL del repo
    
-   |image15|
+      .. image:: img/clone.png
+         :width: 3.50521in
+         :height: 1.52868in
    
    .. role:: procedure-internal-title
       :class: procedure-internal-title
@@ -130,14 +136,4 @@ Nell’oggetto del commit si dovrebbe indicare il tipo di commit fra i seguenti:
 Il **testo di spiegazione** del commit è opzionale, e può essere usato per fornire ulteriori dettagli riguardo alle modifiche effettuate. Dev’essere separato dall’oggetto del commit da una linea vuota.
 
 Se il commit risolve una o più issue, è obbligatorio indicarne il numero all’interno del testo di spiegazione.
-
-.. |image13| image:: img/upload.png
-   :width: 3.74479in
-   :height: 0.36363in
-.. |image14| image:: img/commit.png
-   :width: 5.14618in
-   :height: 3.50521in
-.. |image15| image:: img/clone.png
-   :width: 3.50521in
-   :height: 1.52868in
 
