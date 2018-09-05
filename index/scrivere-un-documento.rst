@@ -76,14 +76,13 @@ Il contenuto del tuo testo può essere diviso in vari file .rst per facilitare l
 
    File separati diventeranno pagine HTML separate, facilitando la lettura da parte dell’utente.
 
+.. topic:: Procedura.
+   :class: procedure
+   
+   1. Scrivi il testo utilizzando il tuo editor preferito o `uno di quelli suggeriti da noi <#editor-di-testo>`__. Utilizza la sintassi RST per titoli, sottotitoli, liste e link.
+   
+   2. Salva il tuo file in formato .rst. In alcuni editor, specie su Windows, potrebbe essere necessario selezionare “Tutti i file” e aggiungere l’estensione manualmente.
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Procedura.**                                                                                                                                                                  |
-|                                                                                                                                                                                 |
-| -  Scrivi il testo utilizzando il tuo editor preferito o `uno di quelli suggeriti da noi <#editor-di-testo>`__. Utilizza la sintassi RST per titoli, sottotitoli, liste e link. |
-|                                                                                                                                                                                 |
-| -  Salva il tuo file in formato .rst. In alcuni editor, specie su Windows, potrebbe essere necessario selezionare “Tutti i file” e aggiungere l’estensione manualmente.         |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Migrazione su Docs Italia di documentazione esistente
 -----------------------------------------------------
@@ -103,19 +102,17 @@ web <https://docs-italia-staging.teamdigitale.it/converti/>`__.
    
    -  Il convertitore non accetta documenti in formato PDF.                  
 
+.. topic:: Procedura. Conversione di un documento
+   :class: procedure
+   
+   1. Converti col convertitore web
+   
+   2. Controlla la conversione automatica ed esegui una revisione manuale del testo
 
-+-----------------------------------------------------------------------------------------+
-| **Procedura. Conversione di un documento**                                              |
-|                                                                                         |
-| -  Se il documento di partenza è un PDF, è necessaria una prima conversione verso DOCX. |
-|                                                                                         |
-|    -  In Adobe Acrobat, seleziona File -> Export to -> Microsoft Word -> Word Document. |
-|                                                                                         |
-|    -  Scegli il nome del file e clicca su Save.                                         |
-|                                                                                         |
-| -  Converti col convertitore web                                                        |
-| -  Controlla la conversione automatica ed esegui una revisione manuale del testo        |
-+-----------------------------------------------------------------------------------------+
+.. attention::
+
+  Se il documento di partenza è un PDF, è necessaria una prima conversione verso DOCX.
+
 
 Revisione dei contenuti e correzione degli errori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -170,7 +170,7 @@ Metadati dei progetti
 +-----------------------------------------------------------------+
 
 
-.. sec-repo-doc:
+.. _sec-repo-doc:
 
 Repository del documento
 ------------------------
@@ -197,7 +197,7 @@ Prima di pubblicare il documento su Docs Italia, l’utente deve:
 
 Consulta le sezioni seguenti per maggiori informazioni su come modificare questi file.
 
-.. sec-struttura:
+.. _sec-struttura:
 
 Struttura del repository
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -465,7 +465,7 @@ Tutti i file necessari alla creazione del documento su Docs Italia devono essere
 
 Le :ref:`procedure da utilizzare <sec-procedure-caricamento>` per caricare i file sono descritte in Appendice.
 
-.. _sec-backend::
+.. _sec-backend:
 
 Backend di Docs Italia
 ----------------------
@@ -474,11 +474,11 @@ Docs Italia possiede una modalità di backend, ovvero una piattaforma accessibil
 
 L’utente potrà accedere al backend di Docs Italia semplicemente con il proprio account GitHub. Durante l'iniziale fase beta, l'accesso avviene tramite un `account su Read the Docs <http://readthedocs.org>`__. Le funzioni descritte di seguito, però, non variano.
 
-.. _backend:
-
 .. figure:: img/backend.jpg
    :width: 5.54504in
    :height: 5.31771in
+   :alt: Backend di Docs Italia
+   :name: backend
 
    Il backend di Docs Italia per gestire un documento. 
 
@@ -512,11 +512,11 @@ I documenti privati sono raggiungibili dal publisher usando URL predittivi (ad e
 
 La :numref:`Figura %s <privato>` mostra com’è possibile impostare un documento privato su Docs Italia.
 
-.. _privato:
-
 .. figure:: img/private.png
    :width: 3.86458in
    :height: 4.5702in
+   :alt: Documenti privati
+   :name: privato
 
    Il backend di Docs Italia permette di impostare documenti privati.
 
@@ -529,26 +529,27 @@ Per creare un documento multilingue è necessario creare i documenti nelle diver
 
 Per esempio, un documento in italiano chiamato *anpr-modalitasubentro* potrebbe essere il documento principale. Per indicarne il documento *anpr-modalitasubentro-eng* come la traduzione inglese, segui la seguente procedura.
 
-+----------------------------------------------------------------------------------------------------------------------------------------+
-| **Procedura. Impostare la traduzione di un documento**                                                                                 |
-|                                                                                                                                        |
-| -  Accedi al backend di Docs Italia corrispondente al documento principale, *anpr-modalitasubentro*.                                   |
-|                                                                                                                                        |
-| -  Dal pannello di amministrazione, seleziona la voce **Translations**.                                                                |
-|                                                                                                                                        |
-| -  Nel riquadro **Project**, indica il nome del documento corrispondente alla traduzione. In questo caso, *anpr-modalitasubentro-eng*. |
-|                                                                                                                                        |
-| -  Clicca sul pulsante **Submit**.                                                                                                     |
-+----------------------------------------------------------------------------------------------------------------------------------------+
+.. topic:: Procedura
+   :class: procedure
+   
+   :procedure-internal-title:`Impostare la traduzione di un documento`
+
+   1. Accedi al backend di Docs Italia corrispondente al documento principale, *anpr-modalitasubentro*.
+   
+   2. Dal pannello di amministrazione, seleziona la voce **Translations**.
+   
+   3. Nel riquadro **Project**, indica il nome del documento corrispondente alla traduzione. In questo caso, *anpr-modalitasubentro-eng*.
+  
+   4. Clicca sul pulsante **Submit**.
 
 La :numref:`Figura %s <traduzione>` mostra il backend di Docs Italia relativo alla selezione dei documenti di traduzione.
 
 Per problemi con la creazione di documenti multilingue è possibile contattare gli amministratori di Docs Italia tramite `Slack di Developers Italia <https://slack.developers.italia.it/>`__ usando il canale `#docs-italia <https://developersitalia.slack.com/messages/C9T4ELD4G/>`__.
 
-.. _traduzione:
-
 .. figure:: img/traduzione.jpg
    :width: 5.70313in
    :height: 3.65311in
+   :alt: Documenti multilingue
+   :name: traduzione
 
    Il backend di Docs Italia permette di impostare documenti multilingue.
