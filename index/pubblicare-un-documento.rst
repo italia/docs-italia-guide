@@ -89,7 +89,7 @@ Metadati del publisher
       :linenos:
       
       publisher:                                                      
-        name: Ministero della Documentazione Pubblica                
+      name: Ministero della Documentazione Pubblica                
       description:                                                 
         Lorem ipsum dolor sit amet, consectetur                   
         adipisicing elit, sed do eiusmod tempor                   
@@ -157,28 +157,28 @@ Metadati dei progetti
       
       projects:                                                    
         - name: Progetto Documentato Pubblicamente                 
-        description:                                             
-          Lorem ipsum dolor sit amet, consectetur                
-          adipisicing elit, sed do eiusmod tempor                
-          incididunt ut labore et dolore magna aliqua.           
-          Ut enim ad minim veniam, quis nostrud                  
-          exercitation ullamco laboris nisi ut                   
-          aliquip ex ea commodo consequat.                       
-          Duis aute irure dolor in reprehenderit in              
-          voluptate velit esse cillum dolore eu                  
-          fugiat nulla pariatur. Excepteur sint                  
-          occaecat cupidatat non proident, sunt in               
-          culpa qui officia deserunt mollit anim id              
-          est laborum.                                           
-        documents:                                               
-          - project-document-doc                                 
-          - another-project-document-doc                         
-        short_name: PDP                                          
-        website: https://progetto.ministerodocumentazione.gov.it 
-        tags:                                                    
-          - digital                                              
-          - citizenship                                          
-          - amazing project                                      
+          description:                                             
+            Lorem ipsum dolor sit amet, consectetur                
+            adipisicing elit, sed do eiusmod tempor                
+            incididunt ut labore et dolore magna aliqua.           
+            Ut enim ad minim veniam, quis nostrud                  
+            exercitation ullamco laboris nisi ut                   
+            aliquip ex ea commodo consequat.                       
+            Duis aute irure dolor in reprehenderit in              
+            voluptate velit esse cillum dolore eu                  
+            fugiat nulla pariatur. Excepteur sint                  
+            occaecat cupidatat non proident, sunt in               
+            culpa qui officia deserunt mollit anim id              
+            est laborum.                                           
+          documents:                                               
+            - project-document-doc                                 
+            - another-project-document-doc                         
+          short_name: PDP                                          
+          website: https://progetto.ministerodocumentazione.gov.it 
+          tags:                                                    
+            - digital                                              
+            - citizenship                                          
+            - amazing project                                      
 
 
 Repository del documento
@@ -428,7 +428,7 @@ La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una
       
       document:
         name: Titolo del documento
-        desciption: |
+        description: |
           Lorem ipsum dolor sit amet, consectetur
           adipisicing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.
@@ -481,7 +481,7 @@ sostituendo :code:`<topic-id>` con il codice opportuno.
 
    `Il codice da inserire per il topic con ID 1234 è:`:admonition-internal-title:
    
-.. code-block:: yml
+   .. code-block:: rst
       :linenos:
       
       .. discourse::
