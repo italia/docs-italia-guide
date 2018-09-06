@@ -117,6 +117,7 @@ Metadati del publisher
         - amazing publisher                                         
       logo: assets/images/logo.svg
 
+
 .. admonition:: example
    :class: admonition-example admonition-display-page name-example
 
