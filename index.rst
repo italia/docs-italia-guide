@@ -2,7 +2,9 @@
 Guida a Docs Italia
 ###################
 
-Guida alla pubblicazione dei documenti della Pubblica Amministrazione su `Docs Italia <http://docs.italia/it>`_.
+.. highlights::
+   
+   Guida alla pubblicazione dei documenti della Pubblica Amministrazione su `Docs Italia <http://docs.italia.it>`_.
 
 .. toctree::
    :maxdepth: 2
