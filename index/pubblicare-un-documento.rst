@@ -21,6 +21,16 @@ Il repository di configurazione dovrà avere un nome specifico e contenere le in
 
 Puoi modificare i file nel repository di configurazione presente nello Starter kit come descritto qui sotto. Successivamente, dovrai **caricare i file sul repository remoto** creato in precedenza (vedi :ref:`Come pubblicare un documento <sec-pubblicare>`) usando :ref:`una delle due procedure descritte in Appendice <sec-procedure-caricamento>`.
 
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Repository di configurazione di prova`:admonition-internal-title:
+   
+   Lo :ref:`Starter kit <sec-starter-kit>` contiene un esempio di repository di configurazione. Consulta le istruzioni contenute nel kit per conoscere come modificare i file.
+
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Esempio. Repository di configurazione di prova**                                                                                                                          |
 |                                                                                                                                                                             |
