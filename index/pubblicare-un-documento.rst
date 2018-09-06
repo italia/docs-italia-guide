@@ -144,51 +144,58 @@ Metadati dei progetti
    | tags          | La lista dei tag che descrivono il progetto (opzionale)                                                          |
    +---------------+------------------------------------------------------------------------------------------------------------------+
 
-+-----------------------------------------------------------------+
-| **Esempio. File projects_setting.yml tratto dallo Starter kit** |
-|                                                                 |
-| .. code-block:: yml                                             |
-|                                                                 |
-|    projects:                                                    |
-|      - name: Progetto Documentato Pubblicamente                 |
-|        description:                                             |
-|          Lorem ipsum dolor sit amet, consectetur                |
-|          adipisicing elit, sed do eiusmod tempor                |
-|          incididunt ut labore et dolore magna aliqua.           |
-|          Ut enim ad minim veniam, quis nostrud                  |
-|          exercitation ullamco laboris nisi ut                   |
-|          aliquip ex ea commodo consequat.                       |
-|          Duis aute irure dolor in reprehenderit in              |
-|          voluptate velit esse cillum dolore eu                  |
-|          fugiat nulla pariatur. Excepteur sint                  |
-|          occaecat cupidatat non proident, sunt in               |
-|          culpa qui officia deserunt mollit anim id              |
-|          est laborum.                                           |
-|        documents:                                               |
-|          - project-document-doc                                 |
-|          - another-project-document-doc                         |
-|        short_name: PDP                                          |
-|        website: https://progetto.ministerodocumentazione.gov.it |
-|        tags:                                                    |
-|          - digital                                              |
-|          - citizenship                                          |
-|          - amazing project                                      |
-|                                                                 |
-+-----------------------------------------------------------------+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
 
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
 
-.. _sec-repo-doc:
+   `File projects_setting.yml tratto dallo Starter kit`:admonition-internal-title:
+   
+   .. code-block:: yml
+      :linenos:
+      
+      projects:                                                    
+        - name: Progetto Documentato Pubblicamente                 
+        description:                                             
+          Lorem ipsum dolor sit amet, consectetur                
+          adipisicing elit, sed do eiusmod tempor                
+          incididunt ut labore et dolore magna aliqua.           
+          Ut enim ad minim veniam, quis nostrud                  
+          exercitation ullamco laboris nisi ut                   
+          aliquip ex ea commodo consequat.                       
+          Duis aute irure dolor in reprehenderit in              
+          voluptate velit esse cillum dolore eu                  
+          fugiat nulla pariatur. Excepteur sint                  
+          occaecat cupidatat non proident, sunt in               
+          culpa qui officia deserunt mollit anim id              
+          est laborum.                                           
+        documents:                                               
+          - project-document-doc                                 
+          - another-project-document-doc                         
+        short_name: PDP                                          
+        website: https://progetto.ministerodocumentazione.gov.it 
+        tags:                                                    
+          - digital                                              
+          - citizenship                                          
+          - amazing project                                      
+
 
 Repository del documento
 ------------------------
 
 Docs Italia genera automaticamente la pagina del documento e il relativo URL alla creazione del repository. **Se il repository del documento è vuoto, tuttavia, la pagina associata risulterà vuota** e verrà visualizzato il messaggio “Documento in fase di creazione”. La pagina del documento verrà creata automaticamente non appena l’utente caricherà nel repository tutti i file necessari alla compilazione, come descritto qui di seguito.
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Esempio. Repository del documento di prova**                                                                                                                          |
-|                                                                                                                                                                         |
-| Lo :ref:`Starter kit <sec-starter-kit>` contiene un esempio di repository del documento. Consulta le istruzioni contenute nel kit per conoscere come modificare i file. |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Repository del documento di prova`:admonition-internal-title:
+   
+   Lo :ref:`Starter kit <sec-starter-kit>` contiene un esempio di repository del documento. Consulta le istruzioni contenute nel kit per conoscere come modificare i file.
+   
 
 Prima di pubblicare il documento su Docs Italia, l’utente deve:
 
@@ -211,26 +218,32 @@ Struttura del repository
 
 Lo :ref:`Starter kit <sec-starter-kit>` suggerisce l’uso di una struttura del repository del documento di questo tipo:
 
-**Esempio. Struttura del repository**
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
 
-.. code-block:: yml                     
-                                        
-   .                                    
-   +-- README.md                        
-   +-- index.rst                        
-   +-- _docs/                           
-   | +-- _img/                          
-   | | +-- cap1_img1.jpg                
-   | | +-- cap2_img1.jpg                
-   | | ...                              
-   | +-- cap1.rst                       
-   | +-- cap2.rst                       
-   | …                                  
-   +-- conf.py                          
-   +-- LICENSE                          
-   +-- AUTHORS                          
-   +-- requirements.txt                 
-   +-- document_settings.yml            
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Struttura del repository`:admonition-internal-title:
+   
+   .. code-block:: yml
+      :linenos:
+      
+      +-- README.md
+      +-- index.rst                        
+      +-- _docs/                           
+      | +-- _img/                          
+      | | +-- cap1_img1.jpg                
+      | | +-- cap2_img1.jpg                
+      | | ...                              
+      | +-- cap1.rst                       
+      | +-- cap2.rst                       
+      | …                                  
+      +-- conf.py                          
+      +-- LICENSE                          
+      +-- AUTHORS                          
+      +-- requirements.txt                 
+      +-- document_settings.yml            
 
 
 Il repository dovrà comprendere, come requisito minimo:
@@ -277,24 +290,30 @@ Per i primi due punti, la stesura deve seguire le considerazioni fatte in preced
 
 Per quanto riguarda il terzo punto, invece, l’inclusione delle pagine nel documento avviene tramite la `direttiva toctree <http://www.sphinx-doc.org/en/stable/markup/toctree.html>`__\ *.* Prendendo ad esempio la `struttura del repository illustrata in precedenza <#struttura-del-repository>`__, un possibile index.rst viene costruito come di seguito.
 
-+-------------------------------------+
-| **Esempio. index.rst con toctree**  |
-|                                     |
-| .. code-block:: rst                 |
-|                                     |
-|    Il titolo del documento          |
-|    =======================          |
-|                                     |
-|    Una breve introduzione al testo. |
-|                                     |
-|    .. toctree::                     |
-|                                     |
-|       _docs/cap1.rst                |
-|                                     |
-|       _docs/cap2.rst                |
-|                                     |
-|       ...                           |
-+-------------------------------------+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `index.rst con toctree`:admonition-internal-title:
+   
+   .. code-block:: rst
+      :linenos:
+   
+      Il titolo del documento
+      =======================
+      
+      Una breve introduzione al testo.
+      
+      .. toctree::
+      
+         _docs/cap1.rst
+         
+         _docs/cap2.rst
+         
+         ...
+   
 
 Cartella _docs
 ~~~~~~~~~~~~~~
@@ -396,33 +415,36 @@ La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una
    | type             | Il tipo di documento (ad es. linee guida, documentazione tecnica, leggi, procedure, ecc) (opzionale)           |
    +------------------+----------------------------------------------------------------------------------------------------------------+
 
-+------------------------------------------------------------------+
-| **Esempio. File document_settings.yml tratto dallo Starter kit** |
-|                                                                  |
-|                                                                  |
-| .. code-block:: yml                                              |
-|                                                                  |
-|    document:                                                     |
-|      name: Titolo del documento                                  |
-|      description: |                                              |
-|        Lorem ipsum dolor sit amet, consectetur                   |
-|        adipisicing elit, sed do eiusmod tempor                   |
-|        incididunt ut labore et dolore magna aliqua.              |
-|        Ut enim ad minim veniam, quis nostrud                     |
-|        exercitation ullamco laboris nisi ut                      |
-|        aliquip ex ea commodo consequat.                          |
-|        Duis aute irure dolor in reprehenderit in                 |
-|        voluptate velit esse cillum dolore eu                     |
-|        fugiat nulla pariatur. Excepteur sint                     |
-|        occaecat cupidatat non proident, sunt in                  |
-|        culpa qui officia deserunt mollit anim id                 |
-|        est laborum.                                              |
-|      tags:                                                       |
-|        - topic                                                   |
-|        - related topic                                           |
-|        - amazing project                                         |
-|                                                                  |
-+------------------------------------------------------------------+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `File projects_setting.yml tratto dallo Starter kit`:admonition-internal-title:
+   
+   .. code-block:: yml
+      :linenos:
+      
+      document:
+        name: Titolo del documento
+        desciption: |
+          Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id
+          est laborum.
+        tags:
+          - topic
+          - related topic
+          - amazing project
 
 
 Funzione commenti con Forum Italia
@@ -451,18 +473,22 @@ Per ciascun argomento nel Forum, ti verrà assegnato un :code:`<topic-id>` dagli
 
 sostituendo :code:`<topic-id>` con il codice opportuno.
 
-+---------------------------------------------------+
-| **Esempio.**                                      |
-|                                                   |
-| Il codice da inserire per il topic con ID 1234 è: |
-|                                                   |
-| .. code-block:: rst                               |
-|                                                   |
-|    .. discourse::                                 |
-|                                                   |
-|    :topic_identifier: 1234                        |
-+---------------------------------------------------+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
 
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Il codice da inserire per il topic con ID 1234 è:`:admonition-internal-title:
+   
+.. code-block:: yml
+      :linenos:
+      
+      .. discourse::
+      
+      :topic_identifier: 1234
+      
+   
 Ripetendo questa procedura, è possibile collegare ciascuna pagina del documento con il corrispondente argomento sul Forum. In caso di problemi, è possibile :ref:`contattare gli amministratori di Docs Italia <sec-amministratori>`.
 
 Caricare i file sul repository remoto
