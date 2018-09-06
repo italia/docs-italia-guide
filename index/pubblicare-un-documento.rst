@@ -93,8 +93,8 @@ Metadati del publisher
    
    .. code-block:: yml
    
-   publisher:                                                      
-      name: Ministero della Documentazione Pubblica                
+      publisher:                                                      
+        name: Ministero della Documentazione Pubblica                
       description:                                                 
         Lorem ipsum dolor sit amet, consectetur                   
         adipisicing elit, sed do eiusmod tempor                   
