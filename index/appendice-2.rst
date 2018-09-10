@@ -156,19 +156,6 @@ Tutte le figure e le immagini devono essere seguite da opportune didascalie, num
 
       Logo del Team per la Trasformazione Digitale.
    
-
-+----------------------------------------------------------+
-| **Esempio di figure / immagini in Docs Italia**          |
-|                                                          |
-| .. figure:: img/logo.png                                 |
-|    :width: 6.11458in                                     |
-|    :height: 1.31944in                                    |
-|    :alt: Esempio di immagine                             |
-|    :name: logo                                           |
-|                                                          |
-|    Logo del Team per la Trasformazione Digitale.         |
-+----------------------------------------------------------+
-
 Titoli
 ~~~~~~
 
@@ -185,12 +172,6 @@ Nel caso sia necessario utilizzare un segno divisorio, questo dovrebbe essere il
    `Formato del titolo`:admonition-internal-title:
    
     Appendice 1. Codici dei regimi fiscali
-
-+----------------------------------------+
-| **Esempio. Formato del titolo**        |
-|                                        |
-| Appendice 1. Codici dei regimi fiscali |
-+----------------------------------------+
 
 Ottimizzazione SEO
 ~~~~~~~~~~~~~~~~~~
