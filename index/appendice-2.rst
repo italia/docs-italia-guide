@@ -84,6 +84,31 @@ Codice
 
 Il codice deve essere visualizzato con carattere *monospace*. Per poter visualizzare il codice con tale formattazione, indipendentemente dal template, è necessario usare il ruolo :code: inserendo il codice tra due apici obliqui.
 
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Formattazione del codice`:admonition-internal-title:
+   
+   .. code-block:: rst
+      :linenos:
+      
+      :code:`<aux digit (1n)>[<application code> (2n)]<codice IUV>\`
+      
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Codice reso nel testo`:admonition-internal-title:
+   
+   .. code-block:: rst
+      
+      :code:`<aux digit (1n)>[<application code> (2n)]<codice IUV>\`
+
 +-------------------------------------------------------------------+
 | **Esempio. Formattazione del codice**                             |
 |                                                                   |
@@ -133,7 +158,24 @@ Figure e immagini
 ~~~~~~~~~~~~~~~~~
 
 Tutte le figure e le immagini devono essere seguite da opportune didascalie, numerate in maniera progressiva. Per la numerazione delle figure si può utilizzare l'auto numerazione già presente nel template di Docs Italia. La numerazione manuale è fortemente sconsigliata in quanto introduce un elemento di possibile incoerenza nel documento che si sta scrivendo o che si modificherà in futuro.
-                                                        
+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `figure / immagini in Docs Italia`:admonition-internal-title:
+   
+   ..figure:: img/logo.png
+     :width: 6.11458in
+     :height: 1.31944in
+     :alt: Esempio di immagine
+     :name: logo
+     
+     Logo del Team per la Trasformazione Digitale.
+   
+
 +----------------------------------------------------------+
 | **Esempio di figure / immagini in Docs Italia**          |
 |                                                          |
@@ -152,6 +194,16 @@ Titoli
 Come già indicato nelle `Linee Guida di Design <https://design-italia.readthedocs.io/it/stable/doc/content-design/linguaggio.html#titoli>`__, nei titoli non dovrebbero essere presenti trattini o slash (-, /, \|).
 
 Nel caso sia necessario utilizzare un segno divisorio, questo dovrebbe essere il punto.
+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Formato del titolo`:admonition-internal-title:
+   
+    Appendice 1. Codici dei regimi fiscali
 
 +----------------------------------------+
 | **Esempio. Formato del titolo**        |
