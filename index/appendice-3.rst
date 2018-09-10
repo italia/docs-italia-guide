@@ -117,18 +117,6 @@ L’\ **oggetto del commit** è sempre obbligatorio e indica in maniera succinta
    
    -  aggiunto paragrafo dopo introduzione
 
-+------------------------------------------+
-| **Esempio. Con questo commit, ho …**     |
-|                                          |
-| -  modificato la funzione,               |
-|                                          |
-| -  corretto il bug, migliorato lo stile, |
-|                                          |
-| -  rimosso variabili inutilizzate,       |
-|                                          |
-| -  aggiunto paragrafo dopo introduzione  |
-+------------------------------------------+
-
 Nell’oggetto del commit si dovrebbe indicare il tipo di commit fra i seguenti:
 
 -  Docs: modifiche alla documentazione
@@ -152,16 +140,6 @@ Nell’oggetto del commit si dovrebbe indicare il tipo di commit fra i seguenti:
    -  Docs: creato documentazione
    
    -  Struttura: aggiunto abstract prima dell’introduzione
-
-+---------------------------------------------------------+
-| **Esempio. Oggetto del commit**                         |
-|                                                         |
-| -  Stile: diviso frase troppo lunga                     |
-|                                                         |
-| -  Docs: creato documentazione                          |
-|                                                         |
-| -  Struttura: aggiunto abstract prima dell’introduzione |
-+---------------------------------------------------------+
 
 Il **testo di spiegazione** del commit è opzionale, e può essere usato per fornire ulteriori dettagli riguardo alle modifiche effettuate. Dev’essere separato dall’oggetto del commit da una linea vuota.
 
