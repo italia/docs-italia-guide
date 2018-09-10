@@ -150,13 +150,11 @@ Tutte le figure e le immagini devono essere seguite da opportune didascalie, num
 
    `figure / immagini in Docs Italia`:admonition-internal-title:
    
-.. figure:: img/logo.png
-   :width: 6.11458in
-   :height: 1.31944in
-   :alt: Esempio di immagine
-   :name: logo
-     
-   Logo del Team per la Trasformazione Digitale.
+      .. image:: img/logo.png
+         :width: 6.11458in
+         :height: 1.31944in
+
+      Logo del Team per la Trasformazione Digitale.
    
 
 +----------------------------------------------------------+
