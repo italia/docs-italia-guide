@@ -107,7 +107,7 @@ Il codice deve essere visualizzato con carattere *monospace*. Per poter visualiz
    
    .. code-block:: rst
       
-      :code:`<aux digit (1n)>[<application code> (2n)]<codice IUV>\`
+      <aux digit (1n)>[<application code> (2n)]<codice IUV>\
 
 +-------------------------------------------------------------------+
 | **Esempio. Formattazione del codice**                             |
