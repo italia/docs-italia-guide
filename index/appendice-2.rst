@@ -97,17 +97,12 @@ Il codice deve essere visualizzato con carattere *monospace*. Per poter visualiz
       
       :code:`<aux digit (1n)>[<application code> (2n)]<codice IUV>\`
       
-.. admonition:: example
-   :class: admonition-example admonition-display-page name-example
-
    .. role:: admonition-internal-title
       :class: admonition-internal-title
 
    `Codice reso nel testo`:admonition-internal-title:
    
-   .. code-block:: rst
-      
-      <aux digit (1n)>[<application code> (2n)]<codice IUV>\
+   :code:`<aux digit (1n)>[<application code> (2n)]<codice IUV>`
 
 +-------------------------------------------------------------------+
 | **Esempio. Formattazione del codice**                             |
