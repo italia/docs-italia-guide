@@ -100,15 +100,15 @@ L’Ente ha un’organizzazione su GitHub e la documentazione viene ospitata pre
    dell’Interno ha un’organizzazione su GitHub, la cui amministratrice è 
    Giulia Rossi.
    
-   1. Giulia Rossi invia la richiesta di autorizzazione 
-      alla pubblicazione su Docs Italia, e la sua richiesta viene approvata.
+   Giulia Rossi invia la richiesta di autorizzazione 
+   alla pubblicazione su Docs Italia, e la sua richiesta viene approvata.
    
-   2. Giulia Rossi crea, quindi, un repository di configurazione 
-      presso l’organizzazione GitHub del Ministero dell’Interno.
+   Giulia Rossi crea, quindi, un repository di configurazione 
+   presso l’organizzazione GitHub del Ministero dell’Interno.
    
-   3. Giulia Rossi crea, infine, un repository del documento 
-      presso l’organizzazione GitHub del Ministero dell’Interno, 
-      dove inserirà tutti i file relativi alla documentazione.
+   Giulia Rossi crea, infine, un repository del documento 
+   presso l’organizzazione GitHub del Ministero dell’Interno, 
+   dove inserirà tutti i file relativi alla documentazione.
 
 **Opzione 2. Account utente**
 
