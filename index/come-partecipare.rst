@@ -95,13 +95,20 @@ L’Ente ha un’organizzazione su GitHub e la documentazione viene ospitata pre
 
    `Processo di autorizzazione per utenti GitHub`:admonition-internal-title:
    
-   Il Ministero dell’Interno vuole pubblicare su Docs Italia un documento chiamato “Modalità di subentro”, relativo al progetto ANPR. Il Ministero dell’Interno ha un’organizzazione su GitHub, la cui amministratrice è Giulia Rossi.
+   Il Ministero dell’Interno vuole pubblicare su Docs Italia un documento 
+   chiamato “Modalità di subentro”, relativo al progetto ANPR. Il Ministero 
+   dell’Interno ha un’organizzazione su GitHub, la cui amministratrice è 
+   Giulia Rossi.
    
-   - Giulia Rossi invia la richiesta di autorizzazione alla pubblicazione su Docs Italia, e la sua richiesta viene approvata.
+   1. Giulia Rossi invia la richiesta di autorizzazione 
+      alla pubblicazione su Docs Italia, e la sua richiesta viene approvata.
    
-   - Giulia Rossi crea, quindi, un repository di configurazione presso l’organizzazione GitHub del Ministero dell’Interno.
+   2. Giulia Rossi crea, quindi, un repository di configurazione 
+      presso l’organizzazione GitHub del Ministero dell’Interno.
    
-   - Giulia Rossi crea, infine, un repository del documento presso l’organizzazione GitHub del Ministero dell’Interno, dove inserirà tutti i file relativi alla documentazione.
+   3. Giulia Rossi crea, infine, un repository del documento 
+      presso l’organizzazione GitHub del Ministero dell’Interno, 
+      dove inserirà tutti i file relativi alla documentazione.
 
 **Opzione 2. Account utente**
 
@@ -133,15 +140,15 @@ L’Ente non ha un’organizzazione su GitHub e la documentazione viene ospitata
    nella Pubblica Amministrazione”. La Commissione Parlamentare XX non ha
    un’organizzazione su GitHub, ma Mario Bianchi ha un proprio account utente.
 
-   - Mario Bianchi invia la richiesta di autorizzazione alla pubblicazione su
+   1. Mario Bianchi invia la richiesta di autorizzazione alla pubblicazione su
       Docs Italia, e la sua richiesta viene approvata.
 
-   - Gli amministratori di Docs Italia inseriscono nel repository di
+   2. Gli amministratori di Docs Italia inseriscono nel repository di
       configurazione presso l’organizzazione GitHub Italia, tutte le
       informazioni relative alla Commissione Parlamentare XX e alla relativa
       Relazione.
 
-   - Gli amministratori di Docs Italia creano, infine, un repository del
+   3. Gli amministratori di Docs Italia creano, infine, un repository del
       documento presso l’organizzazione GitHub Italia, concedendo i privilegi di
       scrittura a Mario Bianchi. In questo modo, Mario Bianchi potrà caricare
       nel repository la propria documentazione.
