@@ -101,6 +101,22 @@ L’\ **oggetto del commit** è sempre obbligatorio e indica in maniera succinta
 
 -  Un buon oggetto di commit dovrebbe completare la frase: “Con questo commit, ho…”.
 
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Con questo commit, ho …`:admonition-internal-title:
+   
+   -  modificato la funzione,
+   
+   -  corretto il bug, migliorato lo stile,
+   
+   -  rimosso variabili inutilizzate,
+   
+   -  aggiunto paragrafo dopo introduzione
+
 +------------------------------------------+
 | **Esempio. Con questo commit, ho …**     |
 |                                          |
@@ -122,6 +138,20 @@ Nell’oggetto del commit si dovrebbe indicare il tipo di commit fra i seguenti:
 -  Struttura: modifiche alla struttura del testo
 
 -  Refusi: correzione di piccoli refusi
+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Oggetto del commit`:admonition-internal-title:
+   
+   -  Stile: diviso frase troppo lunga
+   
+   -  Docs: creato documentazione
+   
+   -  Struttura: aggiunto abstract prima dell’introduzione
 
 +---------------------------------------------------------+
 | **Esempio. Oggetto del commit**                         |
