@@ -87,6 +87,22 @@ L’Ente ha un’organizzazione su GitHub e la documentazione viene ospitata pre
 
 4. Un amministratore dell’account organizzazione crea un repository per il documento. Il nome del repository deve rispettare le `convenzioni sui nomi di Docs Italia <#nome-del-repository-del-documento>`__. Successivamente, l’utente può caricare i file secondo le modalità indicate nella sezione `Repository del documento <#repository-del-documento>`__. Un esempio completo di repository del documento è contenuto nello `Starter kit <#starter-kit>`__.
 
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Processo di autorizzazione per utenti GitHub`:admonition-internal-title:
+   
+   Il Ministero dell’Interno vuole pubblicare su Docs Italia un documento chiamato “Modalità di subentro”, relativo al progetto ANPR. Il Ministero dell’Interno ha un’organizzazione su GitHub, la cui amministratrice è Giulia Rossi.
+   
+   1. Giulia Rossi invia la richiesta di autorizzazione alla pubblicazione su Docs Italia, e la sua richiesta viene approvata.
+   
+   2. Giulia Rossi crea, quindi, un repository di configurazione presso l’organizzazione GitHub del Ministero dell’Interno.
+   
+   3. Giulia Rossi crea, infine, un repository del documento presso l’organizzazione GitHub del Ministero dell’Interno, dove inserirà tutti i file relativi alla documentazione.
+
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Esempio. Processo di autorizzazione per organizzazioni GitHub**                                                                                                          |
 |                                                                                                                                                                            |
@@ -117,6 +133,32 @@ L’Ente non ha un’organizzazione su GitHub e la documentazione viene ospitata
 .. note::
    
    Per l’account utente, tale procedura dovrà essere ripetuta per ciascun nuovo documento inserito su Docs Italia. 
+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Processo di autorizzazione per utenti GitHub`:admonition-internal-title:
+   
+   Mario Bianchi, il Presidente della Commissione Parlamentare XX, vuole
+   pubblicare su Docs Italia un documento chiamato “Relazione sull’Informatica
+   nella Pubblica Amministrazione”. La Commissione Parlamentare XX non ha
+   un’organizzazione su GitHub, ma Mario Bianchi ha un proprio account utente.
+
+   1. Mario Bianchi invia la richiesta di autorizzazione alla pubblicazione su
+      Docs Italia, e la sua richiesta viene approvata.
+
+   2. Gli amministratori di Docs Italia inseriscono nel repository di
+      configurazione presso l’organizzazione GitHub Italia, tutte le
+      informazioni relative alla Commissione Parlamentare XX e alla relativa
+      Relazione.
+
+   3. Gli amministratori di Docs Italia creano, infine, un repository del
+      documento presso l’organizzazione GitHub Italia, concedendo i privilegi di
+      scrittura a Mario Bianchi. In questo modo, Mario Bianchi potrà caricare
+      nel repository la propria documentazione.
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Esempio. Processo di autorizzazione per utenti GitHub**                                                                                                                                                                                                        |
