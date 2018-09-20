@@ -142,19 +142,15 @@ Figure e immagini
 
 Tutte le figure e le immagini devono essere seguite da opportune didascalie, numerate in maniera progressiva. Per la numerazione delle figure si può utilizzare l'auto numerazione già presente nel template di Docs Italia. La numerazione manuale è fortemente sconsigliata in quanto introduce un elemento di possibile incoerenza nel documento che si sta scrivendo o che si modificherà in futuro.
 
-.. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+Un esempio è mostrato in :numref:`Figura %s <logo>`.
 
-   .. role:: admonition-internal-title
-      :class: admonition-internal-title
+.. figure:: img/logo.png
+   :width: 6.11458in
+   :alt: Esempio di figura in Docs Italia
+   :name: logo
 
-   `figure / immagini in Docs Italia`:admonition-internal-title:
-   
-      .. image:: img/logo.png
-         :width: 6.11458in
-         :height: 1.31944in
+   Esempio di figura in Docs Italia: il logo del Team per la trasformazione digitale. 
 
-      Logo del Team per la Trasformazione Digitale.
    
 Titoli
 ~~~~~~
@@ -183,8 +179,4 @@ Per maggiori informazioni sull’ottimizzazione SEO, puoi consultare il `capitol
 .. [1]
    GOV.UK, nelle proprie linee guida, sconsiglia l’uso delle FAQ: https://www.gov.uk/guidance/content-design/writing-for-gov-uk#dont-use-faqs
 
-
-.. |image12| image:: img/logo.png
-   :width: 6.11458in
-   :height: 1.31944in
 
