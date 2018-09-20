@@ -101,17 +101,21 @@ L’\ **oggetto del commit** è sempre obbligatorio e indica in maniera succinta
 
 -  Un buon oggetto di commit dovrebbe completare la frase: “Con questo commit, ho…”.
 
-+------------------------------------------+
-| **Esempio. Con questo commit, ho …**     |
-|                                          |
-| -  modificato la funzione,               |
-|                                          |
-| -  corretto il bug, migliorato lo stile, |
-|                                          |
-| -  rimosso variabili inutilizzate,       |
-|                                          |
-| -  aggiunto paragrafo dopo introduzione  |
-+------------------------------------------+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Con questo commit, ho …`:admonition-internal-title:
+   
+   -  modificato la funzione,
+   
+   -  corretto il bug, migliorato lo stile,
+   
+   -  rimosso variabili inutilizzate,
+   
+   -  aggiunto paragrafo dopo introduzione
 
 Nell’oggetto del commit si dovrebbe indicare il tipo di commit fra i seguenti:
 
@@ -123,15 +127,19 @@ Nell’oggetto del commit si dovrebbe indicare il tipo di commit fra i seguenti:
 
 -  Refusi: correzione di piccoli refusi
 
-+---------------------------------------------------------+
-| **Esempio. Oggetto del commit**                         |
-|                                                         |
-| -  Stile: diviso frase troppo lunga                     |
-|                                                         |
-| -  Docs: creato documentazione                          |
-|                                                         |
-| -  Struttura: aggiunto abstract prima dell’introduzione |
-+---------------------------------------------------------+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Oggetto del commit`:admonition-internal-title:
+   
+   -  Stile: diviso frase troppo lunga
+   
+   -  Docs: creato documentazione
+   
+   -  Struttura: aggiunto abstract prima dell’introduzione
 
 Il **testo di spiegazione** del commit è opzionale, e può essere usato per fornire ulteriori dettagli riguardo alle modifiche effettuate. Dev’essere separato dall’oggetto del commit da una linea vuota.
 
