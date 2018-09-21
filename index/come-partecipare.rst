@@ -121,11 +121,11 @@ Dopo aver compiuto queste operazioni preliminari, è possibile seguire la proced
    dell’Interno ha un’organizzazione su GitHub, la cui amministratrice è 
    Giulia Rossi.
    
+   - Giulia Rossi crea un repository di configurazione 
+     presso l’organizzazione GitHub del Ministero dell’Interno.
+   
    - Giulia Rossi invia la richiesta di autorizzazione 
      alla pubblicazione su Docs Italia, e la sua richiesta viene approvata.
-   
-   - Giulia Rossi crea, quindi, un repository di configurazione 
-     presso l’organizzazione GitHub del Ministero dell’Interno.
    
    - Giulia Rossi crea, infine, un repository del documento 
      presso l’organizzazione GitHub del Ministero dell’Interno, 
