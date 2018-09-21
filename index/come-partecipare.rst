@@ -65,9 +65,9 @@ La pubblicazione di un documento su Docs Italia avviene secondo le seguenti fasi
 
 3. L'amministrazione richiede l'autorizzazione alla pubblicazione;
 
-4. L'amministrazione può creare un repository del documento dove caricare la propria documentazione.
+4. L'amministrazione crea un repository del documento dove caricare la propria documentazione.
 
-Il primo passaggio è richiesto soltanto al primo accesso a Docs Italia: in questo caso, le principali operazioni sono a carico degli amministratori della piattaforma. 
+I primi tre passaggi sono richiesti soltanto al primo accesso a Docs Italia: in questo caso, le principali operazioni sono a carico degli amministratori della piattaforma. 
 
 Il caricamento e la modifica dei file contenuti nei repository di configurazione e di documento rientrano, invece, in un processo iterativo, che può essere svolto anche in maniera collaborativa.
 
@@ -80,15 +80,12 @@ Le procedure di autorizzazione iniziali servono a verificare le credenziali dell
 L’Ente che vuole pubblicare su Docs Italia crea un’organizzazione su GitHub dove ospiterà i repository per la propria documentazione. 
 
 .. note::
-   .. role:: admonition-internal-title
-      :class: admonition-internal-title
 
-   `Requisiti per le organizzazioni`:admonition-internal-title:
+   **Requisiti per le organizzazioni**
 
-   - Per poter importare i repository di un'organizzazione su Docs Italia, un utente deve rendere pubblica la propria appartenenza all’organizzazione. Per controllare l’appartenenza bisogna visitare questo indirizzo :code:`https://github.com/orgs/`nome-org`/people`, avendo cura di sostituire :code:`nome-org` con il nome della propria organizzazione. L’appartenenza a un'organizzazione è pubblica quando in corrispondenza del proprio nome compare nella tabella la scritta :code:`Public` e non :code:`Private`.
+   - Per poter importare i repository di un'organizzazione su Docs Italia, un utente deve rendere pubblica la propria appartenenza all’organizzazione. Per controllare l’appartenenza bisogna visitare questo indirizzo :code:`https://github.com/orgs/<nome-org>/people`, avendo cura di sostituire :code:`<nome-org>` con il nome della propria organizzazione. L’appartenenza a un'organizzazione è pubblica quando, nella scheda **People** della pagina dell'organizzazione, in corrispondenza del proprio nome compare la scritta :code:`Public` e non :code:`Private`.
 
    - Per permettere a un utente membro di un'organizzazione di importare i repository dei documenti, è necessario rimuovere le restrizioni sulle applicazioni di terze parti dalle impostazioni di GitHub. 
-    
     Dalla pagina dell'organizzazione, vai su **Settings**, **Third-party access**, quindi clicca sul pulsante **Remove restrictions** (vedi la :numref:`Figura %s <remove-restrictions>`). Di fianco a *Policy* apparirà la dicitura **No restrictions**.
 
 .. figure:: img/remove-restrictions.png
@@ -97,7 +94,7 @@ L’Ente che vuole pubblicare su Docs Italia crea un’organizzazione su GitHub 
 
    Come rimuovere le restrizioni sulle applicazioni di terze parti per un'organizzazione su GitHub. Questo passaggio è necessario per permettere agli utenti di importare i repository dei documenti su Docs Italia.
 
-A questo punto, è possibile seguire questa procedura. 
+Dopo aver compiuto queste operazioni preliminari, è possibile seguire la procedura qui sotto. 
 
 .. topic:: Procedura
    :class: procedure
