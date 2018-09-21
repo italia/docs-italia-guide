@@ -86,7 +86,8 @@ L’Ente che vuole pubblicare su Docs Italia crea un’organizzazione su GitHub 
    - Per poter importare i repository di un'organizzazione su Docs Italia, un utente deve rendere pubblica la propria appartenenza all’organizzazione. Per controllare l’appartenenza bisogna visitare questo indirizzo :code:`https://github.com/orgs/<nome-org>/people`, avendo cura di sostituire :code:`<nome-org>` con il nome della propria organizzazione. L’appartenenza a un'organizzazione è pubblica quando, nella scheda **People** della pagina dell'organizzazione, in corrispondenza del proprio nome compare la scritta :code:`Public` e non :code:`Private`.
 
    - Per permettere a un utente membro di un'organizzazione di importare i repository dei documenti, è necessario rimuovere le restrizioni sulle applicazioni di terze parti dalle impostazioni di GitHub. 
-    Dalla pagina dell'organizzazione, vai su **Settings**, **Third-party access**, quindi clicca sul pulsante **Remove restrictions** (vedi la :numref:`Figura %s <remove-restrictions>`). Di fianco a *Policy* apparirà la dicitura **No restrictions**.
+     
+     Dalla pagina dell'organizzazione, vai su **Settings**, **Third-party access**, quindi clicca sul pulsante **Remove restrictions** (vedi la :numref:`Figura %s <remove-restrictions>`). Di fianco a *Policy* apparirà la dicitura **No restrictions**.
 
 .. figure:: img/remove-restrictions.png
    :alt: Rimuovere le restrizioni sulle applicazioni di terze parti su GitHub
