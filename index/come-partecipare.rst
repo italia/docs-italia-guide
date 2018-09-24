@@ -98,7 +98,7 @@ Dopo aver compiuto queste operazioni preliminari, è possibile seguire la proced
 .. topic:: Procedura
    :class: procedure
    
-   1. Un amministratore dell’account organizzazione crea un apposito repository di configurazione chiamato **italia-conf** (che serve a creare le pagine progetto e i documenti). :ref:`Maggiori informazioni sul repository di configurazione <sec-repo-config>` sono disponibili nel capitolo dedicato alla pubblicazione. Un esempio di repository di configurazione si trova nello :ref:`Starter kit <sec-starter-kit>` fornito.
+   1. Un amministratore dell’account organizzazione crea un apposito repository di configurazione chiamato **italia-conf**, contenente alcuni file necessari a identificare l'amministrazione, i progetti e i documenti che si desidera pubblicare su Docs Italia. :ref:`Maggiori informazioni sul repository di configurazione <sec-repo-config>` sono disponibili nel capitolo dedicato alla pubblicazione. Un esempio di repository di configurazione si trova nello :ref:`Starter kit <sec-starter-kit>` fornito.
    
    2. Un amministratore dell’account organizzazione invia una richiesta di autorizzazione alla pubblicazione su Docs Italia tramite `Slack di Developers Italia <https://slack.developers.italia.it/>`__, usando il canale `#docs-italia <https://developersitalia.slack.com/messages/C9T4ELD4G/>`__.
    
