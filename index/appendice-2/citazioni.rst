@@ -6,10 +6,15 @@ possibile usare la direttiva di RST
 `epigraph <http://docutils.sourceforge.net/docs/ref/rst/directives.html#epigraph>`__.
 La direttiva va usata usando la struttura nell’esempio.
 
-.. epigraph::
+.. admonition:: example
+   :class: admonition-example admonition-display-page
+   
+   .. code-block:: rst
 
-Quote nel testo. Lorem ipsum dolor sit amet, adipisici elit, sed
+      .. epigraph::
+      
+         Quote nel testo. Lorem ipsum dolor sit amet, adipisici elit, sed 
+         aiusmod tempo soiu incidunt labore et aliqua sumen fortes.
+      
+         -- Autore della citazione
 
-aiusmod tempo soiu incidunt labore et aliqua sumen fortes.
-
--- Autore della citazione
