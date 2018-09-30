@@ -1,5 +1,6 @@
 Formattazione e markup di base
 ==============================
 
-[inserire qui tutte le informazioni relative alla formattazione inline,
-la creazione di elenchi, etc.]
+Per le formattazioni di base del formato RST, è possibile consultare la sezione :ref:`Link utili <link-utili>`.
+
+

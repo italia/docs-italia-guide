@@ -57,31 +57,17 @@ di un documento semplice all’interno di ogni directory.
    ::
 
       ├── index.rst
-      
       ├── titolo-primo-capitolo
-      
       │ ├── index.rst
-      
       │ ├── primo-paragrafo.rst
-      
       │ ├── titolo-interessante.rst
-      
       │ └── titolo-sezione.rst
-      
       ├── titolo-secondo-capitolo
-      
       │ ├── index.rst
-      
       │ ├── nuova-sezione.rst
-      
       │ └── titolo-molto-molto-lungo.rst
-      
       └── titolo-terzo-capitolo
-      
       ├── index.rst
-      
       ├── paragrafo-rivoluzionario.rst
-      
       ├── paragrafo-tecnologico.rst
-      
       └── paragrafo-tradizionale.rst
