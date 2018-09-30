@@ -1,30 +1,59 @@
 Titoli
 ======
 
-I titoli che identificano le sezioni del
+I titoli che identificano le sezioni sono indicati sottolineando il testo con
+una riga di caratteri speciali, ordinati secondo una gerarchia.  Su Docs
+Italia, la convenzione da seguire è indicata nella :numref:`Tabella %s
+<gerarchia-titoli>`.
 
-+-----------------------+-----------------------+-----------------------+
-| **Titolo**            | **Carattere           | **Esempio**           |
-|                       | sottolineatura**      |                       |
-+=======================+=======================+=======================+
-| Documento (solo       | = (uguale)            | Titolo del documento  |
-| index.rst)            |                       |                       |
-|                       |                       | ====================  |
-+-----------------------+-----------------------+-----------------------+
-| Titolo di capitolo    | -  (trattino)         | Titolo del capitolo   |
-| (sezione di primo     |                       |                       |
-| livello)              |                       | -------------------   |
-+-----------------------+-----------------------+-----------------------+
-| Titolo del paragrafo  | ~ (tilde)             | Titolo del paragrafo  |
-| (sezione di secondo   |                       |                       |
-| livello)              |                       | ~~~~~~~~~~~~~~~~~~~~  |
-+-----------------------+-----------------------+-----------------------+
-| Titolo del            | ^ (cappelletto -      | Titolo terzo livello  |
-| sotto-paragrafo       | caret)                |                       |
-| (sezione di terzo     |                       | ^^^^^^^^^^^^^^^^^^^^  |
-| livello)              |                       |                       |
-+-----------------------+-----------------------+-----------------------+
-| Titolo della sezione  | ‘ (apice singolo)     | Titolo quarto livello |
-| di quarto livello     |                       |                       |
-|                       |                       | ‘’’’’’’’’’’’’’’’’’’’’ |
-+-----------------------+-----------------------+-----------------------+
+
+.. table:: Gerarchia dei simboli per i titoli
+   :name: gerarchia-titoli
+
+   .. list-table::
+      :header-rows: 1
+
+      * 
+        - Titolo
+        - Carattere sottolineatura
+        - Esempio
+
+      *
+        - Documento (solo index.rst)
+        - ``=`` (uguale)
+        - .. code-block:: rst
+
+             Titolo del documento
+             ====================
+
+      *
+        - Titolo di capitolo (sezione di primo livello)
+        - ``-`` (trattino)
+        - .. code-block:: rst
+
+             Titolo del capitolo 
+             -------------------
+
+      *
+        - Titolo del paragrafo (sezione di secondo livello)
+        - ``~`` (tilde)
+        - .. code-block:: rst
+
+             Titolo del paragrafo 
+             ~~~~~~~~~~~~~~~~~~~~
+
+      *
+        - Titolo del sotto-paragrafo (sezione di terzo livello)
+        - ``^`` (cappelletto, caret)
+        - .. code-block:: rst
+
+             Titolo del sotto-paragrafo
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      *
+        - Titolo della sezione di quarto livello
+        - ``'`` (apice singolo)
+        - .. code-block:: rst
+
+             Titolo quarto livello
+             '''''''''''''''''''''
