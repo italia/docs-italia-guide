@@ -1,14 +1,18 @@
 Riassunto
 =========
 
-Il riassunto (summary) del documento e di ogni sezione va inserito
+Il riassunto (*summary*) del documento e di ogni sezione va inserito
 usando la direttiva di RST
 `highlights <http://docutils.sourceforge.net/docs/ref/rst/directives.html#highlights>`__.
 
 Esempio:
 
-.. highlights:
+.. admonition:: example
+   :class: admonition-example admonition-display-page
 
-Breve testo che riassume il contenuto del documento. Lorem ipsum
+   .. code-block:: rst
 
-dolor sit amet, consectetur adipiscing elit.
+      .. highlights:
+      
+         Breve testo che riassume il contenuto del documento. Lorem ipsum
+         dolor sit amet, consectetur adipiscing elit.
