@@ -1,5 +1,5 @@
 Citazioni
-=========
+---------
 
 Per inserire nel testo delle citazioni da mettere in evidenza è
 possibile usare la direttiva di RST

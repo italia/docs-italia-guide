@@ -1,5 +1,5 @@
 Riferimenti
-===========
+-----------
 
 Per creare riferimenti a figure e tabelle è possibile usare la sintassi:
 ``:ref:`testo che riferisce <attivita-previste>```.

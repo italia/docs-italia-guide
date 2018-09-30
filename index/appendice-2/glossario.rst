@@ -1,5 +1,5 @@
 Glossario
-=========
+---------
 
 Il glossario va inserito in unico file che poi è incluso in una `toctree
 dedicata <appendice-2.html#indice>`__. Per generare correttamente i riferimenti ai
@@ -14,7 +14,7 @@ di Sphinx e la seguente struttura.
 
 
       Glossario
-      =========
+      ---------
       
       A
       -

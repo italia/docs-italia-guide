@@ -1,5 +1,5 @@
 Indice
-======
+------
 
 L’indice del documento va inserito nel file index.rst per mezzo della
 direttiva di Sphinx

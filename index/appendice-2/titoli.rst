@@ -1,5 +1,5 @@
 Titoli
-======
+------
 
 I titoli che identificano le sezioni sono indicati sottolineando il testo con
 una riga di caratteri speciali, ordinati secondo una gerarchia.  Su Docs

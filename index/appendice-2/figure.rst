@@ -1,5 +1,5 @@
 Figure
-======
+------
 
 Le immagini dovrebbero essere inserite all’interno di una figura
 (includendo quindi almeno una didascalia). Le figure vanno inserite

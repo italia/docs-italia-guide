@@ -1,5 +1,5 @@
 Box
-===
+---
 
 Nel corpo dei documenti è possibile inserire i seguenti tipi di box.
 

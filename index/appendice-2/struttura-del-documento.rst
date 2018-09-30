@@ -1,5 +1,5 @@
 Struttura del documento
-=======================
+-----------------------
 
 I documenti pubblicati su Docs Italia devono essere suddivisi in file
 differenti. Il file :code:`index.rst` contiene il titolo del documento, un breve

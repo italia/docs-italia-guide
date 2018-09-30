@@ -1,5 +1,5 @@
 Note
-====
+----
 
 Le note nel testo possono essere inserite usando la `sintassi
 prevista <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#footnotes>`__

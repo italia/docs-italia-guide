@@ -1,5 +1,5 @@
 Tabelle
-=======
+-------
 
 Le tabelle vanno inserite mediante la direttiva RST
 `table <http://docutils.sourceforge.net/docs/ref/rst/directives.html#table>`__.

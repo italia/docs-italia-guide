@@ -5,6 +5,14 @@ Appendice 2. Sintassi del formato RST per Docs Italia
 
    Guida alla sintassi RST per i documenti su Docs Italia
 
+
+Questa appendice spiega in modo dettagliato come sfruttare le componenti di
+formattazione avanzata per i documenti su Docs Italia.
+
+Per una guida allo stile e al linguaggio da usare, è possibile consultare la
+`Guida al linguaggio della Pubblica Amministrazione
+<http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/index.html>`_
+
 .. toctree::
 
    appendice-2/struttura-del-documento.rst

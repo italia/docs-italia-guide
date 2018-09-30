@@ -1,5 +1,5 @@
 Sezioni
-=======
+-------
 
 Ciascuna sezione di primo livello (capitolo) corrispondente ad un
 diverso file deve contenere un breve `riassunto <appendice-2.html#struttura-del-documento>`__

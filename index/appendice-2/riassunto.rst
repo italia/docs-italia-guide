@@ -1,5 +1,5 @@
 Riassunto
-=========
+---------
 
 Il riassunto (*summary*) del documento e di ogni sezione va inserito
 usando la direttiva di RST
