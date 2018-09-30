@@ -6,7 +6,7 @@ Le immagini dovrebbero essere inserite all’interno di una figura
 usando la direttiva RST
 `figure <http://docutils.sourceforge.net/docs/ref/rst/directives.html#figure>`__.
 
-Per avere la possibilità di creare `riferimenti <#link-utili>`__ alla
+Per avere la possibilità di creare `riferimenti <link-utili>`__ alla
 figura nel corpo del testo, è necessario inserire l’opzione ``:name:`` con
 un nome che può essere richiamato altrove con un semplice ``:ref:`testo
 del riferimento <name della figura>```.
