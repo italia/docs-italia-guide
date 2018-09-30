@@ -11,7 +11,7 @@ formattazione avanzata per i documenti su Docs Italia.
 
 Per una guida allo stile e al linguaggio da usare, è possibile consultare la
 `Guida al linguaggio della Pubblica Amministrazione
-<http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/index.html>`_
+<http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/index.html>`_.
 
 .. toctree::
 
