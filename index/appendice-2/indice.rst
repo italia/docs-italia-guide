@@ -4,33 +4,38 @@ Indice
 L’indice del documento va inserito nel file index.rst per mezzo della
 direttiva di Sphinx
 `toctree <http://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-toctree>`__.
-Per generare la numerazione delle `sezioni <#sezioni>`__, delle
-`tabelle <#_edd07z6eb6r6>`__ e delle `figure <#_hnrwq07xwzad>`__, è
-necessario usare l’opzione :numbered:. Il contenuto della direttiva è
+Per generare la numerazione delle `sezioni <appendice-2.html#sezioni>`__, delle
+`tabelle <appendice-2.html#tabelle>`__ e delle `figure <appendice-2.html#figure>`__, è
+necessario usare l’opzione ``:numbered:``. Il contenuto della direttiva è
 costituito da un elenco di tutti i file da includere. I file
 corrispondono alle sezioni di primo livello.
 
 Il glossario, se presente, non va inserito nella toctree insieme ai file
 delle sezioni, ma in una toctree dedicata che non deve avere l’opzione
-:numbered: (perché il glossario non va numerato) e deve invece riportare
-le opzioni :hidden: e :name: glossary_toc. Queste opzioni sono
+``:numbered:`` (perché il glossario non va numerato) e deve invece riportare
+le opzioni ``:hidden:`` e ``:name: glossary_toc``. Queste opzioni sono
 necessarie per fare in modo che Sphinx identifichi e gestisca
 correttamente la sezione glossario.
 
-Esempio di toctree (nel caso di glossario presente):
 
-.. toctree::
+.. admonition:: example
+   :class: admonition-example admonition-display-page
+   
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
 
-:numbered:
+   `Esempio di toctree con glossario`:admonition-internal-title:
 
-titolo-primo-capitolo
+   .. code-block:: rst
 
-titolo-secondo-capitolo
-
-.. toctree::
-
-:name: glossary_toc
-
-:hidden:
-
-glossario
+      .. toctree::
+         :numbered:
+      
+         titolo-primo-capitolo
+         titolo-secondo-capitolo
+      
+      .. toctree::
+         :name: glossary_toc
+         :hidden:
+      
+         glossario

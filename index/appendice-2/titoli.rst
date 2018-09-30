@@ -3,11 +3,11 @@ Titoli
 
 I titoli che identificano le sezioni sono indicati sottolineando il testo con
 una riga di caratteri speciali, ordinati secondo una gerarchia.  Su Docs
-Italia, la convenzione da seguire è indicata nella :numref:`Tabella %s <gerarchiatitoli>`.
+Italia, la convenzione da seguire è indicata nella :numref:`Tabella %s <appendice-2.html#gerarchia-titoli>`.
 
 
 .. table:: Gerarchia dei simboli per i titoli
-   :name: gerarchiatitoli
+   :name: gerarchia-titoli
 
    .. list-table::
       :header-rows: 1
