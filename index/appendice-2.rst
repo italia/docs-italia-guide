@@ -6,22 +6,23 @@ Sintassi del formato RST per Docs Italia
 
    Guida alla sintassi RST per i documenti su Docs Italia
 
+   .. toctree::
 
-.. include:: appendice-2/struttura-del-documento.rst
-.. include:: appendice-2/formattazione-e-markup-di-base.rst
-.. include:: appendice-2/titoli.rst
-.. include:: appendice-2/sezioni.rst
-.. include:: appendice-2/indice.rst
-.. include:: appendice-2/riassunto.rst
-.. include:: appendice-2/figure.rst
-.. include:: appendice-2/tabelle.rst
-.. include:: appendice-2/glossario.rst
-.. include:: appendice-2/citazioni.rst
-.. include:: appendice-2/riferimenti.rst
-.. include:: appendice-2/note.rst
-.. include:: appendice-2/box.rst
-.. include:: appendice-2/componente-in-consultazione.rst
-.. include:: appendice-2/componente-procedura.rst
-.. include:: appendice-2/componente-documenti-utili.rst
-.. include:: appendice-2/componente-tono-di-voce.rst
-.. include:: appendice-2/link-utili.rst
+      appendice-2/struttura-del-documento.rst
+      appendice-2/formattazione-e-markup-di-base.rst
+      appendice-2/titoli.rst
+      appendice-2/sezioni.rst
+      appendice-2/indice.rst
+      appendice-2/riassunto.rst
+      appendice-2/figure.rst
+      appendice-2/tabelle.rst
+      appendice-2/glossario.rst
+      appendice-2/citazioni.rst
+      appendice-2/riferimenti.rst
+      appendice-2/note.rst
+      appendice-2/box.rst
+      appendice-2/componente-in-consultazione.rst
+      appendice-2/componente-procedura.rst
+      appendice-2/componente-documenti-utili.rst
+      appendice-2/componente-tono-di-voce.rst
+      appendice-2/link-utili.rst

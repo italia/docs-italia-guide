@@ -4,8 +4,8 @@ Indice
 L’indice del documento va inserito nel file index.rst per mezzo della
 direttiva di Sphinx
 `toctree <http://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-toctree>`__.
-Per generare la numerazione delle `sezioni <appendice-2.html#sezioni>`__, delle
-`tabelle <appendice-2.html#tabelle>`__ e delle `figure <appendice-2.html#figure>`__, è
+Per generare la numerazione delle `sezioni <appendice-2/sezioni.html>`__, delle
+`tabelle <appendice-2/tabelle.html>`__ e delle `figure <appendice-2/figure.html>`__, è
 necessario usare l’opzione ``:numbered:``. Il contenuto della direttiva è
 costituito da un elenco di tutti i file da includere. I file
 corrispondono alle sezioni di primo livello.
