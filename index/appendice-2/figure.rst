@@ -8,8 +8,8 @@ usando la direttiva RST
 
 Per avere la possibilità di creare `riferimenti <#link-utili>`__ alla
 figura nel corpo del testo, è necessario inserire l’opzione :name: con
-un nome che può essere richiamato altrove con un semplice ``:ref:\`testo
-del riferimento <name della figura>\```.
+un nome che può essere richiamato altrove con un semplice ``:ref:`testo
+del riferimento <name della figura>```.
 
 **È obbligatorio inserire nella direttiva l’opzione :alt: contenente il
 testo alternativo della figura e una didascalia**. Il testo alternativo
@@ -33,7 +33,5 @@ particelle grammaticali).
          Mappa del modello strategico di evoluzione del sistema
          informativo della PA
    
-Si può creare un riferimento all’immagine dell’esempio con 
-
-:: 
+Si può creare un riferimento all’immagine dell’esempio con:: 
    Come previsto dalla :ref:`strategia <mappa modello strategico>` del piano triennale.
