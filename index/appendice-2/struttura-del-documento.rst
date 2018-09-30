@@ -54,7 +54,7 @@ di un documento semplice all’interno di ogni directory.
                                     
    `Esempio di struttura di un documento complesso`:admonition-internal-title:  
 
-   .. code-block::
+   ::
 
       ├── index.rst
       
