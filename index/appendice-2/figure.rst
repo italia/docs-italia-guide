@@ -34,6 +34,4 @@ particelle grammaticali).
          informativo della PA
    
 Si può creare un riferimento all’immagine dell’esempio con
-
-.. code-block:: rst
-   Come previsto dalla :ref:`strategia <mappa modello strategico>` del piano triennale.
+``Come previsto dalla :ref:`strategia <mappa modello strategico>` del piano triennale.``
