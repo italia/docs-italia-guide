@@ -8,8 +8,8 @@ usando la direttiva RST
 
 Per avere la possibilità di creare `riferimenti <#link-utili>`__ alla
 figura nel corpo del testo, è necessario inserire l’opzione :name: con
-un nome che può essere richiamato altrove con un semplice :ref:`testo
-del riferimento <name della figura>`.
+un nome che può essere richiamato altrove con un semplice ``:ref:\`testo
+del riferimento <name della figura>\```.
 
 **È obbligatorio inserire nella direttiva l’opzione :alt: contenente il
 testo alternativo della figura e una didascalia**. Il testo alternativo
@@ -21,17 +21,19 @@ Il testo alternativo dovrebbe essere usato per nominare il file
 dell’immagine (trattini al posto degli spazi e omissione delle
 particelle grammaticali).
 
-Esempio:
+.. admonition:: example
+   :class: admonition-example admonition-display-page
+   
+   .. code-block:: rst
 
-| .. figure:: mappa-modello-strategico.png
-| :alt: Mappa del modello strategico
+      .. figure:: mappa-modello-strategico.png
+         :alt: Mappa del modello strategico
+         :name: mappa modello strategico
+      
+         Mappa del modello strategico di evoluzione del sistema
+         informativo della PA
+   
+Si può creare un riferimento all’immagine dell’esempio con 
 
-| :name: mappa modello strategico
-| Mappa del modello strategico di evoluzione del sistema
-
-informativo della PA
-
-Si può creare un riferimento all’immagine dell’esempio con
-
-Come previsto dalla :ref:`strategia <mappa modello strategico>\` del
-piano triennale.
+:: 
+   Come previsto dalla :ref:`strategia <mappa modello strategico>` del piano triennale.
