@@ -9,7 +9,6 @@ Sintassi del formato RST per Docs Italia
 
 .. include:: appendice-2/struttura-del-documento.rst
 .. include:: appendice-2/formattazione-e-markup-di-base.rst
-.. include:: appendice-2/link.rst
 .. include:: appendice-2/titoli.rst
 .. include:: appendice-2/sezioni.rst
 .. include:: appendice-2/indice.rst
