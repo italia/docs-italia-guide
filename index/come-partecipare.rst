@@ -104,7 +104,7 @@ Dopo aver compiuto queste operazioni preliminari, è possibile seguire la proced
    
    3. Gli amministratori di Docs Italia, effettuate le opportune verifiche, autorizzano l’organizzazione alla pubblicazione.
    
-   4. Un amministratore dell’account organizzazione crea un repository per il documento. Il nome del repository deve rispettare le `convenzioni sui nomi di Docs Italia <#nome-del-repository-del-documento>`__. Aggiorna al suo interno il file document_settings.yml e successivamente, può caricare i file secondo le modalità indicate nella sezione `Repository del documento <#repository-del-documento>`__. Un esempio completo di repository del documento è contenuto nello `Starter kit <#starter-kit>`__.
+   4. Un amministratore dell’account organizzazione crea un repository per il documento. Il nome del repository deve rispettare le `convenzioni sui nomi di Docs Italia <#nome-del-repository-del-documento>`__. A questo punto può aggiornare il file document_settings.yml e caricare i file del documento secondo le modalità indicate nella sezione `Repository del documento <#repository-del-documento>`__. Un esempio completo di repository del documento è contenuto nello `Starter kit <#starter-kit>`__.
 
 .. admonition:: example
    :class: admonition-example admonition-display-page name-example
@@ -127,8 +127,8 @@ Dopo aver compiuto queste operazioni preliminari, è possibile seguire la proced
    
    - Giulia Rossi crea, infine, un repository del documento 
      presso l’organizzazione GitHub del Ministero dell’Interno, 
-     dove inserirà tutti i file relativi alla documentazione e infine aggiorna al 
-     suo interno il file document_settings.yml
+     dove inserirà tutti i file relativi alla documentazione, aggiornando allo 
+     stesso tempo il file document_settings.yml.
 
 Nome del repository del documento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
