@@ -67,7 +67,7 @@ La pubblicazione di un documento su Docs Italia avviene secondo le seguenti fasi
 
 I primi tre passaggi sono richiesti soltanto al primo accesso a Docs Italia: in questo caso, le principali operazioni sono a carico degli amministratori della piattaforma. 
 
-Il caricamento e la modifica dei file contenuti nei repository di configurazione e di documento rientrano, invece, in un processo iterativo, che può essere svolto anche in maniera collaborativa.
+Il caricamento e la modifica dei file contenuti nei repository di configurazione e di documento rientrano, invece, in un processo iterativo, che può essere svolto anche in maniera collaborativa. Consulta il capitolo su `come pubblicare un documento <pubblicare-un-documento.html>`_ per maggiori informazioni.
 
 
 Procedure di autorizzazione iniziali
