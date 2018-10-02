@@ -67,7 +67,7 @@ La pubblicazione di un documento su Docs Italia avviene secondo le seguenti fasi
 
 I primi tre passaggi sono richiesti soltanto al primo accesso a Docs Italia: in questo caso, le principali operazioni sono a carico degli amministratori della piattaforma. 
 
-Il caricamento e la modifica dei file contenuti nei repository di configurazione e di documento rientrano, invece, in un processo iterativo, che può essere svolto anche in maniera collaborativa.
+Il caricamento e la modifica dei file contenuti nei repository di configurazione e di documento rientrano, invece, in un processo iterativo, che può essere svolto anche in maniera collaborativa. Consulta il capitolo su `come pubblicare un documento <pubblicare-un-documento.html>`_ per maggiori informazioni.
 
 
 Procedure di autorizzazione iniziali
@@ -104,7 +104,7 @@ Dopo aver compiuto queste operazioni preliminari, è possibile seguire la proced
    
    3. Gli amministratori di Docs Italia, effettuate le opportune verifiche, autorizzano l’organizzazione alla pubblicazione.
    
-   4. Un amministratore dell’account organizzazione crea un repository per il documento. Il nome del repository deve rispettare le `convenzioni sui nomi di Docs Italia <#nome-del-repository-del-documento>`__. Successivamente, l’utente può caricare i file secondo le modalità indicate nella sezione `Repository del documento <#repository-del-documento>`__. Un esempio completo di repository del documento è contenuto nello `Starter kit <#starter-kit>`__.
+   4. Un amministratore dell’account organizzazione crea un repository per il documento. Il nome del repository deve rispettare le `convenzioni sui nomi di Docs Italia <#nome-del-repository-del-documento>`__. A questo punto può aggiornare il file document_settings.yml e caricare i file del documento secondo le modalità indicate nella sezione `Repository del documento <#repository-del-documento>`__. Un esempio completo di repository del documento è contenuto nello `Starter kit <#starter-kit>`__.
 
 .. admonition:: example
    :class: admonition-example admonition-display-page name-example
@@ -127,7 +127,8 @@ Dopo aver compiuto queste operazioni preliminari, è possibile seguire la proced
    
    - Giulia Rossi crea, infine, un repository del documento 
      presso l’organizzazione GitHub del Ministero dell’Interno, 
-     dove inserirà tutti i file relativi alla documentazione.
+     dove inserirà tutti i file relativi alla documentazione, aggiornando allo 
+     stesso tempo il file document_settings.yml.
 
 Nome del repository del documento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
