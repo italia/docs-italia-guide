@@ -18,8 +18,6 @@ Docs Italia permette di gestire la documentazione tecnica di un progetto (ad es.
 La :numref:`Figura %s <hp>` mostra l’attuale home page di Docs Italia.
 
 .. figure:: img/home-page-docs-italia.png
-   :width: 6.11458in
-   :height: 3.82813in
    :alt: Home page di Docs Italia
    :name: hp
 
@@ -47,23 +45,17 @@ Docs Italia si ispira a cinque principi, funzionali a costruire un linguaggio co
 Nuove funzionalità
 ~~~~~~~~~~~~~~~~~~
 
--  Docs Italia sarà organizzato per publisher (l’ente o il Ministero che pubblica i documenti) e per progetti (ciascun progetto potrà avere diversi documenti).
+-  Docs Italia è organizzato per *publisher* (l’ente o il Ministero che pubblica i documenti) e per progetti (ciascun progetto potrà avere diversi documenti).
 
--  Docs Italia avrà un motore di ricerca che permette di navigare tra i documenti. La funzione di ricerca diventa sempre più importante mano a mano che cresce la mole di testi pubblicati sulla piattaforma.
+-  Docs Italia ha un motore di ricerca che permette di navigare tra i documenti. La funzione di ricerca diventa sempre più importante mano a mano che cresce la mole di testi pubblicati sulla piattaforma.
 
--  Un widget consentirà di pubblicare sul proprio sito web:
-
-   -  l’elenco dei documenti appartenenti a uno specifico publisher (ad es. Ministero delle Finanze, MIUR)
-
-   -  l’elenco dei documenti appartenenti a uno specifico progetto (ad es. ANPR)
-
-   -  l’indice del documento
+-  Un widget consentirà di pubblicare sul proprio sito web l’elenco dei documenti appartenenti a uno specifico publisher (ad es. Ministero delle Finanze, MIUR) e a uno specifico progetto (ad es. ANPR). Sarà inoltre possibile pubblicare l’indice del documento.
 
 -  Attualmente è in corso di analisi lo sviluppo di una componente per `LibreOffice <https://www.libreoffice.org/>`__ che permetta l’esportazione e l’importazione di documenti in formato RST.
 
--  Docs Italia sarà ospitata all’URL `docs.italia.it <http://docs.italia.it>`__. Ciascun documento sarà raggiungibile all’indirizzo: `docs.italia.it/<publisher>/<progetto>/<nome-documento>`.
+-  Ogni documento su Docs Italia è associato a un URL predittivo del tipo: `docs.italia.it/<publisher>/<progetto>/<nome-documento>`.
 
-La `roadmap di Docs Italia <https://trello.com/b/jQUgRzRe/docs-italiasviluppo>`__ è disponibile online, espressa attraverso una board di Trello.
+La `roadmap dello sviluppo di Docs Italia <https://trello.com/b/jQUgRzRe/docs-italiasviluppo>`__ è disponibile online, espressa attraverso una board di Trello.
 
 Architettura dell’informazione
 ------------------------------
@@ -96,19 +88,20 @@ Pagina documento
 
 Ciascun documento ha le seguenti caratteristiche (vedi :numref:`Figura %s <pagina-doc>`):
 
-1. È sempre possibile scegliere la versione del documento tramite un apposito pulsante;
+1. L’utente può effettuare una ricerca specifica all’interno del documento;
 
-2. L’utente può effettuare una ricerca specifica all’interno del documento;
+2. È sempre possibile scegliere la versione del documento tramite un apposito pulsante;
 
-3. L’indice nella barra laterale consente di passare rapidamente da una sezione all’altra;
+3. È possibile consultare i metadati principali del documento, inclusi i tag;
 
 4. È sempre possibile scaricare il documento in formato .epub e in formato .pdf;
 
-5. Il pulsante “modifica su GitHub” permette di accedere al repository su GitHub dove è ospitato il documento e consente a chiunque di proporre delle modifiche al contenuto.
+5. Il pulsante “modifica su GitHub” permette di accedere al repository su GitHub dove è ospitato il documento e consente a chiunque di proporre delle modifiche al contenuto;
+
+6. L’indice nella barra laterale consente di passare rapidamente da una sezione all’altra.
+
 
 .. figure:: img/pagina-doc.png
-   :width: 6.11458in
-   :height: 4.90278in
    :alt: Pagina documento
    :name: pagina-doc
 
@@ -116,35 +109,11 @@ Ciascun documento ha le seguenti caratteristiche (vedi :numref:`Figura %s <pagin
 
 Oltre a queste caratteristiche,
 
--  L’ambiente di Docs Italia è *responsive*, ovvero consente una perfetta fruizione dei documenti su tutti i dispositivi, compreso lo smartphone (vedi :numref:`Figura %s <responsive>`);
+-  L’ambiente di Docs Italia è *responsive*, ovvero consente una perfetta fruizione dei documenti su tutti i dispositivi, compreso lo smartphone;
 
--  Le àncore in corrispondenza dei capitoli consentono di ottenere facilmente il link di un paragrafo (vedi :numref:`Figura %s <ancora>`). Per fare apparire l'àncora basta spostare il puntatore del mouse sopra al titolo corrispondente;
+-  Le ancore in corrispondenza dei capitoli consentono di ottenere facilmente il link di un paragrafo. Per fare apparire l'ancora basta spostare il puntatore del mouse sopra al titolo corrispondente;
 
--  Le funzionalità dei box colorati e delle note permettono di segnalare informazioni importanti, esempi, casi di studio e interpretazioni del testo (vedi :numref:`Figura %s <box>`).
-
-.. figure:: img/responsive.png
-   :width: 1.78493in
-   :height: 3.59896in
-   :alt: Ambiente responsive
-   :name: responsive
-
-   Ambiente *responsive* della piattaforma Docs Italia.
-
-.. figure:: img/ancora.png
-   :width: 6.11458in
-   :height: 1.97222in
-   :alt: Ancora titolo
-   :name: ancora
-
-   Ancora in corrispondenza di un titolo.
-
-.. figure:: img/box.png
-   :width: 6.11458in
-   :height: 3.25in
-   :alt: Box e note
-   :name: box
-
-   Box e note in una pagina del documento. 
+-  Alcune funzionalità di paratesto specifiche permettono di segnalare informazioni importanti, esempi, procedure e documenti in consultazione (vedi `l'Appendice 2 <appendice-2.html>`_).
 
 La piattaforma
 ~~~~~~~~~~~~~~
