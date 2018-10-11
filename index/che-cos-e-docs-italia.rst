@@ -45,7 +45,7 @@ Docs Italia si ispira a cinque principi, funzionali a costruire un linguaggio co
 Nuove funzionalità
 ~~~~~~~~~~~~~~~~~~
 
--  Docs Italia è organizzato per *publisher* (l’ente o il Ministero che pubblica i documenti) e per progetti (ciascun progetto potrà avere diversi documenti).
+-  Docs Italia è organizzato per *publisher* (l’ente o il Ministero che pubblica i documenti) e per progetti (ciascun progetto può avere diversi documenti).
 
 -  Docs Italia ha un motore di ricerca che permette di navigare tra i documenti. La funzione di ricerca diventa sempre più importante mano a mano che cresce la mole di testi pubblicati sulla piattaforma.
 
@@ -61,27 +61,25 @@ Architettura dell’informazione
 ------------------------------
 
 
-.. Pagina publisher
-.. ~~~~~~~~~~~~~~~~
-.. 
-.. 
-.. Pagina progetto
-.. ~~~~~~~~~~~~~~~
-.. 
-.. La :numref:`Figura %s <progetto>` mostra un esempio di pagina progetto. Vengono visualizzati tutti i documenti associati e una descrizione del progetto e dei suoi scopi.
-.. 
-.. 
-.. 
-..
-.. 
-.. 
-.. .. figure:: img/progetto.png
-..    :width: 6.11458in
-..    :height: 5.47222in
-..    :alt: Pagina progetto
-..    :name: progetto
-..    
-..    Una pagina progetto su Docs Italia.
+Publisher
+~~~~~~~~~
+
+Ogni documento su Docs Italia è associato a un *publisher*. Si tratta dell'amministrazione che pubblica il documento e che ne è la responsabile. 
+
+Ogni publisher (ad esempio un comune o un ministero) è collegato a un'organizzazione su GitHub, che a sua volta ospita tutti i repository dei documenti di quella Pubblica Amministrazione. 
+
+Progetto
+~~~~~~~~
+
+Ogni documento su Docs Italia appartiene a un progetto, ovvero una specifica linea di lavoro o di interesse per la Pubblica Amministrazione. I documenti all'interno di uno stesso progetto hanno un tema comune, spesso relativo a una piattaforma, a una legge o a un servizio. Alcuni progetti attualmente presenti su Docs Italia sono:
+
+- Anpr (Anagrafe nazionale della popolazione residente);
+
+- SPID (Sistema di identità digitale);
+
+- Piano triennale per l'informatica nella Pubblica Amministrazione.
+
+Ogni progetto è a sua volta associato a un unico publisher. 
 
 Pagina documento
 ~~~~~~~~~~~~~~~~
