@@ -94,7 +94,7 @@ Conversione col convertitore web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lo strumento di conversione principale verso RST è il `convertitore
-web <https://docs-italia-staging.teamdigitale.it/converti/>`__.
+web <https://docs.italia.it/converti/>`__.
 
 .. note:: 
 
