@@ -492,7 +492,7 @@ Anteprima del documento
 
 Docs Italia prevede la possibilità di creare un’anteprima dei documenti privata, non raggiungibile tramite i collegamenti all’interno della piattaforma, in modo da poterla controllare prima di renderla pubblica.
 
-I documenti privati sono raggiungibili dal publisher usando URL predittivi (ad es. docs.italia.it/<publisher>/<nome_repo>). Tali documenti possono essere resi pubblici in un secondo tempo tramite un’apposita impostazione nel backend di Docs Italia.
+I documenti privati sono raggiungibili dal publisher cliccando sul pulsante **Mostra Documenti** nel backend della piattaforma. Tali documenti possono essere resi pubblici in un secondo tempo tramite un’apposita impostazione nel backend di Docs Italia.
 
 La :numref:`Figura %s <privato>` mostra com’è possibile impostare un documento privato su Docs Italia.
 
