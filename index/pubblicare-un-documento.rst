@@ -12,12 +12,7 @@ In questo capitolo vengono forniti alcuni chiarimenti sul repository di configur
 Repository di configurazione
 ----------------------------
 
-.. note:: 
-
-   Questa sezione è riservata ai publisher che pubblicano documenti tramite la propria organizzazione. Se utilizzi un account utente, invece, le operazioni descritte qui verranno effettuate per tuo conto da parte degli amministratori di Docs Italia.
-
-
-Il repository di configurazione dovrà avere un nome specifico e contenere le informazioni (metadati) relative al publisher, ai progetti e ai documenti correlati che appaiono in vari punti all’interno delle pagine su Docs Italia.
+Il repository di configurazione deve essere chiamato **italia-conf** e contenere le informazioni (metadati) relative al publisher, ai progetti e ai documenti correlati che appaiono in vari punti all’interno delle pagine su Docs Italia.
 
 Puoi modificare i file nel repository di configurazione presente nello Starter kit come descritto qui sotto. Successivamente, dovrai **caricare i file sul repository remoto** creato in precedenza (vedi :ref:`Come pubblicare un documento <sec-pubblicare>`) usando :ref:`una delle due procedure descritte in Appendice <sec-procedure-caricamento>`.
 
@@ -34,7 +29,7 @@ Puoi modificare i file nel repository di configurazione presente nello Starter k
 Contenuto del repository
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Il repository di configurazione deve essere chiamato **italia-conf** e contenere due file principali:
+Il repository di configurazione deve contenere due file principali:
 
 1. **publisher_settings.yml**, per i metadati relativi al publisher;
 
@@ -150,7 +145,7 @@ Metadati dei progetti
    .. role:: admonition-internal-title
       :class: admonition-internal-title
 
-   `File projects_setting.yml tratto dallo Starter kit`:admonition-internal-title:
+   `File projects_settings.yml tratto dallo Starter kit`:admonition-internal-title:
    
    .. code-block:: yml
       :linenos:
@@ -184,7 +179,8 @@ Metadati dei progetti
 Repository del documento
 ------------------------
 
-Docs Italia genera automaticamente la pagina del documento e il relativo URL alla creazione del repository. **Se il repository del documento è vuoto, tuttavia, la pagina associata risulterà vuota** e verrà visualizzato il messaggio “Documento in fase di creazione”. La pagina del documento verrà creata automaticamente non appena l’utente caricherà nel repository tutti i file necessari alla compilazione, come descritto qui di seguito.
+Dopo aver inserito il repository del documento fra quelli presenti nel file ``projects_settings.yml``, è possibile importare il documento dal backend di Docs Italia. Per una corretta compilazione, il repository del documento deve contenere come minimo alcuni file specifici.
+
 
 .. admonition:: example
    :class: admonition-example admonition-display-page name-example
@@ -201,7 +197,7 @@ Prima di pubblicare il documento su Docs Italia, l’utente deve:
 
 1. Modificare il file README.md, descrivendo il contenuto del repository;
 
-2. Modificare il file index.rst e la cartella _docs, inserendo i file della documentazione;
+2. Modificare il file index.rst e inserire i file della documentazione;
 
 3. Modificare il file conf.py con le informazioni sul documento;
 
@@ -231,14 +227,8 @@ Lo :ref:`Starter kit <sec-starter-kit>` suggerisce l’uso di una struttura del 
       
       +-- README.md
       +-- index.rst                        
-      +-- _docs/                           
-      | +-- _img/                          
-      | | +-- cap1_img1.jpg                
-      | | +-- cap2_img1.jpg                
-      | | ...                              
-      | +-- cap1.rst                       
-      | +-- cap2.rst                       
-      | …                                  
+      +-- titolo-capitolo-1.rst                       
+      +-- titolo-capitolo-2.rst                       
       +-- conf.py                          
       +-- LICENSE                          
       +-- AUTHORS                          
@@ -252,7 +242,7 @@ Il repository dovrà comprendere, come requisito minimo:
 
 2. Un file **index.rst**, che corrisponderà alla pagina principale del sito della documentazione.
 
-3. Una cartella **_docs**, che contiene tutti i file .rst ed eventuali immagini relativi alla documentazione.
+3. I file **titolo-capitolo-1.rst** e **titolo-capitolo-2.rst**, come esempio di capitoli del documento.
 
 4. Un file **conf.py**, che specifica i metadati necessari alla compilazione della documentazione.
 
@@ -286,39 +276,14 @@ Il file index.rst corrisponde alla **home page del documento** e serve ad almeno
 
 3. Visualizzare un indice di tutte le pagine contenute.
 
-Per i primi due punti, la stesura deve seguire le considerazioni fatte in precedenza sulla :ref:`sintassi RST <sec-sintassi>`.
+Puoi trovare `maggiori informazioni sulla struttura dell'indice del documento <appendice-2/indice.html>`_ in Appendice. 
 
-Per quanto riguarda il terzo punto, invece, l’inclusione delle pagine nel documento avviene tramite la `direttiva toctree <http://www.sphinx-doc.org/en/stable/markup/toctree.html>`__\ *.* Prendendo ad esempio la `struttura del repository illustrata in precedenza <#struttura-del-repository>`__, un possibile index.rst viene costruito come di seguito.
 
-.. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+Struttura del documento
+~~~~~~~~~~~~~~~~~~~~~~~
 
-   .. role:: admonition-internal-title
-      :class: admonition-internal-title
-
-   `index.rst con toctree`:admonition-internal-title:
-   
-   .. code-block:: rst
-      :linenos:
-   
-      Il titolo del documento
-      =======================
-      
-      Una breve introduzione al testo.
-      
-      .. toctree::
-      
-         _docs/cap1.rst
-         
-         _docs/cap2.rst
-         
-         ...
-   
-
-Cartella _docs
-~~~~~~~~~~~~~~
-
-Questa cartella contiene i file della documentazione creati come indicato nel capitolo :ref:`Scrivere un documento <scrivere-un-documento>`. Ciascun file contenuto nella cartella verrà convertito in una pagina a sé stante, e collegato alla pagina principale tramite la direttiva *toctree* illustrata nella sezione precedente.
+I vari capitoli del documento sono contenuti in file separati allo stesso livello del file ``index.rst``. 
+Per documenti più complessi, con sezioni su più livelli, la `struttura consigliata <appendice-2/struttura.html>`_ è descritta in Appendice. 
 
 File conf.py
 ~~~~~~~~~~~~
@@ -505,7 +470,7 @@ Backend di Docs Italia
 
 Docs Italia possiede una modalità di backend, ovvero una piattaforma accessibile dagli utenti autorizzati dove è possibile eseguire alcune attività di amministrazione avanzata (vedi :numref:`Figura %s <backend>`).
 
-L’utente potrà accedere al backend di Docs Italia semplicemente con il proprio account GitHub. Durante l'iniziale fase beta, l'accesso avviene tramite un `account su Read the Docs <http://readthedocs.org>`__. Le funzioni descritte di seguito, però, non variano.
+L’utente può accedere al backend di Docs Italia semplicemente con il proprio account GitHub. 
 
 .. figure:: img/backend.jpg
    :width: 5.54504in
@@ -526,11 +491,6 @@ Dal backend sarà possibile accedere ad alcuni widget relativi al publisher, ai 
 
 Nome del documento
 ~~~~~~~~~~~~~~~~~~
-
-.. note::
-
-   Le istruzioni contenute in questa sezione sono valide finché non entrerà in vigore il nuovo formato per gli URL presentato nella sezione :ref:`Nuove funzionalità <sec-nuove-funzionalita>`.
-
 
 Nel backend di Docs Italia, è possibile impostare il nome che appare nell’URL del documento. Scegli lo stesso nome utilizzato per il nome del repository del documento, senza la parte finale **-docs**.
 
