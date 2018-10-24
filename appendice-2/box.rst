@@ -56,5 +56,39 @@ Nel corpo dei documenti è possibile inserire i seguenti tipi di box.
                    :class: admonition-internal-title
              
                 `Titolo interno al box`:admonition-internal-title:
-                          
-
+      * 
+        - RFC 2119: la semantica di questi box è quella espressa nel `Request
+          for Comments 2119 <https://www.ietf.org/rfc/rfc2119.txt>`_.
+        - .. code-block:: rst
+             
+             .. admonition:: must
+          
+          .. code-block:: rst
+             
+             .. admonition:: should
+          
+          .. code-block:: rst
+             
+             .. admonition:: may
+          
+          .. code-block:: rst
+             
+             .. admonition:: must-not
+          
+          .. code-block:: rst
+             
+             .. admonition:: should-not
+      *
+        - Usa e non usare
+        - .. code-block:: rst
+             
+             .. admonition:: use
+          
+          .. code-block:: rst
+             
+             .. admonition:: use-not
+      *
+        - Generico con titolo arbitrario
+        - .. code-block:: rst
+             
+             .. admonition:: titolo del box
