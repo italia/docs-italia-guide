@@ -14,7 +14,7 @@ Sono disponibili alcune classi (da inserire nell’opzione class) per
 stilizzare la tabella.
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page
+   :class: admonition-example display-page
    
    .. code-block:: rst
 

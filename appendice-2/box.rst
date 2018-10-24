@@ -44,14 +44,13 @@ Nel corpo dei documenti è possibile inserire i seguenti tipi di box.
         - .. code-block:: rst
 
              .. admonition:: deepening
-                :class: admonition-deepening admonition-display-page
-             
+                :class: admonition-deepening display-page
       * 
         - Esempio 
         - .. code-block:: rst
 
              .. admonition:: example
-                :class: admonition-example admonition-display-page
+                :class: admonition-example display-page
                 
                 .. role:: admonition-internal-title
                    :class: admonition-internal-title

@@ -7,7 +7,7 @@ possibile usare la direttiva di RST
 La direttiva va usata usando la struttura nell’esempio.
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page
+   :class: admonition-example display-page
    
    .. code-block:: rst
 

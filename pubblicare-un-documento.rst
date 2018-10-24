@@ -17,7 +17,7 @@ Il repository di configurazione deve essere chiamato **italia-conf** e contenere
 Puoi modificare i file nel repository di configurazione presente nello Starter kit come descritto qui sotto. Successivamente, dovrai **caricare i file sul repository remoto** creato in precedenza (vedi :ref:`Come pubblicare un documento <sec-pubblicare>`) usando :ref:`una delle due procedure descritte in Appendice <sec-procedure-caricamento>`.
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+   :class: admonition-example display-page name-example
 
    .. role:: admonition-internal-title
       :class: admonition-internal-title
@@ -73,7 +73,7 @@ Metadati del publisher
    +-------------------------+------------------------------------------------------------------------------------------+
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+   :class: admonition-example display-page name-example
 
    .. role:: admonition-internal-title
       :class: admonition-internal-title
@@ -140,7 +140,7 @@ Metadati dei progetti
    +---------------+------------------------------------------------------------------------------------------------------------------+
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+   :class: admonition-example display-page name-example
 
    .. role:: admonition-internal-title
       :class: admonition-internal-title
@@ -183,7 +183,7 @@ Dopo aver inserito il repository del documento fra quelli presenti nel file ``pr
 
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+   :class: admonition-example display-page name-example
 
    .. role:: admonition-internal-title
       :class: admonition-internal-title
@@ -215,7 +215,7 @@ Struttura del repository
 Lo :ref:`Starter kit <sec-starter-kit>` suggerisce l’uso di una struttura del repository del documento di questo tipo:
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+   :class: admonition-example display-page name-example
 
    .. role:: admonition-internal-title
       :class: admonition-internal-title
@@ -381,7 +381,7 @@ La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una
    +------------------+----------------------------------------------------------------------------------------------------------------+
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+   :class: admonition-example display-page name-example
 
    .. role:: admonition-internal-title
       :class: admonition-internal-title
@@ -439,7 +439,7 @@ Per ciascun argomento nel Forum, ti verrà assegnato un :code:`<topic-id>` dagli
 sostituendo :code:`<topic-id>` con il codice opportuno.
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+   :class: admonition-example display-page name-example
 
    .. role:: admonition-internal-title
       :class: admonition-internal-title
