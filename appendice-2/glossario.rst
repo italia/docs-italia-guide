@@ -8,7 +8,7 @@ termini di glossario è obbligatorio usare la direttiva
 di Sphinx e la seguente struttura.
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page
+   :class: admonition-example display-page
    
    .. code-block:: rst
 

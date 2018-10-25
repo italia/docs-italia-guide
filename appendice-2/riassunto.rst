@@ -8,7 +8,7 @@ usando la direttiva di RST
 Esempio:
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page
+   :class: admonition-example display-page
 
    .. code-block:: rst
 

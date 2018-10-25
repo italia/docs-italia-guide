@@ -102,7 +102,7 @@ L’\ **oggetto del commit** è sempre obbligatorio e indica in maniera succinta
 -  Un buon oggetto di commit dovrebbe completare la frase: “Con questo commit, ho…”.
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+   :class: admonition-example display-page name-example
 
    .. role:: admonition-internal-title
       :class: admonition-internal-title
@@ -128,7 +128,7 @@ Nell’oggetto del commit si dovrebbe indicare il tipo di commit fra i seguenti:
 -  Refusi: correzione di piccoli refusi
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+   :class: admonition-example display-page name-example
 
    .. role:: admonition-internal-title
       :class: admonition-internal-title

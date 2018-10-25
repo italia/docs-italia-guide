@@ -107,7 +107,7 @@ Dopo aver compiuto queste operazioni preliminari, è possibile seguire la proced
    4. Un amministratore dell’account organizzazione crea un repository per il documento. Il nome del repository deve rispettare le `convenzioni sui nomi di Docs Italia <#nome-del-repository-del-documento>`__. A questo punto può aggiornare il file document_settings.yml e caricare i file del documento secondo le modalità indicate nella sezione `Repository del documento <#repository-del-documento>`__. Un esempio completo di repository del documento è contenuto nello `Starter kit <#starter-kit>`__.
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page name-example
+   :class: admonition-example display-page name-example
 
    .. role:: admonition-internal-title
       :class: admonition-internal-title

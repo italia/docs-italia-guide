@@ -10,7 +10,7 @@ file.
 
 
 .. admonition:: example          
-   :class: admonition-example admonition-display-page          
+   :class: admonition-example display-page          
                                  
    .. role:: admonition-internal-title        
       :class: admonition-internal-title
@@ -47,7 +47,7 @@ ogni sezione (usando il titolo della sezione) e replicare la struttura
 di un documento semplice all’interno di ogni directory.
 
 .. admonition:: example          
-   :class: admonition-example admonition-display-page          
+   :class: admonition-example display-page          
                                  
    .. role:: admonition-internal-title        
       :class: admonition-internal-title

@@ -12,7 +12,7 @@ I numeri delle note vanno indicati esplicitamente per evitare che
 possano variare a seguito di una rigenerazione della documentazione.
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page
+   :class: admonition-example display-page
    
    .. code-block:: rst
 

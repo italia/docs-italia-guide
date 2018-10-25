@@ -22,7 +22,7 @@ dell’immagine (trattini al posto degli spazi e omissione delle
 particelle grammaticali).
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page
+   :class: admonition-example display-page
    
    .. code-block:: rst
 

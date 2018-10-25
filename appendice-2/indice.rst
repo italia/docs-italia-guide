@@ -19,7 +19,7 @@ correttamente la sezione glossario.
 
 
 .. admonition:: example
-   :class: admonition-example admonition-display-page
+   :class: admonition-example display-page
    
    .. role:: admonition-internal-title
       :class: admonition-internal-title
