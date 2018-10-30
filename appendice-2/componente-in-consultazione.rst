@@ -5,8 +5,7 @@ Codice:
 
 .. code-block:: rst
 
-   .. admonition:: Consultazione
-      :class: admonition-consultazione
+   .. admonition:: consultation
    
       Questo documento è in consultazione pubblica dal 3 aprile al 4 
       maggio 2018, come previsto dall'`art. 71 comma 1 del decreto 
