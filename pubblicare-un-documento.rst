@@ -199,11 +199,9 @@ Prima di pubblicare il documento su Docs Italia, l’utente deve:
 
 2. Modificare il file index.rst e inserire i file della documentazione;
 
-3. Modificare il file conf.py con le informazioni sul documento;
+3. Modificare il file LICENSE;
 
-4. Modificare il file LICENSE;
-
-5. Modificare il file document_settings.yml.
+4. Modificare il file document_settings.yml.
 
 Consulta le sezioni seguenti per maggiori informazioni su come modificare questi file.
 
@@ -228,11 +226,9 @@ Lo :ref:`Starter kit <sec-starter-kit>` suggerisce l’uso di una struttura del 
       +-- README.md
       +-- index.rst                        
       +-- titolo-capitolo-1.rst                       
-      +-- titolo-capitolo-2.rst                       
-      +-- conf.py                          
+      +-- titolo-capitolo-2.rst                                  
       +-- LICENSE                          
       +-- AUTHORS                          
-      +-- requirements.txt                 
       +-- document_settings.yml            
 
 
@@ -244,13 +240,9 @@ Il repository dovrà comprendere, come requisito minimo:
 
 3. I file **titolo-capitolo-1.rst** e **titolo-capitolo-2.rst**, come esempio di capitoli del documento.
 
-4. Un file **conf.py**, che specifica i metadati necessari alla compilazione della documentazione.
+4. I file **LICENSE** e **AUTHORS**, che specificano la licenza d’uso associata al repository e l’attribuzione dei diritti d’autore.
 
-5. Un file **requirements.txt**, necessario alla compilazione e che non necessita di essere modificato.
-
-6. I file **LICENSE** e **AUTHORS**, che specificano la licenza d’uso associata al repository e l’attribuzione dei diritti d’autore.
-
-7. Un file **document_settings.yml**, che specifica i metadati associati al documento.
+5. Un file **document_settings.yml**, che specifica i metadati associati al documento.
 
 File README.md
 ~~~~~~~~~~~~~~
@@ -285,29 +277,6 @@ Struttura del documento
 I vari capitoli del documento sono contenuti in file separati allo stesso livello del file ``index.rst``. 
 Per documenti più complessi, con sezioni su più livelli, la `struttura consigliata <appendice-2/struttura.html>`_ è descritta in Appendice. 
 
-File conf.py
-~~~~~~~~~~~~
-
-Questo file è presente in ogni repository del documento e costituisce il principale script da modificare per personalizzare il documento. I parametri che tipicamente l’utente deve modificare sono contenuti nella seguente tabella.
-
-.. table:: Parametri del file conf.py.
-
-   +---------------+----------------------------------------------------------------+
-   | **Parametro** | **Descrizione**                                                |
-   +===============+================================================================+
-   | project       | Il nome del documento                                          |
-   +---------------+----------------------------------------------------------------+
-   | copyright     | Il tipo di copyright                                           |
-   +---------------+----------------------------------------------------------------+
-   | version       | La versione ridotta del documento                              |
-   +---------------+----------------------------------------------------------------+
-   | release       | La versione completa del documento (incluso *alfa, beta*, ecc) |
-   +---------------+----------------------------------------------------------------+
-   | language      | La lingua del documento                                        |
-   +---------------+----------------------------------------------------------------+
-
-Un esempio completo di file conf.py è contenuto nel repository del documento all’interno dello :ref:`Starter kit <sec-starter-kit>`.
-
 File LICENSE e AUTHORS
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -322,14 +291,6 @@ Per i documenti contenuti in Docs Italia, è obbligatorio indicare una licenza a
 Nel caso di licenza CC-BY-4.0 è obbligatorio creare un file AUTHORS che contiene l’attribuzione della proprietà dei diritti d’autore. Nel caso di licenza CC0-1.0 è possibile farlo (*MAY*) ma non è obbligatorio.
 
 Per maggiori informazioni, è possibile consultare il `README per le licenze <https://teamdigitale.github.io/licenses/README.it.html>`__ del Team per la Trasformazione Digitale.
-
-File requirements.txt
-~~~~~~~~~~~~~~~~~~~~~
-
-Il file requirements.txt contiene le informazioni riguardo al tema di stile delle pagine. Nel file **non deve** essere specificata la release del tema, in modo che il documento benefici sempre dell'ultima versione disponibile. In questo modo, il versionamento del documento (in particolare del suo contenuto) rimane indipendente dal versionamento del tema.
-
-
-Tipicamente, l’utente non ha bisogno di modificare questo file, e può usare semplicemente quello contenuto nello Starter kit.
 
 File document_settings.yml
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
