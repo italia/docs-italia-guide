@@ -347,7 +347,7 @@ La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una
    .. role:: admonition-internal-title
       :class: admonition-internal-title
 
-   `File projects_setting.yml tratto dallo Starter kit`:admonition-internal-title:
+   `File document_settings.yml tratto dallo Starter kit`:admonition-internal-title:
    
    .. code-block:: yml
       :linenos:
