@@ -2,7 +2,7 @@ Glossario
 ---------
 
 Il glossario va inserito in unico file che poi è incluso in una `toctree
-dedicata <appendice-2.html#indice>`__. Per generare correttamente i riferimenti ai
+dedicata <appendice-2/indice.html>`__. Per generare correttamente i riferimenti ai
 termini di glossario è obbligatorio usare la direttiva
 `glossary <http://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-glossary>`__
 di Sphinx e la seguente struttura.
