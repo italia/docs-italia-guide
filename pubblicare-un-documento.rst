@@ -275,7 +275,7 @@ Struttura del documento
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 I vari capitoli del documento sono contenuti in file separati allo stesso livello del file ``index.rst``. 
-Per documenti più complessi, con sezioni su più livelli, la `struttura consigliata <appendice-2/struttura.html>`_ è descritta in Appendice. 
+Per documenti più complessi, con sezioni su più livelli, la `struttura consigliata <appendice-2/struttura-del-documento.html>`_ è descritta in Appendice. 
 
 File LICENSE e AUTHORS
 ~~~~~~~~~~~~~~~~~~~~~~
