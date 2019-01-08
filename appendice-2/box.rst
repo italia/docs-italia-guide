@@ -130,6 +130,6 @@ Questo codice genera il seguente risultato.
 
    .. container:: more
 
-      Paragrafo di testo nascosto. Può essere visibile cliccando su "mostra tutto".
+      Paragrafo di testo nascosto. Può essere mostrato cliccando su "Mostra tutto".
 
-      Paragrafo di testo nascosto. Può essere visibile cliccando su "mostra tutto".
+      Paragrafo di testo nascosto. Può essere mostrato cliccando su "Mostra tutto".
