@@ -39,7 +39,7 @@ Nel corpo dei documenti è possibile inserire i seguenti tipi di box.
 
              .. important::
       * 
-        - Approfondimento (il box, che può essere espanso, 
+        - :ref:`Approfondimento <box-approfondimento>` (il box, che può essere espanso, 
           mostra solo una parte del testo 
         - .. code-block:: rst
 
@@ -92,3 +92,44 @@ Nel corpo dei documenti è possibile inserire i seguenti tipi di box.
         - .. code-block:: rst
              
              .. admonition:: titolo del box
+
+.. _box-approfondimento:
+
+Il box Approfondimento
+~~~~~~~~~~~~~~~~~~~~~~
+
+Nel box Approfondimento è possibile decidere quale parte del contenuto è sempre visibile e quale deve essere mostrata soltanto con il pulsante "Mostra tutto". 
+È possibile indicare il contenuto nascosto con il parametro `container: more`, come nell'esempio seguente.
+
+Nel caso in cui non venga usato questo parametro, verranno mostrati automaticamente soltanto i primi quattro elementi del contenuto (paragrafi `<p>`, elenchi `<ul>` o altro tipo di tag).
+
+.. code-block:: rst
+
+   .. admonition:: deepening
+      :class: admonition-deepening display-page
+   
+      Paragrafo di testo visibile.
+   
+      Paragrafo di testo visibile.
+   
+      .. container: more
+   
+         Paragrafo di testo nascosto. Può essere mostrato cliccando su "Mostra tutto".
+   
+         Paragrafo di testo nascosto. Può essere mostrato cliccando su "Mostra tutto".
+
+
+Questo codice genera il seguente risultato. 
+
+.. admonition:: deepening
+   :class: admonition-deepening display-page
+
+   Paragrafo di testo visibile.
+
+   Paragrafo di testo visibile.
+
+   .. container: more
+
+      Paragrafo di testo nascosto. Può essere visibile cliccando su "mostra tutto".
+
+      Paragrafo di testo nascosto. Può essere visibile cliccando su "mostra tutto".
