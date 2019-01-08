@@ -99,7 +99,7 @@ Il box Approfondimento
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Nel box Approfondimento è possibile decidere quale parte del contenuto è sempre visibile e quale deve essere mostrata soltanto con il pulsante "Mostra tutto". 
-È possibile indicare il contenuto nascosto con il parametro `container: more`, come nell'esempio seguente.
+È possibile indicare il contenuto nascosto con il parametro `container:: more`, come nell'esempio seguente.
 
 Nel caso in cui non venga usato questo parametro, verranno mostrati automaticamente soltanto i primi quattro elementi del contenuto (paragrafi `<p>`, elenchi `<ul>` o altro tipo di tag).
 
@@ -112,7 +112,7 @@ Nel caso in cui non venga usato questo parametro, verranno mostrati automaticame
    
       Paragrafo di testo visibile.
    
-      .. container: more
+      .. container:: more
    
          Paragrafo di testo nascosto. Può essere mostrato cliccando su "Mostra tutto".
    
@@ -128,7 +128,7 @@ Questo codice genera il seguente risultato.
 
    Paragrafo di testo visibile.
 
-   .. container: more
+   .. container:: more
 
       Paragrafo di testo nascosto. Può essere visibile cliccando su "mostra tutto".
 
