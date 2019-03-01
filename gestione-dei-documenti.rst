@@ -33,6 +33,8 @@ La :numref:`Figura %s <annuncio>` mostra l’annuncio su Forum Italia relativo a
    :alt: Forum Italia
    :name: annuncio
 
+   L’annuncio su Forum Italia relativo alla pubblicazione del CAD.
+
 
 Se il documento non è associato ad alcun Progetto, è possibile usare la categoria `Community & Altro <https://forum.italia.it/c/community-feedback>`__.
 
