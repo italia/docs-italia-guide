@@ -11,7 +11,7 @@ Per pubblicare un documento, è necessario avere:
 
 1. Un **account utente su GitHub**;
 
-2. Un’\ **organizzazione su GitHub**.
+2. Un’**organizzazione su GitHub**.
 
 
 Account utente su GitHub
@@ -24,7 +24,7 @@ L’account su GitHub consente l’identificazione dell’utente e permette di e
 Organizzazione su GitHub
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-L’Ente pubblico deve essere associato a un’\ `organizzazione su GitHub <https://github.com/blog/674-introducing-organizations>`__. 
+L’Ente pubblico deve essere associato a un’`organizzazione su GitHub <https://github.com/blog/674-introducing-organizations>`__. 
 
 `Come creare un'organizzazione su GitHub <https://github.com/organizations/new>`__
 
@@ -84,26 +84,26 @@ L’Ente che vuole pubblicare su Docs Italia crea un’organizzazione su GitHub 
    - Per poter importare i repository di un'organizzazione su Docs Italia, un utente deve rendere pubblica la propria appartenenza all’organizzazione. Per controllare l’appartenenza bisogna visitare questo indirizzo :code:`https://github.com/orgs/<nome-org>/people`, avendo cura di sostituire :code:`<nome-org>` con il nome della propria organizzazione. L’appartenenza a un'organizzazione è pubblica quando, nella scheda **People** della pagina dell'organizzazione, in corrispondenza del proprio nome compare la scritta :code:`Public` e non :code:`Private`.
 
    - Per permettere a un utente membro di un'organizzazione di importare i repository dei documenti, è necessario rimuovere le restrizioni sulle applicazioni di terze parti dalle impostazioni di GitHub. 
-     
+
      Dalla pagina dell'organizzazione, vai su **Settings**, **Third-party access**, quindi clicca sul pulsante **Remove restrictions** (vedi la :numref:`Figura %s <remove-restrictions>`). Di fianco a *Policy* apparirà la dicitura **No restrictions**.
 
 .. figure:: img/remove-restrictions.png
    :alt: Rimuovere le restrizioni sulle applicazioni di terze parti su GitHub
    :name: remove-restrictions
 
-   Come rimuovere le restrizioni sulle applicazioni di terze parti per un'organizzazione su GitHub. Questo passaggio è necessario per permettere agli utenti di importare i repository dei documenti su Docs Italia.
+   Come rimuovere le restrizioni sulle applicazioni di terze parti per un'organizzazione su GitHub.
 
 Dopo aver compiuto queste operazioni preliminari, è possibile seguire la procedura qui sotto. 
 
 .. topic:: Procedura
    :class: procedure
-   
+
    1. Un amministratore dell’account organizzazione crea un apposito repository di configurazione chiamato **italia-conf**, contenente alcuni file necessari a identificare l'amministrazione, i progetti e i documenti che si desidera pubblicare su Docs Italia. :ref:`Maggiori informazioni sul repository di configurazione <sec-repo-config>` sono disponibili nel capitolo dedicato alla pubblicazione. Un esempio di repository di configurazione si trova nello :ref:`Starter kit <sec-starter-kit>` fornito.
-   
+
    2. Un amministratore dell’account organizzazione invia una richiesta di autorizzazione alla pubblicazione su Docs Italia tramite `Slack di Developers Italia <https://slack.developers.italia.it/>`__, usando il canale `#docs-italia <https://developersitalia.slack.com/messages/C9T4ELD4G/>`__.
-   
+
    3. Gli amministratori di Docs Italia, effettuate le opportune verifiche, autorizzano l’organizzazione alla pubblicazione.
-   
+
    4. Un amministratore dell’account organizzazione crea un repository per il documento. Il nome del repository deve rispettare le `convenzioni sui nomi di Docs Italia <#nome-del-repository-del-documento>`__. A questo punto può aggiornare il file document_settings.yml e caricare i file del documento secondo le modalità indicate nella sezione `Repository del documento <#repository-del-documento>`__. Un esempio completo di repository del documento è contenuto nello `Starter kit <#starter-kit>`__.
 
 .. admonition:: example
