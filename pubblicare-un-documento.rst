@@ -383,7 +383,7 @@ Docs Italia è completamente integrato con `Forum Italia <https://forum.italia.i
 Aggiungere i commenti nel documento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Al momento, è possibile aggiungere uno più thread di commenti per ciascuna pagina. Ogni thread corrisponde a uno specifico topic nel Forum.
+Al momento, è possibile aggiungere uno o più thread di commenti per ciascuna pagina. Ogni thread corrisponde a uno specifico topic nel Forum.
 
 Quando richiedi l’autorizzazione a pubblicare un documento su Docs Italia, gli amministratori creeranno per te una Categoria nel Forum dove verranno visualizzati i commenti al tuo documento.
 
