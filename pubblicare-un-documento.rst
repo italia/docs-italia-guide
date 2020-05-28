@@ -376,26 +376,23 @@ La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una
 Funzione commenti con Forum Italia
 ----------------------------------
 
-Per attivare la funzione commenti, inserisci questo script (e gli id necessari, che ti verranno forniti dagli amministratori di Docs Italia) in ciascuna delle sezioni che vuoi rendere commentabili. I commenti saranno visibili anche su Forum Italia.
-
 Docs Italia è completamente integrato con `Forum Italia <https://forum.italia.it/>`__, la piattaforma di discussione sui progetti digitali della Pubblica Amministrazione.
 
-Tramite le funzionalità di `Discourse <https://discourse.org/>`__, è possibile aggiungere dei commenti ai propri documenti. Ciascun commento inserito su Docs Italia è automaticamente visibile anche su uno specifico topic in Forum Italia. Viceversa, quando vengono inseriti dei commenti nel topic sul Forum, questi sono subito visibili anche nel documento su Docs Italia.
+È possibile aggiungere dei commenti ai propri documenti. Ciascun commento inserito su Docs Italia è automaticamente visibile anche su uno specifico topic (argomento) in Forum Italia. Viceversa, quando vengono inseriti dei commenti nel topic sul Forum, questi sono subito visibili anche nel documento su Docs Italia.
 
 Aggiungere i commenti nel documento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Al momento, è possibile aggiungere un thread di commenti per ciascuna pagina. Questo corrisponde a un singolo topic nel Forum.
+Al momento, è possibile aggiungere uno o più thread di commenti per ciascuna pagina. Ogni thread corrisponde a uno specifico topic nel Forum.
 
 Quando richiedi l’autorizzazione a pubblicare un documento su Docs Italia, gli amministratori creeranno per te una Categoria nel Forum dove verranno visualizzati i commenti al tuo documento.
 
-Per ciascun argomento nel Forum, ti verrà assegnato un :code:`<topic-id>` dagli amministratori. Per creare i commenti in una pagina, copia lo script seguente alla fine del file RST corrispondente:
+Per ciascun argomento nel Forum, ti verrà assegnato un :code:`<topic-id>` dagli amministratori. Per abilitare i commenti, copia lo script seguente nel punto in cui vuoi visualizzarli:
 
 .. code-block:: rst
 
-   .. discourse::
-   
-   :topic_identifier: <topic-id>
+   .. forum_italia::
+      :topic_id: <topic-id>
 
 sostituendo :code:`<topic-id>` con il codice opportuno.
 
@@ -410,12 +407,21 @@ sostituendo :code:`<topic-id>` con il codice opportuno.
    .. code-block:: rst
       :linenos:
       
-      .. discourse::
-      
-      :topic_identifier: 1234
-      
-   
-Ripetendo questa procedura, è possibile collegare ciascuna pagina del documento con il corrispondente argomento sul Forum. In caso di problemi, è possibile :ref:`contattare gli amministratori di Docs Italia <sec-amministratori>`.
+      .. forum_italia::
+         :topic_id: 1234
+
+
+Ripetendo questa procedura, è possibile collegare sezioni specifiche del documento con il corrispondente argomento sul Forum.
+
+Se vuoi attivare le funzionalità di commento per l'intera pagina, dovrai aggiungere l'opzione :code:`:scope: document` e inserire il codice seguente alla fine della pagina.
+
+.. code-block:: rst
+
+   .. forum_italia::
+      :topic_id: <topic-id>
+      :scope: document
+
+In caso di problemi, è possibile :ref:`contattare gli amministratori di Docs Italia <sec-amministratori>`.
 
 Caricare i file sul repository remoto
 -------------------------------------
